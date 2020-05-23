@@ -263,6 +263,20 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/lotacao-completa-dos-avioes-foi-tomada-pelo-regulador-europeu/" class="news_link">
+    								<span class="news_date">23/05/2020</span>								
+    								<h2 class="news_title">Lotação completa dos aviões foi tomada pelo regulador europeu</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/numero-de-doentes-internados-por-covid-19-cai-quase-5/" class="news_link">
+    								<span class="news_date">23/05/2020</span>								
+    								<h2 class="news_title">Número de doentes internados por COVID-19 cai quase 5%</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/numero-de-novos-casos-estabilizado-em-200-a-300-por-dia/" class="news_link">
     								<span class="news_date">22/05/2020</span>								
     								<h2 class="news_title">Número de novos casos estabilizado em 200 a 300 por dia</h2>
@@ -273,20 +287,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/portugal-esta-dentro-da-curva-programada-para-a-mortalidade/" class="news_link">
     								<span class="news_date">22/05/2020</span>								
     								<h2 class="news_title">Portugal está “dentro da curva programada para a mortalidade”</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/aprovada-aquisicao-de-dois-milhoes-de-doses-de-vacinas-da-gripe/" class="news_link">
-    								<span class="news_date">22/05/2020</span>								
-    								<h2 class="news_title">Aprovada aquisição de dois milhões de doses de vacinas da gripe</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/governo-isenta-do-pagamento-de-taxas-estruturas-temporarias-de-resposta-a-covid-19/" class="news_link">
-    								<span class="news_date">22/05/2020</span>								
-    								<h2 class="news_title">Governo isenta do pagamento de taxas estruturas temporárias de resposta à COVID-19</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -413,7 +413,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">nunc leo. dapibus Nullam Praesent quis, pulvinar dolor venenatis, eget ut ante.</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">justo ut sed leo. quis, vel, Praesent Phasellus ut mi, sit</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -503,5 +503,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-05-23 12:18:22 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-05-23 20:49:03 by W3 Total Cache
 -->
