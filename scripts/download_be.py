@@ -265,7 +265,7 @@ def download(full):
     da = DailyAggregator(
         base_folder="dataset",
         daily_folder=DAILY_FOLDER,
-        country="BE"
+        country="BE",fill=False
     )
     da.workflow()
 
