@@ -6,10 +6,13 @@
 
 [![](https://img.shields.io/badge/roadmap-data--pipeline-blueviolet)](https://github.com/orgs/covid19-eu-zh/projects/1)
 
-**Reinit**: On 20200522, we reinitialized the repo due to oversize.
+## Changelog
 
-1. Some of the documents (cache and documents) have been moved to [covid19-eu-zh/covid19-eu-data-20200522](https://github.com/covid19-eu-zh/covid19-eu-data-20200522).
-2. If you need the history of commits, look into the forks.
+**Breaking**:
+
+On 2020-05-22, we removed `documents/be` and `documents/dk`. These two folders are bloating and our repo reached the GitHub storage hard limit (2GB). The files have been moved to [covid19-eu-zh/covid19-eu-data-20200522](https://github.com/covid19-eu-zh/covid19-eu-data-20200522) as a snapshot.
+
+Full changelog: [`CHANGELOG.md`](CHANGELOG.md)
 
 ## Update Status
 
@@ -22,7 +25,7 @@
 | Country | Status | Data Source |
 | ------------- | ------------- | --- |
 | AT | ![CI Download AT Data](https://github.com/covid19-eu-zh/covid19-eu-data/workflows/CI%20Download%20AT%20Data/badge.svg) | [![](https://img.shields.io/badge/Data%20Source-sozialministerium.at-informational)](https://www.sozialministerium.at/Informationen-zum-Coronavirus/Neuartiges-Coronavirus-(2019-nCov).html) |
-| BE | ![CI Download BE PDF](https://github.com/covid19-eu-zh/covid19-eu-data/workflows/CI%20Download%20BE%20PDF/badge.svg) | [![](https://img.shields.io/badge/Data%20Source-epidemio.wiv--isp.be-informational)](https://epidemio.wiv-isp.be/ID/Pages/2019-nCoV_epidemiological_situation.aspx) |
+| BE | ![CI Download BE Data](https://github.com/covid19-eu-zh/covid19-eu-data/workflows/CI%20Download%20BE%20Data/badge.svg) | [![](https://img.shields.io/badge/Data%20Source-epidemio.wiv--isp.be-informational)](https://epidemio.wiv-isp.be/ID/Pages/2019-nCoV_epidemiological_situation.aspx) |
 | CH | ![CI Download CH Data](https://github.com/covid19-eu-zh/covid19-eu-data/workflows/CI%20Download%20CH%20Data/badge.svg) | [![](https://img.shields.io/badge/Data%20Source-epidemio.wiv--daenuprobst/covid19--cases--switzerland-informational)](https://github.com/daenuprobst/covid19-cases-switzerland) |
 | CZ | ![CI Download CZ Data](https://github.com/covid19-eu-zh/covid19-eu-data/workflows/CI%20Download%20CZ%20Data/badge.svg) | [![](https://img.shields.io/badge/Data%20Source-onemocneni--aktualne.mzcr.cz-informational)](https://onemocneni-aktualne.mzcr.cz/covid-19) |
 | DE | ![CI Download DE SARS-COV-2 Cases from RKI](https://github.com/covid19-eu-zh/covid19-eu-data/workflows/CI%20Download%20DE%20SARS-COV-2%20Cases%20from%20RKI/badge.svg) | [![](https://img.shields.io/badge/Data%20Source-rki.de-informational)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html) |
@@ -74,6 +77,10 @@ Caveats:
 ### BE
 
 1. Only PDF files of the records are downloaded.
+
+### CH
+
+1. CH hospitalized indicates the current hospitalized patients.
 
 ### DE
 
