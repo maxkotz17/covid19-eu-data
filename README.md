@@ -2,9 +2,10 @@
 
 `covid19-eu-data` is a dataset repository for COVID-19/SARS-CoV-2 cases in Europe. We pull data from official government websites regularly using the open-source scripts inside the repository.
 
-**If you would like to help or track the progress of this project**, checkout our roadmap.
 
-[![](https://img.shields.io/badge/roadmap-data--pipeline-blueviolet)](https://github.com/orgs/covid19-eu-zh/projects/1)
+
+[![If you would like to help or track the progress of this project](https://img.shields.io/badge/Roadmap-data--pipeline-blueviolet)](https://github.com/orgs/covid19-eu-zh/projects/1)  [![](https://img.shields.io/badge/API-data--api-black)](https://github.com/covid19-eu-zh/covid19-eu-data-api) [![](https://img.shields.io/badge/MAP-interactive--map-orange)](https://github.com/covid19-eu-zh/covid19-eu-map)
+
 
 ## Changelog
 
