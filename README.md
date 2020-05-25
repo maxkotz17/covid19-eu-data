@@ -9,7 +9,7 @@
 
 ## Changelog
 
-**Breaking**:
+**Breaking Change**:
 
 On 2020-05-22, we removed `documents/be` and `documents/dk`. These two folders are bloating and our repo reached the GitHub storage hard limit (2GB). The files have been moved to [covid19-eu-zh/covid19-eu-data-20200522](https://github.com/covid19-eu-zh/covid19-eu-data-20200522) as a snapshot.
 
