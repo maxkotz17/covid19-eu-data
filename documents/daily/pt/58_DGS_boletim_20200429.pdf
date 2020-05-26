@@ -263,30 +263,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/piscinas-ao-ar-livre-obedecem-as-mesmas-regras-das-praias/" class="news_link">
+    							<a href="https://covid19.min-saude.pt/aumento-da-testagem-nao-se-reflete-num-aumento-proporcional-de-casos/" class="news_link">
     								<span class="news_date">26/05/2020</span>								
-    								<h2 class="news_title">Piscinas ao ar livre obedecem às mesmas regras das praias</h2>
+    								<h2 class="news_title">Aumento da testagem não se reflete num aumento proporcional de casos</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/decreto-lei-que-regula-o-acesso-e-a-utilizacao-das-praias-entra-hoje-em-vigor/" class="news_link">
+    							<a href="https://covid19.min-saude.pt/numero-de-infecoes-em-lares-de-idosos-esta-a-diminuir/" class="news_link">
     								<span class="news_date">26/05/2020</span>								
-    								<h2 class="news_title">Decreto-lei que regula o acesso e a utilização das praias entra hoje em vigor</h2>
+    								<h2 class="news_title">Número de infeções em lares de idosos está a diminuir</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/insa-iniciou-trabalho-de-campo-do-inquerito-serologico-nacional/" class="news_link">
+    							<a href="https://covid19.min-saude.pt/mais-de-11-mil-pessoas-em-vigilancia-em-lisboa-e-vale-do-tejo/" class="news_link">
     								<span class="news_date">26/05/2020</span>								
-    								<h2 class="news_title">INSA iniciou trabalho de campo do Inquérito Serológico Nacional</h2>
+    								<h2 class="news_title">Mais de 11 mil pessoas em vigilância em Lisboa e Vale do Tejo</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/ja-foram-realizados-mais-de-745-mil-testes-de-diagnostico/" class="news_link">
-    								<span class="news_date">25/05/2020</span>								
-    								<h2 class="news_title">Já foram realizados mais de 745 mil testes de diagnóstico</h2>
+    							<a href="https://covid19.min-saude.pt/direcao-geral-da-saude-publica-informacao-sobre-visitas-a-prisoes/" class="news_link">
+    								<span class="news_date">26/05/2020</span>								
+    								<h2 class="news_title">Direção-Geral da Saúde publica informação sobre visitas a prisões</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -413,7 +413,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">dapibus tempus risus. ante. consectetur ultricies commodo id,</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">ut elit. libero commodo amet, pulvinar quis,</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -503,5 +503,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-05-26 14:18:06 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-05-26 18:17:59 by W3 Total Cache
 -->
