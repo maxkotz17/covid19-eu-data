@@ -911,7 +911,7 @@
 <h2><strong>Key figures for Norway</strong></h2>
 <p>Total number in Norway since February 2020 (cumulative figures):</p>
 
-    <div class="fhi-row" id="kfr56310758">
+    <div class="fhi-row" id="kfr51276938">
         <div class="fhi-col">
             <div class="fhi-key-figure-row">
                 <div class="fhi-flex">
@@ -982,7 +982,7 @@
                 if (data && typeof data.figures !== "undefined") {
                     data.figures.forEach(function (figure) {
                         if (figure && typeof figure.key !== "undefined") {
-                            var wrapper = $('div#kfr56310758 div.fhi-key-figure > div.wrapper[data-json-key="' + figure.key + '"]');
+                            var wrapper = $('div#kfr51276938 div.fhi-key-figure > div.wrapper[data-json-key="' + figure.key + '"]');
                             if (typeof figure.number != "undefined") {
                                 wrapper.find('.fhi-key-figure-number span').text(figure.number);
                                 
@@ -995,7 +995,7 @@
                             }
                         }
                     });
-                    utils.formatNumbers("#kfr56310758 .fhi-key-figure-number span");
+                    utils.formatNumbers("#kfr51276938 .fhi-key-figure-number span");
                 }
             })
         });
@@ -1016,12 +1016,12 @@
 
 
 <!-- basic Highcharts block template -->
-<figure id="chart36206928" class="highchart ">
+<figure id="chart35227349" class="highchart ">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
         <div class="options fhi-print--hidden" style="">
                         <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart36206928" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart36206928" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart35227349" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart35227349" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
         </div>
 
@@ -1047,7 +1047,7 @@
                     (function (utils) {
 
                         utils.waitAndExecute(250, 10, function (x) {
-                            var chartIndex = $('#chart36206928 div[data-highcharts-chart]').data('highcharts-chart');
+                            var chartIndex = $('#chart35227349 div[data-highcharts-chart]').data('highcharts-chart');
                             if (chartIndex != undefined && typeof Highcharts.charts[chartIndex] != "undefined") {
 
                                 
@@ -1058,13 +1058,13 @@
 
                                 Highcharts.charts[chartIndex].data.options.rowsURL = liveurl;
                                 Highcharts.charts[chartIndex].data.fetchLiveData();
-                                $('#chart36206928 .highcharts-inner-wrapper').removeClass("fhi-hidden");
-                                $("#chart36206928 .fhi-loading").addClass("fhi-hidden");
+                                $('#chart35227349 .highcharts-inner-wrapper').removeClass("fhi-hidden");
+                                $("#chart35227349 .fhi-loading").addClass("fhi-hidden");
                                 $.getCachedJSON(window.location.origin + "/api/chartdata/api/90789").done(function (data, textStatus, jqXHR) {
                                     var lastModified = jqXHR.getResponseHeader('X-API-Last-Modified');
                                     if (lastModified != "undefined") {
                                         lastModified = lastModified.slice(0, lastModified.indexOf(":") - 2);
-                                        $("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>").appendTo("#chart36206928 [data-highcharts-chart]");
+                                        $("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>").appendTo("#chart35227349 [data-highcharts-chart]");
                                     }
                                 })
 
@@ -1081,7 +1081,7 @@
                     })(utils);
 
                     function loadChart() {
-                        var chartIndex = $('#chart36206928 div[data-highcharts-chart]').data('highcharts-chart');
+                        var chartIndex = $('#chart35227349 div[data-highcharts-chart]').data('highcharts-chart');
                         if (chartIndex != undefined && typeof Highcharts.charts[chartIndex] != "undefined") {
                             var liveurl = window.location.origin + '/api/chartdata/api/90789';
                             if (currentSelection > 0 || currentSelection === "default") {
@@ -1098,8 +1098,8 @@
 
     </div>
     <script type="text/javascript">
-        if ($("#chart36206928 .highcharts-inner-wrapper > p:last-of-type").text() === " ") {
-                $("#chart36206928 .highcharts-inner-wrapper > p:last-of-type").remove();
+        if ($("#chart35227349 .highcharts-inner-wrapper > p:last-of-type").text() === " ") {
+                $("#chart35227349 .highcharts-inner-wrapper > p:last-of-type").remove();
            }
     </script>
 </figure>
@@ -1111,33 +1111,33 @@
 
 
 <!-- basic Highcharts block template -->
-<figure id="chart41287278" class="highchart ">
+<figure id="chart25219075" class="highchart ">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
         <div class="options fhi-print--hidden" style="min-height: 42px">
 
 
     <div class="fhi-dropdown fhi-m-bottom-S fhi-m-left-S-plus@LG fhi-m-top-S@LG">
-        <span class="fhi-visually-hidden" id="41287278-label">
+        <span class="fhi-visually-hidden" id="25219075-label">
             County selection
         </span>
         <button class="fhi-dropdown-btn"
                 aria-haspopup="listbox"
-                aria-labelledby="41287278-dropdown-label"
-                id="41287278-dropdown-button">
+                aria-labelledby="25219075-dropdown-label"
+                id="25219075-dropdown-button">
             Select county
         </button>
         <ul class="fhi-dropdown-list fhi-hidden"
             tabindex="-1"
             role="listbox"
-            aria-labelledby="41287278-dropdown-label">
-            <li id="#chart41287278-0" role="option" data-county="0">Alle fylker</li>
+            aria-labelledby="25219075-dropdown-label">
+            <li id="#chart25219075-0" role="option" data-county="0">Alle fylker</li>
         </ul>
 
     </div>
 
             
 
-<label id="toggle-41287278" class="fhi-toggle-switch timegranularity">
+<label id="toggle-25219075" class="fhi-toggle-switch timegranularity">
     <span class="fhi-visually-hidden">County selection</span>
     <input tabindex="0" type="checkbox" checked="checked" />
     <span class="fhi-slider"></span>
@@ -1147,8 +1147,8 @@
     </span>
 </label>
             <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart41287278" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart41287278" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart25219075" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart25219075" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
         </div>
 
@@ -1174,7 +1174,7 @@
                     (function (utils) {
 
                         utils.waitAndExecute(250, 10, function (x) {
-                            var chartIndex = $('#chart41287278 div[data-highcharts-chart]').data('highcharts-chart');
+                            var chartIndex = $('#chart25219075 div[data-highcharts-chart]').data('highcharts-chart');
                             if (chartIndex != undefined && typeof Highcharts.charts[chartIndex] != "undefined") {
 
                                 
@@ -1183,19 +1183,19 @@
                                     liveurl = liveurl + "/" + currentSelection;
                                 }
                                     
-                                liveurl = liveurl + "/" + ($("#chart41287278 .fhi-toggle-switch.timegranularity input").prop("checked") ? "day" : "week");
-                                Highcharts.charts[chartIndex].xAxis[0].update({ type: ($("#chart41287278 .fhi-toggle-switch.timegranularity input").prop("checked") ? "datetime" : "category") });
+                                liveurl = liveurl + "/" + ($("#chart25219075 .fhi-toggle-switch.timegranularity input").prop("checked") ? "day" : "week");
+                                Highcharts.charts[chartIndex].xAxis[0].update({ type: ($("#chart25219075 .fhi-toggle-switch.timegranularity input").prop("checked") ? "datetime" : "category") });
                                     
 
                                 Highcharts.charts[chartIndex].data.options.rowsURL = liveurl;
                                 Highcharts.charts[chartIndex].data.fetchLiveData();
-                                $('#chart41287278 .highcharts-inner-wrapper').removeClass("fhi-hidden");
-                                $("#chart41287278 .fhi-loading").addClass("fhi-hidden");
+                                $('#chart25219075 .highcharts-inner-wrapper').removeClass("fhi-hidden");
+                                $("#chart25219075 .fhi-loading").addClass("fhi-hidden");
                                 $.getCachedJSON(window.location.origin + "/api/chartdata/api/90814").done(function (data, textStatus, jqXHR) {
                                     var lastModified = jqXHR.getResponseHeader('X-API-Last-Modified');
                                     if (lastModified != "undefined") {
                                         lastModified = lastModified.slice(0, lastModified.indexOf(":") - 2);
-                                        $("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>").appendTo("#chart41287278 [data-highcharts-chart]");
+                                        $("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>").appendTo("#chart25219075 [data-highcharts-chart]");
                                     }
                                 })
 
@@ -1215,7 +1215,7 @@
                                     return 1;
                                 }
                             })
-                            initDropdown("#chart" + 41287278, d, function (index) {
+                            initDropdown("#chart" + 25219075, d, function (index) {
                                 if (index <= 0) {
                                     currentSelection = "default";
                                     loadChart();
@@ -1228,13 +1228,13 @@
                             
 
                                                          
-                                $("#chart41287278 .fhi-toggle-switch.timegranularity input").on("keypress", function (e) {
+                                $("#chart25219075 .fhi-toggle-switch.timegranularity input").on("keypress", function (e) {
                                     if (utils.isSubmitEvent(e)) {
                                         this.checked = !this.checked;
                                         loadChart();
                                     }
                                 });
-                                $("#chart41287278 .fhi-toggle-switch.timegranularity input").on("click", function (e) {
+                                $("#chart25219075 .fhi-toggle-switch.timegranularity input").on("click", function (e) {
                                     loadChart();
                                 });
                                 
@@ -1243,15 +1243,15 @@
                     })(utils);
 
                     function loadChart() {
-                        var chartIndex = $('#chart41287278 div[data-highcharts-chart]').data('highcharts-chart');
+                        var chartIndex = $('#chart25219075 div[data-highcharts-chart]').data('highcharts-chart');
                         if (chartIndex != undefined && typeof Highcharts.charts[chartIndex] != "undefined") {
                             var liveurl = window.location.origin + '/api/chartdata/api/90814';
                             if (currentSelection > 0 || currentSelection === "default") {
                                 liveurl = liveurl + "/" + currentSelection;
                             }
                                     
-                            liveurl = liveurl + "/" + ($("#chart41287278 .fhi-toggle-switch.timegranularity input").prop("checked") ? "day" : "week");
-                            Highcharts.charts[chartIndex].xAxis[0].update({ type: ($("#chart41287278 .fhi-toggle-switch.timegranularity input").prop("checked") ? "datetime" : "category") });
+                            liveurl = liveurl + "/" + ($("#chart25219075 .fhi-toggle-switch.timegranularity input").prop("checked") ? "day" : "week");
+                            Highcharts.charts[chartIndex].xAxis[0].update({ type: ($("#chart25219075 .fhi-toggle-switch.timegranularity input").prop("checked") ? "datetime" : "category") });
                                     
 
                             Highcharts.charts[chartIndex].data.options.rowsURL = liveurl;
@@ -1264,8 +1264,8 @@
 
     </div>
     <script type="text/javascript">
-        if ($("#chart41287278 .highcharts-inner-wrapper > p:last-of-type").text() === " ") {
-                $("#chart41287278 .highcharts-inner-wrapper > p:last-of-type").remove();
+        if ($("#chart25219075 .highcharts-inner-wrapper > p:last-of-type").text() === " ") {
+                $("#chart25219075 .highcharts-inner-wrapper > p:last-of-type").remove();
            }
     </script>
 </figure>
@@ -1277,12 +1277,12 @@
 
 
 <!-- basic Highcharts block template -->
-<figure id="chart122736" class="highchart ">
+<figure id="chart33717354" class="highchart ">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
         <div class="options fhi-print--hidden" style="">
                         <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart122736" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart122736" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart33717354" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart33717354" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
         </div>
 
@@ -1308,7 +1308,7 @@
                     (function (utils) {
 
                         utils.waitAndExecute(250, 10, function (x) {
-                            var chartIndex = $('#chart122736 div[data-highcharts-chart]').data('highcharts-chart');
+                            var chartIndex = $('#chart33717354 div[data-highcharts-chart]').data('highcharts-chart');
                             if (chartIndex != undefined && typeof Highcharts.charts[chartIndex] != "undefined") {
 
                                 
@@ -1319,13 +1319,13 @@
 
                                 Highcharts.charts[chartIndex].data.options.rowsURL = liveurl;
                                 Highcharts.charts[chartIndex].data.fetchLiveData();
-                                $('#chart122736 .highcharts-inner-wrapper').removeClass("fhi-hidden");
-                                $("#chart122736 .fhi-loading").addClass("fhi-hidden");
+                                $('#chart33717354 .highcharts-inner-wrapper').removeClass("fhi-hidden");
+                                $("#chart33717354 .fhi-loading").addClass("fhi-hidden");
                                 $.getCachedJSON(window.location.origin + "/api/chartdata/api/91295").done(function (data, textStatus, jqXHR) {
                                     var lastModified = jqXHR.getResponseHeader('X-API-Last-Modified');
                                     if (lastModified != "undefined") {
                                         lastModified = lastModified.slice(0, lastModified.indexOf(":") - 2);
-                                        $("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>").appendTo("#chart122736 [data-highcharts-chart]");
+                                        $("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>").appendTo("#chart33717354 [data-highcharts-chart]");
                                     }
                                 })
 
@@ -1342,7 +1342,7 @@
                     })(utils);
 
                     function loadChart() {
-                        var chartIndex = $('#chart122736 div[data-highcharts-chart]').data('highcharts-chart');
+                        var chartIndex = $('#chart33717354 div[data-highcharts-chart]').data('highcharts-chart');
                         if (chartIndex != undefined && typeof Highcharts.charts[chartIndex] != "undefined") {
                             var liveurl = window.location.origin + '/api/chartdata/api/91295';
                             if (currentSelection > 0 || currentSelection === "default") {
@@ -1359,29 +1359,29 @@
 
     </div>
     <script type="text/javascript">
-        if ($("#chart122736 .highcharts-inner-wrapper > p:last-of-type").text() === " ") {
-                $("#chart122736 .highcharts-inner-wrapper > p:last-of-type").remove();
+        if ($("#chart33717354 .highcharts-inner-wrapper > p:last-of-type").text() === " ") {
+                $("#chart33717354 .highcharts-inner-wrapper > p:last-of-type").remove();
            }
     </script>
 </figure>
 
 
 <h2>By county</h2>
-<p>The maps below illustrate the number of reported covid-19 cases by county and the reported rate by 100.000 inhabitants.</p>
+<p>The maps below illustrate the number of reported COVID-19 cases by county and the reported rate by 100 000 inhabitants.</p>
 
 
 <div class="fhi-row fhi-row--fill"><div class="fhi-col">
 
-<figure id="map23881767" class="highmaps">
+<figure id="map16586340" class="highmaps">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
 <div class="options fhi-print--hidden">
                 <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart23881767" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Map</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart23881767" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart16586340" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Map</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart16586340" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
 
             </div>
-        <div id="mapcontainer23881767" class="highchart-graph fhi-hidden"></div>
+        <div id="mapcontainer16586340" class="highchart-graph fhi-hidden"></div>
         <div class="fhi-loading"></div>
         
     </div>
@@ -1443,7 +1443,7 @@
 
     function loadMap(data, lastModified) {
           $.getCachedScript('/Static/templates/js/highcharts/data/no-all.js').done(function () {
-            Highcharts.mapChart('mapcontainer23881767', {
+            Highcharts.mapChart('mapcontainer16586340', {
                 chart: {
                     map: 'countries/no/no-all',
                 },
@@ -1510,27 +1510,27 @@
 
             if (typeof lastModified !== "undefined") {
                 lastModified = lastModified.slice(0, lastModified.indexOf(":") - 2);
-                $("#mapcontainer" + 23881767 +" .highcharts-container").append("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>");
+                $("#mapcontainer" + 16586340 +" .highcharts-container").append("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>");
             }
 
-            $("#mapcontainer23881767.highchart-graph").removeClass("fhi-hidden");
-            $("#map23881767 .fhi-loading").addClass("fhi-hidden");
+            $("#mapcontainer16586340.highchart-graph").removeClass("fhi-hidden");
+            $("#map16586340 .fhi-loading").addClass("fhi-hidden");
         });
         }
 })();
 </script>
 </div><div class="fhi-col">
 
-<figure id="map12561957" class="highmaps">
+<figure id="map46283695" class="highmaps">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
 <div class="options fhi-print--hidden">
                 <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart12561957" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Map</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart12561957" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart46283695" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Map</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart46283695" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
 
             </div>
-        <div id="mapcontainer12561957" class="highchart-graph fhi-hidden"></div>
+        <div id="mapcontainer46283695" class="highchart-graph fhi-hidden"></div>
         <div class="fhi-loading"></div>
         
     </div>
@@ -1592,7 +1592,7 @@
 
     function loadMap(data, lastModified) {
           $.getCachedScript('/Static/templates/js/highcharts/data/no-all.js').done(function () {
-            Highcharts.mapChart('mapcontainer12561957', {
+            Highcharts.mapChart('mapcontainer46283695', {
                 chart: {
                     map: 'countries/no/no-all',
                 },
@@ -1659,11 +1659,11 @@
 
             if (typeof lastModified !== "undefined") {
                 lastModified = lastModified.slice(0, lastModified.indexOf(":") - 2);
-                $("#mapcontainer" + 12561957 +" .highcharts-container").append("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>");
+                $("#mapcontainer" + 46283695 +" .highcharts-container").append("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>");
             }
 
-            $("#mapcontainer12561957.highchart-graph").removeClass("fhi-hidden");
-            $("#map12561957 .fhi-loading").addClass("fhi-hidden");
+            $("#mapcontainer46283695.highchart-graph").removeClass("fhi-hidden");
+            $("#map46283695 .fhi-loading").addClass("fhi-hidden");
         });
         }
 })();
@@ -1671,18 +1671,18 @@
 </div></div>
 
 <h2>By municipality</h2>
-<p>The map shows the number of reported covid-19 cases by municipality.</p>
+<p>The map shows the number of reported COVID-19 cases by municipality.</p>
 
-<figure id="map1469909" class="highmaps">
+<figure id="map12233292" class="highmaps">
 	<div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
 <div class="options fhi-print--hidden">
 				<div class="fhi-tabs__container fhi-print--hidden">
-					<button role="tab" aria-selected="true" aria-controls="chart1469909" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Map</button>
-					<button role="tab" aria-selected="false" aria-controls="chart1469909" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+					<button role="tab" aria-selected="true" aria-controls="chart12233292" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Map</button>
+					<button role="tab" aria-selected="false" aria-controls="chart12233292" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
 				</div>
 
 			</div>
-		<div id="mapcontainer1469909" class="highchart-graph fhi-hidden"></div>
+		<div id="mapcontainer12233292" class="highchart-graph fhi-hidden"></div>
 		<div class="fhi-loading"></div>
 	</div>
 		<figcaption>Double click on the map where you want to zoom in or scroll with your mouse to zoom in and out.</figcaption>
@@ -1711,7 +1711,7 @@
 				$.getCachedScript('/Static/templates/js/highcharts/data/no-all-all-split.js').done(function () {
 
 
-                Highcharts.mapChart('mapcontainer1469909', {
+                Highcharts.mapChart('mapcontainer12233292', {
                     chart: {
                         map: 'countries/no/no-all-all-split',
 								 height: '84.4%'
@@ -1779,11 +1779,11 @@
 
                 if (lastModified !== undefined) {
                     lastModified = lastModified.slice(0, lastModified.indexOf(":") - 2);
-                    $("#mapcontainer" + 1469909 +" .highcharts-container").append("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>");
+                    $("#mapcontainer" + 12233292 +" .highcharts-container").append("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>");
                 }
 
-                $("#mapcontainer1469909.highchart-graph").removeClass("fhi-hidden");
-                $("#map1469909 .fhi-loading").addClass("fhi-hidden");
+                $("#mapcontainer12233292.highchart-graph").removeClass("fhi-hidden");
+                $("#map12233292 .fhi-loading").addClass("fhi-hidden");
 
             });
 	}
@@ -2870,25 +2870,25 @@
 <p>The figure is updated with the number reported by midnight on the previous day. Cases in MSIS are registered geographically and are based on the address in the population register. Therefore, there may be more cases reported in a municipality in MSIS than the municipality is aware of. MSIS also receives notifications that are not sent to the Munical Medical Officer.</p>
 <p>If you cannot find a municipality in the list, it means that MSIS has not yet received any notifications about people registered in that municipality.&nbsp;</p>
 <h2>Hospital admissions&nbsp;</h2>
-<p>The figure below illustrates the number of new patients admitted to hospital with covid-19 as the main reason for admission.</p>
+<p>The figure below illustrates the number of new patients admitted to hospital with COVID-19 as the main reason for admission.</p>
 
 
 
 <!-- basic Highcharts block template -->
-<figure id="chart52395527" class="highchart ">
+<figure id="chart10444166" class="highchart ">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
         <div class="options fhi-print--hidden" style="">
                         <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart52395527" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart52395527" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart10444166" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart10444166" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
         </div>
 
         <div class="highcharts-inner-wrapper fhi-hidden">
-            <div class="mceNonEditable" data-hc="{&quot;template&quot;:{},&quot;options&quot;:{&quot;styledMode&quot;:&quot;true&quot;,&quot;title&quot;:{&quot;text&quot;:&quot;Number of new patients admitted to hospital with COVID-19 as main reason for admission, by admission date&quot;,&quot;align&quot;:&quot;left&quot;},&quot;subtitle&quot;:{&quot;align&quot;:&quot;left&quot;},&quot;chart&quot;:{&quot;spacingBottom&quot;:30,&quot;height&quot;:452},&quot;credits&quot;:{&quot;text&quot;:&quot;Source: Norwegian Intensive Care and Pandemic Register&quot;,&quot;href&quot;:&quot;&quot;,&quot;position&quot;:{&quot;align&quot;:&quot;left&quot;,&quot;x&quot;:10}},&quot;lang&quot;:{&quot;decimalPoint&quot;:&quot;.&quot;,&quot;downloadPNG&quot;:&quot;Download PNG&quot;,&quot;downloadJPEG&quot;:&quot;Download JPEG&quot;,&quot;downloadPDF&quot;:&quot;Download PDF&quot;,&quot;downloadSVG&quot;:&quot;Download SVG&quot;,&quot;downloadXLS&quot;:&quot;Download Excel&quot;,&quot;downloadCSV&quot;:&quot;Download CSV&quot;,&quot;printChart&quot;:&quot;Print&quot;,&quot;contextButtonTitle&quot;:&quot;Menu&quot;,&quot;months&quot;:[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;],&quot;noData&quot;:&quot;No data&quot;,&quot;numericSymbolMagnitude&quot;:1000000000000,&quot;rangeSelectorFrom&quot;:&quot;From&quot;,&quot;rangeSelectorTo&quot;:&quot;To&quot;,&quot;resetZoom&quot;:&quot;Reset zoom&quot;,&quot;resetZoomTitle&quot;:&quot;Reset zoom 1:1&quot;,&quot;shortMonths&quot;:[&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;,&quot;Sep&quot;,&quot;Oct&quot;,&quot;Nov&quot;,&quot;Dec&quot;],&quot;viewData&quot;:&quot;Show table&quot;,&quot;weekdays&quot;:[&quot;Sunday&quot;,&quot;Monday&quot;,&quot;Tuesday&quot;,&quot;Wednesday&quot;,&quot;Thursday&quot;,&quot;Friday&quot;,&quot;Saturday&quot;],&quot;zoomIn&quot;:&quot;Zoom in&quot;,&quot;zoomOut&quot;:&quot;Zoom ut&quot;,&quot;viewFullscreen&quot;:&quot;Vis i fullskjerm&quot;,&quot;drillUpText&quot;:&quot;Back to {series.name}&quot;,&quot;loading&quot;:&quot;Loading...&quot;},&quot;series&quot;:[{&quot;data&quot;:[[1577923200000,1000],[1578009600000,1100]],&quot;name&quot;:&quot;Kumulativt antall&quot;,&quot;turboThreshold&quot;:0,&quot;lineWidth&quot;:3,&quot;type&quot;:&quot;line&quot;,&quot;colorIndex&quot;:1,&quot;marker&quot;:{&quot;enabled&quot;:false},&quot;yAxis&quot;:1},{&quot;data&quot;:[[1577923200000,3],[1578009600000,4]],&quot;name&quot;:&quot;Nye sykehusinnleggelser&quot;,&quot;turboThreshold&quot;:0,&quot;type&quot;:&quot;column&quot;,&quot;yAxis&quot;:0,&quot;colorIndex&quot;:0}],&quot;legend&quot;:{&quot;verticalAlign&quot;:&quot;top&quot;,&quot;align&quot;:&quot;right&quot;,&quot;floating&quot;:false,&quot;x&quot;:0,&quot;y&quot;:0,&quot;enabled&quot;:true},&quot;colors&quot;:[&quot;#393C61&quot;,&quot;#709900&quot;,&quot;#2EA1C0&quot;,&quot;#EC635C&quot;,&quot;#F7B500&quot;,&quot;#0F768F&quot;,&quot;#B11643&quot;,&quot;#A9B7BF&quot;],&quot;exporting&quot;:{&quot;showTable&quot;:true,&quot;buttons&quot;:{&quot;contextButton&quot;:{&quot;menuItems&quot;:[&quot;viewFullscreen&quot;,&quot;separator&quot;,&quot;downloadPNG&quot;,&quot;downloadJPEG&quot;,&quot;downloadSVG&quot;,&quot;separator&quot;,&quot;downloadCSV&quot;,&quot;downloadXLS&quot;]}},&quot;csv&quot;:{&quot;dateFormat&quot;:&quot;%d.%m.%Y&quot;}},&quot;data&quot;:{&quot;csv&quot;:&quot;\&quot;Date\&quot;;\&quot;Kumulativt antall\&quot;;\&quot;Nye sykehusinnleggelser\&quot;\n\&quot;2020.01.02\&quot;;1000;3\n\&quot;2020.01.03\&quot;;1100;4&quot;},&quot;yAxis&quot;:[{&quot;title&quot;:{&quot;text&quot;:&quot;Number of new patients admitted to hospital&quot;},&quot;labels&quot;:{&quot;format&quot;:&quot;{value}&quot;}},{&quot;title&quot;:{&quot;text&quot;:&quot;Cumulative number of patients admitted to hospital&quot;},&quot;opposite&quot;:true}],&quot;pane&quot;:{&quot;background&quot;:[]},&quot;responsive&quot;:{&quot;rules&quot;:[]},&quot;xAxis&quot;:[{&quot;title&quot;:{&quot;text&quot;:&quot;Date&quot;}}],&quot;plotOptions&quot;:{&quot;series&quot;:{&quot;dataLabels&quot;:{&quot;enabled&quot;:false}}}},&quot;theme&quot;:false,&quot;settings&quot;:{&quot;constructor&quot;:&quot;Chart&quot;,&quot;dataProvider&quot;:{&quot;csv&quot;:&quot;\&quot;Date\&quot;;\&quot;Kumulativt antall\&quot;;\&quot;Nye sykehusinnleggelser\&quot;\n\&quot;2020.01.02\&quot;;1000;3\n\&quot;2020.01.03\&quot;;1100;4&quot;,&quot;googleSpreadsheet&quot;:false,&quot;liveData&quot;:false}}}">
-<div id="highcharts-af2f3344-41f5-46ae-bb43-d2619876efe3"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 12px;" xmlns="http://www.w3.org/2000/svg" width="650" height="452" viewbox="0 0 650 452" aria-label="Interactive chart" aria-hidden="false"><desc aria-hidden="true">Created with Highcharts 8.1.0</desc><defs aria-hidden="true"><rect x="0" y="0" width="468" height="259" fill="none"></rect><rect x="86" y="115" width="468" height="259" fill="none"></rect></defs><rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="650" height="452" rx="0" ry="0" aria-hidden="true"></rect><rect fill="none" class="highcharts-plot-background" x="86" y="115" width="468" height="259" aria-hidden="true"></rect><g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1" aria-hidden="true"><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 203.5 115 L 203.5 374" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 435.5 115 L 435.5 374" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1" aria-hidden="true"><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 374.5 L 554 374.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 309.5 L 554 309.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 245.5 L 554 245.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 180.5 L 554 180.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 114.5 L 554 114.5" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1" aria-hidden="true"><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 374.5 L 554 374.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 309.5 L 554 309.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 245.5 L 554 245.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 180.5 L 554 180.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 114.5 L 554 114.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" data-z-index="1" x="86" y="115" width="468" height="259" aria-hidden="true"></rect><g class="highcharts-axis highcharts-xaxis" data-z-index="2" aria-hidden="true"><path fill="none" class="highcharts-tick" stroke="#ccd6eb" stroke-width="1" d="M 203.5 374 L 203.5 384" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#ccd6eb" stroke-width="1" d="M 435.5 374 L 435.5 384" opacity="1"></path><text x="320" data-z-index="7" text-anchor="middle" transform="translate(0,0)" class="highcharts-axis-title" style="color: #666666; fill: #666666;" y="415.375"><tspan>Date</tspan></text><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" data-z-index="7" d="M 86 374.5 L 554 374.5"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2" aria-hidden="true"><text x="26.40625" data-z-index="7" text-anchor="middle" transform="translate(0,0) rotate(270 26.40625 244.5)" class="highcharts-axis-title" style="color: #666666; fill: #666666;" y="244.5"><tspan>Number of new patients admitted to</tspan><tspan dy="15" x="26.40625">hospital</tspan></text><path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 86 115 L 86 374"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2" aria-hidden="true"><text x="624.328125" data-z-index="7" text-anchor="middle" transform="translate(0,0) rotate(90 624.328125 244.5)" class="highcharts-axis-title" style="color: #666666; fill: #666666;" y="244.5"><tspan>Cumulative number of patients admitted to</tspan><tspan dy="15" x="624.328125">hospital</tspan></text><path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 554 115 L 554 374"></path></g><g class="highcharts-series-group" data-z-index="3" aria-hidden="false"><g data-z-index="0.1" class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-1" transform="translate(86,115) scale(1 1)" clip-path="url(#highcharts-p1618t9-352-)" aria-hidden="true"><path fill="none" d="M 118.15841584158 237.41666666666666 L 349.84158415842 21.583333333333343" class="highcharts-graph" data-z-index="1" stroke="#709900" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></path></g><g data-z-index="0.1" class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-1" transform="translate(86,115) scale(1 1)" clip-path="none" aria-hidden="false" role="region" aria-label="Kumulativt antall, series 1 of 2. Line with 2 data points. Y axis, Cumulative number of patients admitted to hospital" style="outline: 0px;" tabindex="-1"><path fill="#709900" d="M 118 241 A 4 4 0 1 1 118.00399999933333 240.99999800000018 Z" opacity="0" class="highcharts-point highcharts-color-1" role="img" aria-label="1. Thursday, Jan  2, 2020, 1,000. Kumulativt antall." style="outline: 0px;" tabindex="-1"></path><path fill="#709900" d="M 349 26 A 4 4 0 1 1 349.00399999933336 25.99999800000017 Z" opacity="0" class="highcharts-point highcharts-color-1" role="img" aria-label="2. Friday, Jan  3, 2020, 1,100. Kumulativt antall." style="outline: 0px;" tabindex="-1"></path></g><g data-z-index="0.1" class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-0" transform="translate(86,115) scale(1 1)" clip-path="url(#highcharts-p1618t9-352-)" aria-hidden="false" role="region" aria-label="Nye sykehusinnleggelser, series 2 of 2. Bar series with 2 bars. Y axis, Number of new patients admitted to hospital" style="outline: 0px;" tabindex="-1"><rect x="62.5" y="97.5" width="112" height="162" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="1. Thursday, Jan  2, 2020, 3. Nye sykehusinnleggelser." style="outline: 0px;" tabindex="-1"></rect><rect x="293.5" y="43.5" width="112" height="216" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="2. Friday, Jan  3, 2020, 4. Nye sykehusinnleggelser." style="outline: 0px;" tabindex="-1"></rect></g><g data-z-index="0.1" class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-0" transform="translate(86,115) scale(1 1)" clip-path="none" aria-hidden="true"></g></g><text x="10" text-anchor="start" class="highcharts-title" data-z-index="4" style="color: #333333; font-size: 18px; fill: #333333;" y="24" aria-hidden="true"><tspan>Number of new patients admitted to hospital with COVID-19 as</tspan><tspan dy="21" x="10">main reason for admission, by admission date</tspan></text><text x="10" text-anchor="start" class="highcharts-subtitle" data-z-index="4" style="color: #666666; fill: #666666;" y="73" aria-hidden="true"></text><text x="10" text-anchor="start" class="highcharts-caption" data-z-index="4" style="color: #666666; fill: #666666;" y="434" aria-hidden="true"></text><g class="highcharts-legend" data-z-index="7" transform="translate(309,74)" aria-hidden="true"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="330" height="29" visibility="visible"></rect><g data-z-index="1"><g><g class="highcharts-legend-item highcharts-line-series highcharts-color-1 highcharts-series-0" data-z-index="1" transform="translate(8,3)"><path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#709900" stroke-width="3"></path><text x="21" style="color: #333333; cursor: pointer; font-size: 12px; font-weight: bold; fill: #333333;" text-anchor="start" data-z-index="2" y="15"><tspan>Kumulativt antall</tspan></text></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-0 highcharts-series-1" data-z-index="1" transform="translate(151.390625,3)"><text x="21" y="15" style="color: #333333; cursor: pointer; font-size: 12px; font-weight: bold; fill: #333333;" text-anchor="start" data-z-index="2"><tspan>Nye sykehusinnleggelser</tspan></text><rect x="2" y="4" width="12" height="12" fill="#393C61" rx="6" ry="6" class="highcharts-point" data-z-index="3"></rect></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7" aria-hidden="true"><text x="204.15841584158" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="393" opacity="1"><tspan>2. Jan</tspan></text><text x="435.84158415842" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="393" opacity="1"><tspan>3. Jan</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7" aria-hidden="true"><text x="71" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="377" opacity="1">0</text><text x="71" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="312" opacity="1">1.2</text><text x="71" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="247" opacity="1">2.4</text><text x="71" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="183" opacity="1">3.6</text><text x="71" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="118" opacity="1">4.8</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7" aria-hidden="true"><text x="569" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="start" transform="translate(0,0)" y="377" opacity="1">990</text><text x="569" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="start" transform="translate(0,0)" y="312" opacity="1">1020</text><text x="569" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="start" transform="translate(0,0)" y="247" opacity="1">1050</text><text x="569" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="start" transform="translate(0,0)" y="183" opacity="1">1080</text><text x="569" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="start" transform="translate(0,0)" y="118" opacity="1">1110</text></g><text x="10" class="highcharts-credits" text-anchor="start" data-z-index="8" style="cursor: pointer; color: #999999; font-size: 9px; fill: #999999;" y="447" aria-label="Chart credits: Source: Norwegian Intensive Care and Pandemic Register" aria-hidden="false"><tspan>Source: Norwegian Intensive Care and Pandemic Register</tspan></text><g class="highcharts-control-points" data-z-index="99" clip-path="url(#highcharts-p1618t9-359-)" aria-hidden="true"></g></svg></div>
+            <div class="mceNonEditable" data-hc="{&quot;template&quot;:{},&quot;options&quot;:{&quot;styledMode&quot;:&quot;true&quot;,&quot;title&quot;:{&quot;text&quot;:&quot;Number of new patients admitted to hospital with COVID-19 as main reason for admission, by admission date&quot;,&quot;align&quot;:&quot;left&quot;},&quot;subtitle&quot;:{&quot;align&quot;:&quot;left&quot;},&quot;chart&quot;:{&quot;spacingBottom&quot;:30,&quot;height&quot;:452},&quot;credits&quot;:{&quot;text&quot;:&quot;Source: Norwegian Intensive Care and Pandemic Register&quot;,&quot;href&quot;:&quot;&quot;,&quot;position&quot;:{&quot;align&quot;:&quot;left&quot;,&quot;x&quot;:10}},&quot;lang&quot;:{&quot;decimalPoint&quot;:&quot;.&quot;,&quot;downloadPNG&quot;:&quot;Download PNG&quot;,&quot;downloadJPEG&quot;:&quot;Download JPEG&quot;,&quot;downloadPDF&quot;:&quot;Download PDF&quot;,&quot;downloadSVG&quot;:&quot;Download SVG&quot;,&quot;downloadXLS&quot;:&quot;Download Excel&quot;,&quot;downloadCSV&quot;:&quot;Download CSV&quot;,&quot;printChart&quot;:&quot;Print&quot;,&quot;contextButtonTitle&quot;:&quot;Menu&quot;,&quot;months&quot;:[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;],&quot;noData&quot;:&quot;No data&quot;,&quot;numericSymbolMagnitude&quot;:1000000000000,&quot;rangeSelectorFrom&quot;:&quot;From&quot;,&quot;rangeSelectorTo&quot;:&quot;To&quot;,&quot;resetZoom&quot;:&quot;Reset zoom&quot;,&quot;resetZoomTitle&quot;:&quot;Reset zoom 1:1&quot;,&quot;shortMonths&quot;:[&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;,&quot;Sep&quot;,&quot;Oct&quot;,&quot;Nov&quot;,&quot;Dec&quot;],&quot;viewData&quot;:&quot;Show table&quot;,&quot;weekdays&quot;:[&quot;Sunday&quot;,&quot;Monday&quot;,&quot;Tuesday&quot;,&quot;Wednesday&quot;,&quot;Thursday&quot;,&quot;Friday&quot;,&quot;Saturday&quot;],&quot;zoomIn&quot;:&quot;Zoom in&quot;,&quot;zoomOut&quot;:&quot;Zoom ut&quot;,&quot;viewFullscreen&quot;:&quot;Vis i fullskjerm&quot;,&quot;drillUpText&quot;:&quot;Back to {series.name}&quot;,&quot;loading&quot;:&quot;Loading...&quot;},&quot;series&quot;:[{&quot;data&quot;:[[1577923200000,1000],[1578009600000,1100]],&quot;name&quot;:&quot;Cumulative number&quot;,&quot;turboThreshold&quot;:0,&quot;lineWidth&quot;:3,&quot;type&quot;:&quot;line&quot;,&quot;colorIndex&quot;:1,&quot;marker&quot;:{&quot;enabled&quot;:false},&quot;yAxis&quot;:1},{&quot;data&quot;:[[1577923200000,3],[1578009600000,4]],&quot;name&quot;:&quot;New hospital admissions &quot;,&quot;turboThreshold&quot;:0,&quot;type&quot;:&quot;column&quot;,&quot;yAxis&quot;:0,&quot;colorIndex&quot;:0}],&quot;legend&quot;:{&quot;verticalAlign&quot;:&quot;top&quot;,&quot;align&quot;:&quot;right&quot;,&quot;floating&quot;:false,&quot;x&quot;:0,&quot;y&quot;:0,&quot;enabled&quot;:true},&quot;colors&quot;:[&quot;#393C61&quot;,&quot;#709900&quot;,&quot;#2EA1C0&quot;,&quot;#EC635C&quot;,&quot;#F7B500&quot;,&quot;#0F768F&quot;,&quot;#B11643&quot;,&quot;#A9B7BF&quot;],&quot;exporting&quot;:{&quot;showTable&quot;:true,&quot;buttons&quot;:{&quot;contextButton&quot;:{&quot;menuItems&quot;:[&quot;viewFullscreen&quot;,&quot;separator&quot;,&quot;downloadPNG&quot;,&quot;downloadJPEG&quot;,&quot;downloadSVG&quot;,&quot;separator&quot;,&quot;downloadCSV&quot;,&quot;downloadXLS&quot;]}},&quot;csv&quot;:{&quot;dateFormat&quot;:&quot;%d.%m.%Y&quot;}},&quot;data&quot;:{&quot;csv&quot;:&quot;\&quot;Date\&quot;;\&quot;Cumulative number\&quot;;\&quot;New hospital admissions\&quot;\n\&quot;2020.01.02\&quot;;1000;3\n\&quot;2020.01.03\&quot;;1100;4&quot;},&quot;yAxis&quot;:[{&quot;title&quot;:{&quot;text&quot;:&quot;Number of new patients admitted to hospital&quot;},&quot;labels&quot;:{&quot;format&quot;:&quot;{value}&quot;}},{&quot;title&quot;:{&quot;text&quot;:&quot;Cumulative number of patients admitted to hospital&quot;},&quot;opposite&quot;:true}],&quot;pane&quot;:{&quot;background&quot;:[]},&quot;responsive&quot;:{&quot;rules&quot;:[]},&quot;xAxis&quot;:[{&quot;title&quot;:{&quot;text&quot;:&quot;Date&quot;}}],&quot;plotOptions&quot;:{&quot;series&quot;:{&quot;dataLabels&quot;:{&quot;enabled&quot;:false}}}},&quot;theme&quot;:false,&quot;settings&quot;:{&quot;constructor&quot;:&quot;Chart&quot;,&quot;dataProvider&quot;:{&quot;csv&quot;:&quot;\&quot;Date\&quot;;\&quot;Cumulative number\&quot;;\&quot;New hospital admissions\&quot;\n\&quot;2020.01.02\&quot;;1000;3\n\&quot;2020.01.03\&quot;;1100;4&quot;,&quot;googleSpreadsheet&quot;:false,&quot;liveData&quot;:false}}}">
+<div id="highcharts-af2f3344-41f5-46ae-bb43-d2619876efe3"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 12px;" xmlns="http://www.w3.org/2000/svg" width="650" height="452" viewbox="0 0 650 452" aria-label="Interactive chart" aria-hidden="false"><desc aria-hidden="true">Created with Highcharts 8.1.0</desc><defs aria-hidden="true"><rect x="0" y="0" width="468" height="259" fill="none"></rect><rect x="86" y="115" width="468" height="259" fill="none"></rect></defs><rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="650" height="452" rx="0" ry="0" aria-hidden="true"></rect><rect fill="none" class="highcharts-plot-background" x="86" y="115" width="468" height="259" aria-hidden="true"></rect><g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1" aria-hidden="true"><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 203.5 115 L 203.5 374" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 435.5 115 L 435.5 374" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1" aria-hidden="true"><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 374.5 L 554 374.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 309.5 L 554 309.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 245.5 L 554 245.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 180.5 L 554 180.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 114.5 L 554 114.5" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1" aria-hidden="true"><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 374.5 L 554 374.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 309.5 L 554 309.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 245.5 L 554 245.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 180.5 L 554 180.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 86 114.5 L 554 114.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" data-z-index="1" x="86" y="115" width="468" height="259" aria-hidden="true"></rect><g class="highcharts-axis highcharts-xaxis" data-z-index="2" aria-hidden="true"><path fill="none" class="highcharts-tick" stroke="#ccd6eb" stroke-width="1" d="M 203.5 374 L 203.5 384" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#ccd6eb" stroke-width="1" d="M 435.5 374 L 435.5 384" opacity="1"></path><text x="320" data-z-index="7" text-anchor="middle" transform="translate(0,0)" class="highcharts-axis-title" style="color: #666666; fill: #666666;" y="415.375"><tspan>Date</tspan></text><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" data-z-index="7" d="M 86 374.5 L 554 374.5"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2" aria-hidden="true"><text x="26.40625" data-z-index="7" text-anchor="middle" transform="translate(0,0) rotate(270 26.40625 244.5)" class="highcharts-axis-title" style="color: #666666; fill: #666666;" y="244.5"><tspan>Number of new patients admitted to</tspan><tspan dy="15" x="26.40625">hospital</tspan></text><path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 86 115 L 86 374"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2" aria-hidden="true"><text x="624.328125" data-z-index="7" text-anchor="middle" transform="translate(0,0) rotate(90 624.328125 244.5)" class="highcharts-axis-title" style="color: #666666; fill: #666666;" y="244.5"><tspan>Cumulative number of patients admitted to</tspan><tspan dy="15" x="624.328125">hospital</tspan></text><path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 554 115 L 554 374"></path></g><g class="highcharts-series-group" data-z-index="3" aria-hidden="false"><g data-z-index="0.1" class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-1" transform="translate(86,115) scale(1 1)" clip-path="url(#highcharts-p1618t9-352-)" aria-hidden="true"><path fill="none" d="M 118.15841584158 237.41666666666666 L 349.84158415842 21.583333333333343" class="highcharts-graph" data-z-index="1" stroke="#709900" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></path></g><g data-z-index="0.1" class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-1" transform="translate(86,115) scale(1 1)" clip-path="none" aria-hidden="false" role="region" aria-label="Kumulativt antall, series 1 of 2. Line with 2 data points. Y axis, Cumulative number of patients admitted to hospital" style="outline: 0px;" tabindex="-1"><path fill="#709900" d="M 118 241 A 4 4 0 1 1 118.00399999933333 240.99999800000018 Z" opacity="0" class="highcharts-point highcharts-color-1" role="img" aria-label="1. Thursday, Jan  2, 2020, 1,000. Kumulativt antall." style="outline: 0px;" tabindex="-1"></path><path fill="#709900" d="M 349 26 A 4 4 0 1 1 349.00399999933336 25.99999800000017 Z" opacity="0" class="highcharts-point highcharts-color-1" role="img" aria-label="2. Friday, Jan  3, 2020, 1,100. Kumulativt antall." style="outline: 0px;" tabindex="-1"></path></g><g data-z-index="0.1" class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-0" transform="translate(86,115) scale(1 1)" clip-path="url(#highcharts-p1618t9-352-)" aria-hidden="false" role="region" aria-label="Nye sykehusinnleggelser, series 2 of 2. Bar series with 2 bars. Y axis, Number of new patients admitted to hospital" style="outline: 0px;" tabindex="-1"><rect x="62.5" y="97.5" width="112" height="162" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="1. Thursday, Jan  2, 2020, 3. Nye sykehusinnleggelser." style="outline: 0px;" tabindex="-1"></rect><rect x="293.5" y="43.5" width="112" height="216" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="2. Friday, Jan  3, 2020, 4. Nye sykehusinnleggelser." style="outline: 0px;" tabindex="-1"></rect></g><g data-z-index="0.1" class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-0" transform="translate(86,115) scale(1 1)" clip-path="none" aria-hidden="true"></g></g><text x="10" text-anchor="start" class="highcharts-title" data-z-index="4" style="color: #333333; font-size: 18px; fill: #333333;" y="24" aria-hidden="true"><tspan>Number of new patients admitted to hospital with COVID-19 as</tspan><tspan dy="21" x="10">main reason for admission, by admission date</tspan></text><text x="10" text-anchor="start" class="highcharts-subtitle" data-z-index="4" style="color: #666666; fill: #666666;" y="73" aria-hidden="true"></text><text x="10" text-anchor="start" class="highcharts-caption" data-z-index="4" style="color: #666666; fill: #666666;" y="434" aria-hidden="true"></text><g class="highcharts-legend" data-z-index="7" transform="translate(309,74)" aria-hidden="true"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="330" height="29" visibility="visible"></rect><g data-z-index="1"><g><g class="highcharts-legend-item highcharts-line-series highcharts-color-1 highcharts-series-0" data-z-index="1" transform="translate(8,3)"><path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#709900" stroke-width="3"></path><text x="21" style="color: #333333; cursor: pointer; font-size: 12px; font-weight: bold; fill: #333333;" text-anchor="start" data-z-index="2" y="15"><tspan>Cumulative number</tspan></text></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-0 highcharts-series-1" data-z-index="1" transform="translate(151.390625,3)"><text x="21" y="15" style="color: #333333; cursor: pointer; font-size: 12px; font-weight: bold; fill: #333333;" text-anchor="start" data-z-index="2"><tspan>New hospital admissions</tspan></text><rect x="2" y="4" width="12" height="12" fill="#393C61" rx="6" ry="6" class="highcharts-point" data-z-index="3"></rect></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7" aria-hidden="true"><text x="204.15841584158" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="393" opacity="1"><tspan>2. Jan</tspan></text><text x="435.84158415842" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="393" opacity="1"><tspan>3. Jan</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7" aria-hidden="true"><text x="71" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="377" opacity="1">0</text><text x="71" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="312" opacity="1">1.2</text><text x="71" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="247" opacity="1">2.4</text><text x="71" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="183" opacity="1">3.6</text><text x="71" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="118" opacity="1">4.8</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7" aria-hidden="true"><text x="569" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="start" transform="translate(0,0)" y="377" opacity="1">990</text><text x="569" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="start" transform="translate(0,0)" y="312" opacity="1">1020</text><text x="569" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="start" transform="translate(0,0)" y="247" opacity="1">1050</text><text x="569" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="start" transform="translate(0,0)" y="183" opacity="1">1080</text><text x="569" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="start" transform="translate(0,0)" y="118" opacity="1">1110</text></g><text x="10" class="highcharts-credits" text-anchor="start" data-z-index="8" style="cursor: pointer; color: #999999; font-size: 9px; fill: #999999;" y="447" aria-label="Chart credits: Source: Norwegian Intensive Care and Pandemic Register" aria-hidden="false"><tspan>Source: Norwegian Intensive Care and Pandemic Register</tspan></text><g class="highcharts-control-points" data-z-index="99" clip-path="url(#highcharts-p1618t9-359-)" aria-hidden="true"></g></svg></div>
 <script>
-(function(){ var files = ["/Static/templates/build/js/highcharts.js","/Static/templates/build/js/highchart-modules.js"],loaded = 0; if (typeof window["HighchartsEditor"] === "undefined") {window.HighchartsEditor = {ondone: [cl],hasWrapped: false,hasLoaded: false};include(files[0]);} else {if (window.HighchartsEditor.hasLoaded) {cl();} else {window.HighchartsEditor.ondone.push(cl);}}function isScriptAlreadyIncluded(src){var scripts = document.getElementsByTagName("script");for (var i = 0; i < scripts.length; i++) {if (scripts[i].hasAttribute("src")) {if ((scripts[i].getAttribute("src") || "").indexOf(src) >= 0 || (scripts[i].getAttribute("src").indexOf("highcharts") >= 0 && src === "/Static/templates/build/js/highcharts.js")) {return true;}}}return false;}function check() {if (loaded === files.length) {for (var i = 0; i < window.HighchartsEditor.ondone.length; i++) {try {window.HighchartsEditor.ondone[i]();} catch(e) {console.error(e);}}window.HighchartsEditor.hasLoaded = true;}}function include(script) {function next() {++loaded;if (loaded < files.length) {include(files[loaded]);}check();}if (isScriptAlreadyIncluded(script)) {return next();}var sc=document.createElement("script");sc.src = script;sc.type="text/javascript";sc.onload=function() { next(); };document.head.appendChild(sc);}function each(a, fn){if (typeof a.forEach !== "undefined"){a.forEach(fn);}else{for (var i = 0; i < a.length; i++){if (fn) {fn(a[i]);}}}}var inc = {},incl=[]; each(document.querySelectorAll("script"), function(t) {inc[t.src.substr(0, t.src.indexOf("?"))] = 1; }); function cl() {if(typeof window["Highcharts"] !== "undefined"){Highcharts.setOptions({lang:{"decimalPoint":".","downloadPNG":"Download PNG","downloadJPEG":"Download JPEG","downloadPDF":"Download PDF","downloadSVG":"Download SVG","downloadXLS":"Download Excel","downloadCSV":"Download CSV","printChart":"Print","contextButtonTitle":"Menu","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data","numericSymbolMagnitude":1000000000000,"rangeSelectorFrom":"From","rangeSelectorTo":"To","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"viewData":"Show table","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"zoomIn":"Zoom in","zoomOut":"Zoom ut","viewFullscreen":"Vis i fullskjerm","drillUpText":"Back to {series.name}","loading":"Loading..."}});var options={"styledMode":"true","title":{"text":"Number of new patients admitted to hospital with COVID-19 as main reason for admission, by admission date","align":"left"},"subtitle":{"align":"left"},"chart":{"spacingBottom":30,"height":452},"credits":{"text":"Source: Norwegian Intensive Care and Pandemic Register","href":"","position":{"align":"left","x":10}},"lang":{"decimalPoint":".","downloadPNG":"Download PNG","downloadJPEG":"Download JPEG","downloadPDF":"Download PDF","downloadSVG":"Download SVG","downloadXLS":"Download Excel","downloadCSV":"Download CSV","printChart":"Print","contextButtonTitle":"Menu","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data","numericSymbolMagnitude":1000000000000,"rangeSelectorFrom":"From","rangeSelectorTo":"To","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"viewData":"Show table","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"zoomIn":"Zoom in","zoomOut":"Zoom ut","viewFullscreen":"Vis i fullskjerm","drillUpText":"Back to {series.name}","loading":"Loading..."},"series":[{"name":"Kumulativt antall","turboThreshold":0,"lineWidth":3,"type":"line","colorIndex":1,"marker":{"enabled":false},"yAxis":1},{"name":"Nye sykehusinnleggelser","turboThreshold":0,"type":"column","yAxis":0,"colorIndex":0}],"legend":{"verticalAlign":"top","align":"right","floating":false,"x":0,"y":0,"enabled":true},"colors":["#393C61","#709900","#2EA1C0","#EC635C","#F7B500","#0F768F","#B11643","#A9B7BF"],"exporting":{"showTable":true,"buttons":{"contextButton":{"menuItems":["viewFullscreen","separator","downloadPNG","downloadJPEG","downloadSVG","separator","downloadCSV","downloadXLS"]}},"csv":{"dateFormat":"%d.%m.%Y"}},"data":{"csv":"\"Date\";\"Kumulativt antall\";\"Nye sykehusinnleggelser\"\n\"2020.01.02\";1000;3\n\"2020.01.03\";1100;4","googleSpreadsheetKey":false,"googleSpreadsheetWorksheet":false},"yAxis":[{"title":{"text":"Number of new patients admitted to hospital"},"labels":{"format":"{value}"}},{"title":{"text":"Cumulative number of patients admitted to hospital"},"opposite":true}],"pane":{"background":[]},"responsive":{"rules":[]},"xAxis":[{"title":{"text":"Date"}}],"plotOptions":{"series":{"dataLabels":{"enabled":false}}}};new Highcharts.Chart("highcharts-af2f3344-41f5-46ae-bb43-d2619876efe3", options);}}})();
+(function(){ var files = ["/Static/templates/build/js/highcharts.js","/Static/templates/build/js/highchart-modules.js"],loaded = 0; if (typeof window["HighchartsEditor"] === "undefined") {window.HighchartsEditor = {ondone: [cl],hasWrapped: false,hasLoaded: false};include(files[0]);} else {if (window.HighchartsEditor.hasLoaded) {cl();} else {window.HighchartsEditor.ondone.push(cl);}}function isScriptAlreadyIncluded(src){var scripts = document.getElementsByTagName("script");for (var i = 0; i < scripts.length; i++) {if (scripts[i].hasAttribute("src")) {if ((scripts[i].getAttribute("src") || "").indexOf(src) >= 0 || (scripts[i].getAttribute("src").indexOf("highcharts") >= 0 && src === "/Static/templates/build/js/highcharts.js")) {return true;}}}return false;}function check() {if (loaded === files.length) {for (var i = 0; i < window.HighchartsEditor.ondone.length; i++) {try {window.HighchartsEditor.ondone[i]();} catch(e) {console.error(e);}}window.HighchartsEditor.hasLoaded = true;}}function include(script) {function next() {++loaded;if (loaded < files.length) {include(files[loaded]);}check();}if (isScriptAlreadyIncluded(script)) {return next();}var sc=document.createElement("script");sc.src = script;sc.type="text/javascript";sc.onload=function() { next(); };document.head.appendChild(sc);}function each(a, fn){if (typeof a.forEach !== "undefined"){a.forEach(fn);}else{for (var i = 0; i < a.length; i++){if (fn) {fn(a[i]);}}}}var inc = {},incl=[]; each(document.querySelectorAll("script"), function(t) {inc[t.src.substr(0, t.src.indexOf("?"))] = 1; }); function cl() {if(typeof window["Highcharts"] !== "undefined"){Highcharts.setOptions({lang:{"decimalPoint":".","downloadPNG":"Download PNG","downloadJPEG":"Download JPEG","downloadPDF":"Download PDF","downloadSVG":"Download SVG","downloadXLS":"Download Excel","downloadCSV":"Download CSV","printChart":"Print","contextButtonTitle":"Menu","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data","numericSymbolMagnitude":1000000000000,"rangeSelectorFrom":"From","rangeSelectorTo":"To","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"viewData":"Show table","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"zoomIn":"Zoom in","zoomOut":"Zoom ut","viewFullscreen":"Vis i fullskjerm","drillUpText":"Back to {series.name}","loading":"Loading..."}});var options={"styledMode":"true","title":{"text":"Number of new patients admitted to hospital with COVID-19 as main reason for admission, by admission date","align":"left"},"subtitle":{"align":"left"},"chart":{"spacingBottom":30,"height":452},"credits":{"text":"Source: Norwegian Intensive Care and Pandemic Register","href":"","position":{"align":"left","x":10}},"lang":{"decimalPoint":".","downloadPNG":"Download PNG","downloadJPEG":"Download JPEG","downloadPDF":"Download PDF","downloadSVG":"Download SVG","downloadXLS":"Download Excel","downloadCSV":"Download CSV","printChart":"Print","contextButtonTitle":"Menu","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data","numericSymbolMagnitude":1000000000000,"rangeSelectorFrom":"From","rangeSelectorTo":"To","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"viewData":"Show table","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"zoomIn":"Zoom in","zoomOut":"Zoom ut","viewFullscreen":"Vis i fullskjerm","drillUpText":"Back to {series.name}","loading":"Loading..."},"series":[{"name":"Cumulative number","turboThreshold":0,"lineWidth":3,"type":"line","colorIndex":1,"marker":{"enabled":false},"yAxis":1},{"name":"New hospital admissions","turboThreshold":0,"type":"column","yAxis":0,"colorIndex":0}],"legend":{"verticalAlign":"top","align":"right","floating":false,"x":0,"y":0,"enabled":true},"colors":["#393C61","#709900","#2EA1C0","#EC635C","#F7B500","#0F768F","#B11643","#A9B7BF"],"exporting":{"showTable":true,"buttons":{"contextButton":{"menuItems":["viewFullscreen","separator","downloadPNG","downloadJPEG","downloadSVG","separator","downloadCSV","downloadXLS"]}},"csv":{"dateFormat":"%d.%m.%Y"}},"data":{"csv":"\"Date\";\"Cumulative number\";\"New hospital admissions\"\n\"2020.01.02\";1000;3\n\"2020.01.03\";1100;4","googleSpreadsheetKey":false,"googleSpreadsheetWorksheet":false},"yAxis":[{"title":{"text":"Number of new patients admitted to hospital"},"labels":{"format":"{value}"}},{"title":{"text":"Cumulative number of patients admitted to hospital"},"opposite":true}],"pane":{"background":[]},"responsive":{"rules":[]},"xAxis":[{"title":{"text":"Date"}}],"plotOptions":{"series":{"dataLabels":{"enabled":false}}}};new Highcharts.Chart("highcharts-af2f3344-41f5-46ae-bb43-d2619876efe3", options);}}})();
 </script>
 </div>
 <p>&nbsp;</p>     
@@ -2906,7 +2906,7 @@
                     (function (utils) {
 
                         utils.waitAndExecute(250, 10, function (x) {
-                            var chartIndex = $('#chart52395527 div[data-highcharts-chart]').data('highcharts-chart');
+                            var chartIndex = $('#chart10444166 div[data-highcharts-chart]').data('highcharts-chart');
                             if (chartIndex != undefined && typeof Highcharts.charts[chartIndex] != "undefined") {
 
                                 
@@ -2917,13 +2917,13 @@
 
                                 Highcharts.charts[chartIndex].data.options.rowsURL = liveurl;
                                 Highcharts.charts[chartIndex].data.fetchLiveData();
-                                $('#chart52395527 .highcharts-inner-wrapper').removeClass("fhi-hidden");
-                                $("#chart52395527 .fhi-loading").addClass("fhi-hidden");
+                                $('#chart10444166 .highcharts-inner-wrapper').removeClass("fhi-hidden");
+                                $("#chart10444166 .fhi-loading").addClass("fhi-hidden");
                                 $.getCachedJSON(window.location.origin + "/api/chartdata/api/91823").done(function (data, textStatus, jqXHR) {
                                     var lastModified = jqXHR.getResponseHeader('X-API-Last-Modified');
                                     if (lastModified != "undefined") {
                                         lastModified = lastModified.slice(0, lastModified.indexOf(":") - 2);
-                                        $("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>").appendTo("#chart52395527 [data-highcharts-chart]");
+                                        $("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>").appendTo("#chart10444166 [data-highcharts-chart]");
                                     }
                                 })
 
@@ -2940,7 +2940,7 @@
                     })(utils);
 
                     function loadChart() {
-                        var chartIndex = $('#chart52395527 div[data-highcharts-chart]').data('highcharts-chart');
+                        var chartIndex = $('#chart10444166 div[data-highcharts-chart]').data('highcharts-chart');
                         if (chartIndex != undefined && typeof Highcharts.charts[chartIndex] != "undefined") {
                             var liveurl = window.location.origin + '/api/chartdata/api/91823';
                             if (currentSelection > 0 || currentSelection === "default") {
@@ -2957,25 +2957,25 @@
 
     </div>
     <script type="text/javascript">
-        if ($("#chart52395527 .highcharts-inner-wrapper > p:last-of-type").text() === " ") {
-                $("#chart52395527 .highcharts-inner-wrapper > p:last-of-type").remove();
+        if ($("#chart10444166 .highcharts-inner-wrapper > p:last-of-type").text() === " ") {
+                $("#chart10444166 .highcharts-inner-wrapper > p:last-of-type").remove();
            }
     </script>
 </figure>
 
 
 <h2>Intensive care admissions</h2>
-<p>The figure below illustrates the number of patients with laboratory-confirmed covid-19 admitted to intensive care.</p>
+<p>The figure below illustrates the number of patients with laboratory-confirmed COVID-19 admitted to intensive care.</p>
 
 
 
 <!-- basic Highcharts block template -->
-<figure id="chart17912110" class="highchart ">
+<figure id="chart40657193" class="highchart ">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
         <div class="options fhi-print--hidden" style="">
                         <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart17912110" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart17912110" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart40657193" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart40657193" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
         </div>
 
@@ -3001,7 +3001,7 @@
                     (function (utils) {
 
                         utils.waitAndExecute(250, 10, function (x) {
-                            var chartIndex = $('#chart17912110 div[data-highcharts-chart]').data('highcharts-chart');
+                            var chartIndex = $('#chart40657193 div[data-highcharts-chart]').data('highcharts-chart');
                             if (chartIndex != undefined && typeof Highcharts.charts[chartIndex] != "undefined") {
 
                                 
@@ -3012,13 +3012,13 @@
 
                                 Highcharts.charts[chartIndex].data.options.rowsURL = liveurl;
                                 Highcharts.charts[chartIndex].data.fetchLiveData();
-                                $('#chart17912110 .highcharts-inner-wrapper').removeClass("fhi-hidden");
-                                $("#chart17912110 .fhi-loading").addClass("fhi-hidden");
+                                $('#chart40657193 .highcharts-inner-wrapper').removeClass("fhi-hidden");
+                                $("#chart40657193 .fhi-loading").addClass("fhi-hidden");
                                 $.getCachedJSON(window.location.origin + "/api/chartdata/api/91829").done(function (data, textStatus, jqXHR) {
                                     var lastModified = jqXHR.getResponseHeader('X-API-Last-Modified');
                                     if (lastModified != "undefined") {
                                         lastModified = lastModified.slice(0, lastModified.indexOf(":") - 2);
-                                        $("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>").appendTo("#chart17912110 [data-highcharts-chart]");
+                                        $("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>").appendTo("#chart40657193 [data-highcharts-chart]");
                                     }
                                 })
 
@@ -3035,7 +3035,7 @@
                     })(utils);
 
                     function loadChart() {
-                        var chartIndex = $('#chart17912110 div[data-highcharts-chart]').data('highcharts-chart');
+                        var chartIndex = $('#chart40657193 div[data-highcharts-chart]').data('highcharts-chart');
                         if (chartIndex != undefined && typeof Highcharts.charts[chartIndex] != "undefined") {
                             var liveurl = window.location.origin + '/api/chartdata/api/91829';
                             if (currentSelection > 0 || currentSelection === "default") {
@@ -3052,25 +3052,25 @@
 
     </div>
     <script type="text/javascript">
-        if ($("#chart17912110 .highcharts-inner-wrapper > p:last-of-type").text() === " ") {
-                $("#chart17912110 .highcharts-inner-wrapper > p:last-of-type").remove();
+        if ($("#chart40657193 .highcharts-inner-wrapper > p:last-of-type").text() === " ") {
+                $("#chart40657193 .highcharts-inner-wrapper > p:last-of-type").remove();
            }
     </script>
 </figure>
 
 
 <h2>COVID-19-associated deaths, by age and sex</h2>
-<p>The figure below illustrates the number of covid-19 associated deaths notified to the Norwegian Institute of Public Health, divided by sex and age group.</p>
+<p>The figure below illustrates the number of COVID-19 associated deaths notified to the Norwegian Institute of Public Health, divided by sex and age group.</p>
 
 
 
 <!-- basic Highcharts block template -->
-<figure id="chart9944510" class="highchart ">
+<figure id="chart50053698" class="highchart ">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
         <div class="options fhi-print--hidden" style="">
                         <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart9944510" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart9944510" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart50053698" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart50053698" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
         </div>
 
@@ -3096,7 +3096,7 @@
                     (function (utils) {
 
                         utils.waitAndExecute(250, 10, function (x) {
-                            var chartIndex = $('#chart9944510 div[data-highcharts-chart]').data('highcharts-chart');
+                            var chartIndex = $('#chart50053698 div[data-highcharts-chart]').data('highcharts-chart');
                             if (chartIndex != undefined && typeof Highcharts.charts[chartIndex] != "undefined") {
 
                                 
@@ -3107,13 +3107,13 @@
 
                                 Highcharts.charts[chartIndex].data.options.rowsURL = liveurl;
                                 Highcharts.charts[chartIndex].data.fetchLiveData();
-                                $('#chart9944510 .highcharts-inner-wrapper').removeClass("fhi-hidden");
-                                $("#chart9944510 .fhi-loading").addClass("fhi-hidden");
+                                $('#chart50053698 .highcharts-inner-wrapper').removeClass("fhi-hidden");
+                                $("#chart50053698 .fhi-loading").addClass("fhi-hidden");
                                 $.getCachedJSON(window.location.origin + "/api/chartdata/api/91830").done(function (data, textStatus, jqXHR) {
                                     var lastModified = jqXHR.getResponseHeader('X-API-Last-Modified');
                                     if (lastModified != "undefined") {
                                         lastModified = lastModified.slice(0, lastModified.indexOf(":") - 2);
-                                        $("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>").appendTo("#chart9944510 [data-highcharts-chart]");
+                                        $("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>").appendTo("#chart50053698 [data-highcharts-chart]");
                                     }
                                 })
 
@@ -3130,7 +3130,7 @@
                     })(utils);
 
                     function loadChart() {
-                        var chartIndex = $('#chart9944510 div[data-highcharts-chart]').data('highcharts-chart');
+                        var chartIndex = $('#chart50053698 div[data-highcharts-chart]').data('highcharts-chart');
                         if (chartIndex != undefined && typeof Highcharts.charts[chartIndex] != "undefined") {
                             var liveurl = window.location.origin + '/api/chartdata/api/91830';
                             if (currentSelection > 0 || currentSelection === "default") {
@@ -3147,8 +3147,8 @@
 
     </div>
     <script type="text/javascript">
-        if ($("#chart9944510 .highcharts-inner-wrapper > p:last-of-type").text() === " ") {
-                $("#chart9944510 .highcharts-inner-wrapper > p:last-of-type").remove();
+        if ($("#chart50053698 .highcharts-inner-wrapper > p:last-of-type").text() === " ") {
+                $("#chart50053698 .highcharts-inner-wrapper > p:last-of-type").remove();
            }
     </script>
 </figure>
@@ -3209,7 +3209,7 @@ History                                    </h2>
 
 
                     <div id="feedback-container" style="display: block;">
-<form action="/en/id/infectious-diseases/coronavirus/daily-reports/daily-reports-COVID19/SendFeedback" data-parsley-validate="" id="feedbackForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="fAX_n3q4_dOWZ_823EFLiAm8Ox1oNaqzb5tAF_qUJ_-unJR5IY6J3BvJRd-fM8TV9h-WQPbIxMn6Lt1kZ9awraWqiEx4VJm8Ae4r4I6hxiU1" /><input id="ContactForm_PositiveFeedback" name="ContactForm.PositiveFeedback" type="hidden" value="" />                            <div class="always-visible">
+<form action="/en/id/infectious-diseases/coronavirus/daily-reports/daily-reports-COVID19/SendFeedback" data-parsley-validate="" id="feedbackForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="VOHo9_y5JrR_rV_dhEz_THaD5xqlE4O4pzUruuxT6ooamIPXZTndGxF7jztd-dQ5Er_ub70BR1rjU8MWxEJcBdFZS1XDDr6etHX2ZzXOupA1" /><input id="ContactForm_PositiveFeedback" name="ContactForm.PositiveFeedback" type="hidden" value="" />                            <div class="always-visible">
                                 <h3>Did you find what you were looking for?</h3>
                                 <div class="answer-group">
                                     <button class="callBtn" onclick="positive.call(this); return false;">
@@ -3574,7 +3574,7 @@ History                                    </h2>
 
                 <div class="page-type">
 
-                    1.0.0.0 - RD0003FF1B3A48 - Article
+                    1.0.0.0 - RD0003FF1B174D - Article
                 </div>
             </div>
         </div>
