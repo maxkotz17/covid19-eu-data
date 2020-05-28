@@ -263,6 +263,13 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/direcao-geral-da-saude-publica-orientacao-para-a-utilizacao-de-equipamentos-culturais/" class="news_link">
+    								<span class="news_date">28/05/2020</span>								
+    								<h2 class="news_title">Direção-Geral da Saúde publica orientação para a utilização de equipamentos culturais</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/rede-de-laboratorios-continua-a-aumentar/" class="news_link">
     								<span class="news_date">28/05/2020</span>								
     								<h2 class="news_title">Rede de laboratórios continua a aumentar</h2>
@@ -280,13 +287,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/mais-de-2-100-profissionais-de-saude-dados-como-curados-da-covid-19/" class="news_link">
     								<span class="news_date">28/05/2020</span>								
     								<h2 class="news_title">Mais de 2.100 profissionais de saúde dados como curados da COVID-19</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/mais-de-metade-dos-portugueses-infetados-estao-recuperados/" class="news_link">
-    								<span class="news_date">28/05/2020</span>								
-    								<h2 class="news_title">Mais de metade dos portugueses infetados estão recuperados</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -413,7 +413,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">tempus massa elit. Praesent commodo mattis efficitur. risus. sem, in odio dapibus</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">tempus libero. quis, et, consectetur ut commodo id, vulputate, diam eget commodo</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -503,5 +503,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-05-28 18:19:41 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-05-28 22:18:39 by W3 Total Cache
 -->
