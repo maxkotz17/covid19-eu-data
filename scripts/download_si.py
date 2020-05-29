@@ -45,7 +45,13 @@ class SARSCOV2SI(COVIDScrapper):
                 "Positive": "cases",
                 "Hospitalized": "hospitalized",
                 "Intensive care": "intensive_care",
-                "Death": "deaths"
+                "Death": "deaths",
+                "Datum": "datetime",
+                "Opravljeni testi": "tests",
+                "Pozitivne osebe": "cases",
+                "Hospitalizirane osebe": "hospitalized",
+                "Osebe na intenzivni negi": "intensive_care",
+                "Umrli": "deaths"
             }, inplace=True
         )
         self.df["datetime"] = self.df.datetime.apply(
