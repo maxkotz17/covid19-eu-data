@@ -75,7 +75,11 @@ def cache_table():
 
     df = req_dfs[0]
 
-    dt = dateutil.parser.parse(df.iloc[0].Date, dayfirst=True)
+    try:
+        dt = dateutil.parser.parse(df.iloc[0].Date, dayfirst=True)
+    except Exception as e:
+        dt = dateutil.parser.parse(df.iloc[0].Datum, dayfirst=True)
+        pass
 
     logger.info("records cases:\n", df)
 
