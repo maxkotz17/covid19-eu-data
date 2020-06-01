@@ -1,5 +1,9 @@
 # Changelog
 
+## 2020-06-01
+
+1. AT: "Vienna did not report any numbers on June 1, 2020 and will submit these with the report of June 2, 2020."
+
 ## 2020-05-22
 
 1. Removed `documents/be` and `documents/dk` because they are bloating a lot and reached the GitHub storage hard limit (2G). The files have been moved to [covid19-eu-zh/covid19-eu-data-20200522](https://github.com/covid19-eu-zh/covid19-eu-data-20200522).
