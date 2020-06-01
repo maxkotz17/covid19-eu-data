@@ -114,6 +114,11 @@ class SARSCOV2AT(COVIDScrapper):
         self.df[geo_loc_key] = self.df[geo_loc_key].apply(
             lambda x: AT_STATES[x] if x in AT_STATES else SUM_KEY[x]
         )
+        for col in self.df.columns:
+            self.df[col] = self.df[col].apply(
+                lambda x: x.replace("*", "").replace("+","").replace(".","").replace(",","")
+                if isinstance(x, str) else x
+            )
 
         self.df.fillna("", inplace=True)
         self.df["cases"] = self.df.cases.astype(int)
