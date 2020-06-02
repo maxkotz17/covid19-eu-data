@@ -263,30 +263,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/adeptos-de-futebol-devem-celebrar-com-distancia-de-seguranca/" class="news_link">
+    								<span class="news_date">02/06/2020</span>								
+    								<h2 class="news_title">Adeptos de futebol devem celebrar com distância de segurança</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/cerca-de-35-das-consultas-e-exames-ja-foram-reagendados/" class="news_link">
+    								<span class="news_date">02/06/2020</span>								
+    								<h2 class="news_title">Cerca de 35% das consultas e exames já foram reagendados</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/recolhidas-mais-de-2-000-amostras-em-empresas-da-regiao-de-lisboa-e-vale-do-tejo/" class="news_link">
+    								<span class="news_date">02/06/2020</span>								
+    								<h2 class="news_title">Recolhidas mais de 2.000 amostras em empresas da região de Lisboa e Vale do Tejo</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/lisboa-e-vale-do-tejo-com-capacidade-para-sete-mil-testes-de-diagnostico-por-dia/" class="news_link">
     								<span class="news_date">01/06/2020</span>								
     								<h2 class="news_title">Lisboa e Vale do Tejo com capacidade para sete mil testes de diagnóstico por dia</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/diretora-geral-da-saude-volta-a-apelar-a-vacinacao-2/" class="news_link">
-    								<span class="news_date">01/06/2020</span>								
-    								<h2 class="news_title">Diretora-Geral da Saúde volta a apelar à vacinação</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/graca-freitas-pede-responsabilidade-aos-adeptos-de-futebol/" class="news_link">
-    								<span class="news_date">01/06/2020</span>								
-    								<h2 class="news_title">Graça Freitas pede responsabilidade aos adeptos de futebol</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/nove-das-14-criancas-internadas-no-hospital-dona-estefania-ja-tiveram-alta/" class="news_link">
-    								<span class="news_date">01/06/2020</span>								
-    								<h2 class="news_title">Nove das 14 crianças internadas no Hospital Dona Estefânia já tiveram alta</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -413,7 +413,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">justo lectus ut et, ut Aliquam vel, in odio eleifend</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">Praesent Praesent eleifend sed sit libero commodo tempus</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -503,5 +503,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-02 14:18:27 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-02 18:18:30 by W3 Total Cache
 -->
