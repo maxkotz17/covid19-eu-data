@@ -263,30 +263,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/taxa-de-letalidade-dentro-do-esperado-norte-e-lvt-com-transmissao-comunitaria/" class="news_link">
+    							<a href="https://covid19.min-saude.pt/alteracoes-no-local-de-residencia-podem-explicar-discrepancia-nos-numeros-por-regiao/" class="news_link">
     								<span class="news_date">03/06/2020</span>								
-    								<h2 class="news_title">Taxa de letalidade dentro do esperado. Norte e LVT com transmissão comunitária</h2>
+    								<h2 class="news_title">Alterações no local de residência podem explicar discrepância nos números por região</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/adeptos-de-futebol-devem-celebrar-com-distancia-de-seguranca/" class="news_link">
-    								<span class="news_date">02/06/2020</span>								
-    								<h2 class="news_title">Adeptos de futebol devem celebrar com distância de segurança</h2>
+    							<a href="https://covid19.min-saude.pt/portugal-aguarda-a-chegada-de-443-ventiladores-esta-semana/" class="news_link">
+    								<span class="news_date">03/06/2020</span>								
+    								<h2 class="news_title">Portugal aguarda a chegada de 443 ventiladores esta semana</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/cerca-de-35-das-consultas-e-exames-ja-foram-reagendados/" class="news_link">
-    								<span class="news_date">02/06/2020</span>								
-    								<h2 class="news_title">Cerca de 35% das consultas e exames já foram reagendados</h2>
+    							<a href="https://covid19.min-saude.pt/realizados-mais-de-860-000-testes-de-diagnostico-a-covid-19/" class="news_link">
+    								<span class="news_date">03/06/2020</span>								
+    								<h2 class="news_title">Realizados mais de 860.000 testes de diagnóstico à COVID-19</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/recolhidas-mais-de-2-000-amostras-em-empresas-da-regiao-de-lisboa-e-vale-do-tejo/" class="news_link">
-    								<span class="news_date">02/06/2020</span>								
-    								<h2 class="news_title">Recolhidas mais de 2.000 amostras em empresas da região de Lisboa e Vale do Tejo</h2>
+    							<a href="https://covid19.min-saude.pt/mais-de-20-mil-recuperados-numero-de-internados-continua-a-diminuir/" class="news_link">
+    								<span class="news_date">03/06/2020</span>								
+    								<h2 class="news_title">Mais de 20 mil recuperados. Número de internados continua a diminuir</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -413,7 +413,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">libero. ut Nullam risus. venenatis, porta. Donec tempus sed</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">vel, id porta. felis eget dictum</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -503,5 +503,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-03 14:17:21 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-03 18:19:20 by W3 Total Cache
 -->
