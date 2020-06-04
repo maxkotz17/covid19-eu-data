@@ -263,30 +263,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/alteracoes-no-local-de-residencia-podem-explicar-discrepancia-nos-numeros-por-regiao/" class="news_link">
-    								<span class="news_date">03/06/2020</span>								
-    								<h2 class="news_title">Alterações no local de residência podem explicar discrepância nos números por região</h2>
+    							<a href="https://covid19.min-saude.pt/insa-ja-detetou-600-mutacoes-do-novo-coronavirus/" class="news_link">
+    								<span class="news_date">04/06/2020</span>								
+    								<h2 class="news_title">INSA já detetou 600 mutações do novo coronavírus</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/portugal-aguarda-a-chegada-de-443-ventiladores-esta-semana/" class="news_link">
-    								<span class="news_date">03/06/2020</span>								
-    								<h2 class="news_title">Portugal aguarda a chegada de 443 ventiladores esta semana</h2>
+    							<a href="https://covid19.min-saude.pt/hospitais-estudam-sequelas-deixadas-pela-covid-19/" class="news_link">
+    								<span class="news_date">04/06/2020</span>								
+    								<h2 class="news_title">Hospitais estudam sequelas deixadas pela COVID-19</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/realizados-mais-de-860-000-testes-de-diagnostico-a-covid-19/" class="news_link">
-    								<span class="news_date">03/06/2020</span>								
-    								<h2 class="news_title">Realizados mais de 860.000 testes de diagnóstico à COVID-19</h2>
+    							<a href="https://covid19.min-saude.pt/testagem-reforcada-em-lisboa-resto-do-pais-a-ser-acompanhado/" class="news_link">
+    								<span class="news_date">04/06/2020</span>								
+    								<h2 class="news_title">Testagem reforçada em Lisboa. Resto do país a ser acompanhado</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/mais-de-20-mil-recuperados-numero-de-internados-continua-a-diminuir/" class="news_link">
-    								<span class="news_date">03/06/2020</span>								
-    								<h2 class="news_title">Mais de 20 mil recuperados. Número de internados continua a diminuir</h2>
+    							<a href="https://covid19.min-saude.pt/testes-serologicos-nao-sao-testes-de-diagnostico-alerta-insa/" class="news_link">
+    								<span class="news_date">04/06/2020</span>								
+    								<h2 class="news_title">Testes serológicos não são testes de diagnóstico, alerta INSA</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -413,7 +413,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">amet, Sed felis ut vulputate, dolor. et, suscipit</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">venenatis, Donec nec id ultricies adipiscing nunc</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -503,5 +503,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-04 14:17:37 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-04 18:18:41 by W3 Total Cache
 -->
