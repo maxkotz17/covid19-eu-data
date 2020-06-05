@@ -263,30 +263,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/ferias-em-tempo-de-pandemia-exigem-novas-regras/" class="news_link">
+    								<span class="news_date">05/06/2020</span>								
+    								<h2 class="news_title">Férias em tempo de pandemia exigem novas regras</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/mais-de-5-500-profissionais-de-saude-contratados-para-o-sns/" class="news_link">
+    								<span class="news_date">05/06/2020</span>								
+    								<h2 class="news_title">Mais de 5.500 profissionais de saúde contratados para o SNS</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/diretora-geral-da-saude-apela-ao-cumprimento-do-isolamento/" class="news_link">
+    								<span class="news_date">05/06/2020</span>								
+    								<h2 class="news_title">Diretora-Geral da Saúde apela ao cumprimento do isolamento</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/direcao-geral-da-saude-publica-orientacao-sobre-gravidez-e-parto/" class="news_link">
     								<span class="news_date">05/06/2020</span>								
     								<h2 class="news_title">Direção-Geral da Saúde publica orientação sobre gravidez e parto</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/insa-ja-detetou-600-mutacoes-do-novo-coronavirus/" class="news_link">
-    								<span class="news_date">04/06/2020</span>								
-    								<h2 class="news_title">INSA já detetou 600 mutações do novo coronavírus</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/hospitais-estudam-sequelas-deixadas-pela-covid-19/" class="news_link">
-    								<span class="news_date">04/06/2020</span>								
-    								<h2 class="news_title">Hospitais estudam sequelas deixadas pela COVID-19</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/testagem-reforcada-em-lisboa-resto-do-pais-a-ser-acompanhado/" class="news_link">
-    								<span class="news_date">04/06/2020</span>								
-    								<h2 class="news_title">Testagem reforçada em Lisboa. Resto do país a ser acompanhado</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -413,7 +413,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">lectus ipsum Aenean eget Lorem felis non dolor at consectetur sit nunc</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">justo elementum Donec libero. mi, venenatis, consequat. nec ut</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -503,5 +503,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-05 14:17:54 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-05 18:17:49 by W3 Total Cache
 -->
