@@ -911,7 +911,7 @@
 <h2><strong>Key figures for Norway</strong></h2>
 <p>Total number in Norway since February 2020 (cumulative figures):</p>
 
-    <div class="fhi-row" id="kfr27312085">
+    <div class="fhi-row" id="kfr54297034">
         <div class="fhi-col">
             <div class="fhi-key-figure-row">
                 <div class="fhi-flex">
@@ -982,7 +982,7 @@
                 if (data && typeof data.figures !== "undefined") {
                     data.figures.forEach(function (figure) {
                         if (figure && typeof figure.key !== "undefined") {
-                            var wrapper = $('div#kfr27312085 div.fhi-key-figure > div.wrapper[data-json-key="' + figure.key + '"]');
+                            var wrapper = $('div#kfr54297034 div.fhi-key-figure > div.wrapper[data-json-key="' + figure.key + '"]');
                             if (typeof figure.number != "undefined") {
                                 wrapper.find('.fhi-key-figure-number span').text(figure.number);
                                 
@@ -995,7 +995,7 @@
                             }
                         }
                     });
-                    utils.formatNumbers("#kfr27312085 .fhi-key-figure-number span");
+                    utils.formatNumbers("#kfr54297034 .fhi-key-figure-number span");
                 }
             })
         });
@@ -1016,12 +1016,12 @@
 
 
 <!-- basic Highcharts block template -->
-<figure id="chart63046762" class="highchart ">
+<figure id="chart39646284" class="highchart ">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
         <div class="options fhi-print--hidden" style="">
                                                                 <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart63046762" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart63046762" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart39646284" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart39646284" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
         </div>
 
@@ -1041,7 +1041,7 @@
         <script type="text/javascript">
                 (function () {
                     $(document).ready(function () {
-                        var chartId = "chart" + 63046762;
+                        var chartId = "chart" + 39646284;
                         var chart = new CustomHighchart(chartId, "/api/chartdata/api/90789");
 
                         utils.waitAndExecute(250, 10, function () {
@@ -1053,8 +1053,8 @@
                                 
                             
                                 chart.load(null, function () {
-                                    $('#chart63046762 .highcharts-inner-wrapper').removeClass("fhi-hidden");
-                                    $("#chart63046762 .fhi-loading").addClass("fhi-hidden");
+                                    $('#chart39646284 .highcharts-inner-wrapper').removeClass("fhi-hidden");
+                                    $("#chart39646284 .fhi-loading").addClass("fhi-hidden");
                                     chart.getHeader("X-API-Last-Modified", null, function (date) {
                                         date = date.slice(0, date.indexOf(":") - 2);
                                         $("<p class='highcharts-updated'>" + "Updated" + " " + new Date(date).toLocaleDateString("en", { month: "long", day: "numeric" }) + "</p>").appendTo("#" + chartId + " [data-highcharts-chart]");
@@ -1072,7 +1072,7 @@
                 })();
         </script>
     <script type="text/javascript">
-        var surplusParagraph = $("#chart63046762 .highcharts-inner-wrapper > p:last-of-type");
+        var surplusParagraph = $("#chart39646284 .highcharts-inner-wrapper > p:last-of-type");
         if (surplusParagraph.text() === " ") {
             surplusParagraph.remove();
         }
@@ -1086,32 +1086,32 @@
 
 
 <!-- basic Highcharts block template -->
-<figure id="chart13274874" class="highchart ">
+<figure id="chart62559710" class="highchart ">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
         <div class="options fhi-print--hidden" style="min-height: 42px">
 
 
-    <div id="location13274874" class="fhi-dropdown fhi-m-bottom-S fhi-m-left-S-plus@LG fhi-m-top-S@LG fhi-hidden">
-        <span class="fhi-visually-hidden" id="location13274874-label">
+    <div id="location62559710" class="fhi-dropdown fhi-m-bottom-S fhi-m-left-S-plus@LG fhi-m-top-S@LG fhi-hidden">
+        <span class="fhi-visually-hidden" id="location62559710-label">
             County selector
         </span>
         <button class="fhi-dropdown-btn"
                 aria-haspopup="listbox"
-                aria-labelledby="location13274874-dropdown-label"
-                id="location13274874-dropdown-button">
+                aria-labelledby="location62559710-dropdown-label"
+                id="location62559710-dropdown-button">
             Select county
         </button>
         <ul class="fhi-dropdown-list fhi-hidden"
             tabindex="-1"
             role="listbox"
-            aria-labelledby="location13274874-dropdown-label">
+            aria-labelledby="location62559710-dropdown-label">
         </ul>
 
     </div>
 
                                     
 
-<label id="toggle13274874" class="fhi-toggle-switch fhi-hidden timegranularity">
+<label id="toggle62559710" class="fhi-toggle-switch fhi-hidden timegranularity">
     <span class="fhi-visually-hidden">County selector</span>
     <input tabindex="0" type="checkbox" checked="checked" />
     <span class="fhi-slider"></span>
@@ -1121,8 +1121,8 @@
     </span>
 </label>
                             <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart13274874" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart13274874" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart62559710" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart62559710" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
         </div>
 
@@ -1142,7 +1142,7 @@
         <script type="text/javascript">
                 (function () {
                     $(document).ready(function () {
-                        var chartId = "chart" + 13274874;
+                        var chartId = "chart" + 62559710;
                         var chart = new CustomHighchart(chartId, "/api/chartdata/api/90814");
 
                         utils.waitAndExecute(250, 10, function () {
@@ -1164,19 +1164,19 @@
                                 $.getCachedJSON('/Static/templates/js/highcharts/data/counties.json').done(function (d) {
                                     d.sort(chart.sortData());
                                     var data = [{ name: "All counties", id: 0 }].concat(d);
-                                    initDropdown("#location13274874", data, function (val) {
+                                    initDropdown("#location62559710", data, function (val) {
                                         var data = val > 0 ? val : "";
                                         chart.reload(["location", data]);
                                     });
-                                    $("#location" + 13274874).removeClass("fhi-hidden");
+                                    $("#location" + 62559710).removeClass("fhi-hidden");
                                 });
                                 
 
                             
                                 chart.load(null, function () {
-                                    $('#chart13274874 .highcharts-inner-wrapper').removeClass("fhi-hidden");
-                                    $("#chart13274874 .fhi-loading").addClass("fhi-hidden");
-                                    $("#toggle" + 13274874).removeClass("fhi-hidden");
+                                    $('#chart62559710 .highcharts-inner-wrapper').removeClass("fhi-hidden");
+                                    $("#chart62559710 .fhi-loading").addClass("fhi-hidden");
+                                    $("#toggle" + 62559710).removeClass("fhi-hidden");
                                     chart.getHeader("X-API-Last-Modified", null, function (date) {
                                         date = date.slice(0, date.indexOf(":") - 2);
                                         $("<p class='highcharts-updated'>" + "Updated" + " " + new Date(date).toLocaleDateString("en", { month: "long", day: "numeric" }) + "</p>").appendTo("#" + chartId + " [data-highcharts-chart]");
@@ -1194,7 +1194,7 @@
                 })();
         </script>
     <script type="text/javascript">
-        var surplusParagraph = $("#chart13274874 .highcharts-inner-wrapper > p:last-of-type");
+        var surplusParagraph = $("#chart62559710 .highcharts-inner-wrapper > p:last-of-type");
         if (surplusParagraph.text() === " ") {
             surplusParagraph.remove();
         }
@@ -1208,20 +1208,40 @@
 
 
 <!-- basic Highcharts block template -->
-<figure id="chart15359795" class="highchart ">
+<figure id="chart53059582" class="highchart ">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
         <div class="options fhi-print--hidden" style="">
-                                                                <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart15359795" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart15359795" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                        
+
+    <div id="range53059582" class="fhi-dropdown fhi-m-bottom-S fhi-m-left-S-plus@LG fhi-m-top-S@LG fhi-hidden">
+        <span class="fhi-visually-hidden" id="range53059582-label">
+            Week selector
+        </span>
+        <button class="fhi-dropdown-btn"
+                aria-haspopup="listbox"
+                aria-labelledby="range53059582-dropdown-label"
+                id="range53059582-dropdown-button">
+            Choose week
+        </button>
+        <ul class="fhi-dropdown-list fhi-hidden"
+            tabindex="-1"
+            role="listbox"
+            aria-labelledby="range53059582-dropdown-label">
+        </ul>
+
+    </div>
+
+                                        <div class="fhi-tabs__container fhi-print--hidden">
+                    <button role="tab" aria-selected="true" aria-controls="chart53059582" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart53059582" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
         </div>
 
         <div class="highcharts-inner-wrapper fhi-hidden">
-            <div class="mceNonEditable" data-hc="{&quot;template&quot;:{&quot;chart&quot;:{&quot;type&quot;:&quot;column&quot;,&quot;polar&quot;:false}},&quot;options&quot;:{&quot;styledMode&quot;:&quot;true&quot;,&quot;title&quot;:{&quot;text&quot;:&quot;Number of confirmed COVID-19 cases by age and sex&quot;,&quot;align&quot;:&quot;left&quot;},&quot;subtitle&quot;:{&quot;align&quot;:&quot;left&quot;},&quot;credits&quot;:{&quot;text&quot;:&quot;Kilde: Folkehelseinstituttet&quot;,&quot;href&quot;:&quot;https://fhi.no&quot;,&quot;position&quot;:{&quot;align&quot;:&quot;left&quot;,&quot;x&quot;:10}},&quot;lang&quot;:{&quot;decimalPoint&quot;:&quot;.&quot;,&quot;downloadPNG&quot;:&quot;Download PNG&quot;,&quot;downloadJPEG&quot;:&quot;Download JPEG&quot;,&quot;downloadPDF&quot;:&quot;Download PDF&quot;,&quot;downloadSVG&quot;:&quot;Download SVG&quot;,&quot;downloadXLS&quot;:&quot;Download Excel&quot;,&quot;downloadCSV&quot;:&quot;Download CSV&quot;,&quot;printChart&quot;:&quot;Print&quot;,&quot;contextButtonTitle&quot;:&quot;Menu&quot;},&quot;series&quot;:[{&quot;data&quot;:[[&quot;0-9&quot;,20],[&quot;10-19&quot;,54],[&quot;20-29&quot;,246],[&quot;30-39&quot;,243],[&quot;40-49&quot;,307],[&quot;50-59&quot;,308],[&quot;60-69&quot;,161],[&quot;70-79&quot;,91],[&quot;80-89&quot;,66],[&quot;90-102&quot;,14]],&quot;name&quot;:&quot;Women&quot;,&quot;turboThreshold&quot;:0,&quot;type&quot;:&quot;column&quot;,&quot;colorIndex&quot;:1},{&quot;data&quot;:[[&quot;0-9&quot;,16],[&quot;10-19&quot;,62],[&quot;20-29&quot;,164],[&quot;30-39&quot;,278],[&quot;40-49&quot;,359],[&quot;50-59&quot;,380],[&quot;60-69&quot;,198],[&quot;70-79&quot;,124],[&quot;80-89&quot;,52],[&quot;90-102&quot;,12]],&quot;name&quot;:&quot;Men&quot;,&quot;turboThreshold&quot;:0,&quot;type&quot;:&quot;column&quot;,&quot;colorIndex&quot;:0}],&quot;legend&quot;:{&quot;verticalAlign&quot;:&quot;top&quot;,&quot;align&quot;:&quot;right&quot;,&quot;y&quot;:50,&quot;floating&quot;:true,&quot;x&quot;:0},&quot;colors&quot;:[&quot;#393C61&quot;,&quot;#709900&quot;,&quot;#2EA1C0&quot;,&quot;#EC635C&quot;,&quot;#F7B500&quot;,&quot;#0F768F&quot;,&quot;#B11643&quot;,&quot;#A9B7BF&quot;],&quot;exporting&quot;:{&quot;showTable&quot;:true,&quot;csv&quot;:{&quot;dateFormat&quot;:&quot;%d.%m.%Y&quot;}},&quot;data&quot;:{&quot;csv&quot;:&quot;\&quot;Age\&quot;;\&quot;Women\&quot;;\&quot;Men\&quot;\n\&quot;0-9\&quot;;20;16\n\&quot;10-19\&quot;;54;62\n\&quot;20-29\&quot;;246;164\n\&quot;30-39\&quot;;243;278\n\&quot;40-49\&quot;;307;359\n\&quot;50-59\&quot;;308;380\n\&quot;60-69\&quot;;161;198\n\&quot;70-79\&quot;;91;124\n\&quot;80-89\&quot;;66;52\n\&quot;90-102\&quot;;14;12&quot;},&quot;chart&quot;:{&quot;inverted&quot;:false,&quot;height&quot;:null},&quot;pane&quot;:{&quot;background&quot;:[]},&quot;responsive&quot;:{&quot;rules&quot;:[]},&quot;yAxis&quot;:[{&quot;title&quot;:{&quot;text&quot;:&quot;Number of reported cases&quot;},&quot;labels&quot;:{}}],&quot;xAxis&quot;:[{&quot;type&quot;:&quot;category&quot;,&quot;title&quot;:{&quot;text&quot;:&quot;Age group (years)&quot;},&quot;labels&quot;:{}}],&quot;plotOptions&quot;:{&quot;series&quot;:{&quot;animation&quot;:false}}},&quot;theme&quot;:false,&quot;settings&quot;:{&quot;constructor&quot;:&quot;Chart&quot;,&quot;dataProvider&quot;:{&quot;csv&quot;:&quot;\&quot;Alder\&quot;;\&quot;Kvinner\&quot;;\&quot;Menn\&quot;\n\&quot;0-9\&quot;;20;16\n\&quot;10-19\&quot;;54;62\n\&quot;20-29\&quot;;246;164\n\&quot;30-39\&quot;;243;278\n\&quot;40-49\&quot;;307;359\n\&quot;50-59\&quot;;308;380\n\&quot;60-69\&quot;;161;198\n\&quot;70-79\&quot;;91;124\n\&quot;80-89\&quot;;66;52\n\&quot;90-102\&quot;;14;12&quot;,&quot;googleSpreadsheet&quot;:false,&quot;liveData&quot;:false}}}">
-<div id="highcharts-4c4c802e-2628-41ec-b504-f1ed1165082c"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 12px;" xmlns="http://www.w3.org/2000/svg" width="650" height="400" viewbox="0 0 650 400" aria-label="Interactive chart" aria-hidden="false"><desc aria-hidden="true">Created with Highcharts 8.1.0</desc><defs aria-hidden="true"><rect x="0" y="0" width="566" height="284" fill="none"></rect><rect x="74" y="53" width="566" height="284" fill="none"></rect></defs><rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="650" height="400" rx="0" ry="0" aria-hidden="true"></rect><rect fill="none" class="highcharts-plot-background" x="74" y="53" width="566" height="284" aria-hidden="true"></rect><g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1" aria-hidden="true"><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 130.5 53 L 130.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 186.5 53 L 186.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 243.5 53 L 243.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 299.5 53 L 299.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 356.5 53 L 356.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 413.5 53 L 413.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 469.5 53 L 469.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 526.5 53 L 526.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 582.5 53 L 582.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 639.5 53 L 639.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 73.5 53 L 73.5 337" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1" aria-hidden="true"><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 74 337.5 L 640 337.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 74 266.5 L 640 266.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 74 195.5 L 640 195.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 74 124.5 L 640 124.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 74 52.5 L 640 52.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" data-z-index="1" x="74" y="53" width="566" height="284" aria-hidden="true"></rect><g class="highcharts-axis highcharts-xaxis" data-z-index="2" aria-hidden="true"><text x="357" data-z-index="7" text-anchor="middle" transform="translate(0,0)" class="highcharts-axis-title" style="color: #666666; fill: #666666;" y="378.375"><tspan>Age group (years)</tspan></text><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" data-z-index="7" d="M 74 337.5 L 640 337.5"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2" aria-hidden="true"><text x="25.609375" data-z-index="7" text-anchor="middle" transform="translate(0,0) rotate(270 25.609375 195)" class="highcharts-axis-title" style="color: #666666; fill: #666666;" y="195"><tspan>Number of reported cases</tspan></text><path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 74 53 L 74 337"></path></g><g class="highcharts-series-group" data-z-index="3" aria-hidden="false"><g data-z-index="0.1" class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-1" transform="translate(74,53) scale(1 1)" clip-path="url(#highcharts-zrd6hkw-1420-)" aria-hidden="false" role="region" aria-label="Kvinner, bar series 1 of 2 with 10 bars." style="outline: 0px;" tabindex="-1"><rect x="12.5" y="270.5" width="14" height="14" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="1. 0-9, 20. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="69.5" y="246.5" width="14" height="38" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="2. 10-19, 54. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="125.5" y="109.5" width="14" height="175" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="3. 20-29, 246. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="182.5" y="111.5" width="14" height="173" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="4. 30-39, 243. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="238.5" y="66.5" width="14" height="218" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="5. 40-49, 307. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="295.5" y="65.5" width="14" height="219" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="6. 50-59, 308. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="352.5" y="170.5" width="14" height="114" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="7. 60-69, 161. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="408.5" y="219.5" width="14" height="65" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="8. 70-79, 91. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="465.5" y="237.5" width="14" height="47" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="9. 80-89, 66. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="521.5" y="274.5" width="14" height="10" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="10. 90-102, 14. Kvinner." style="outline: 0px;" tabindex="-1"></rect></g><g data-z-index="0.1" class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-1" transform="translate(74,53) scale(1 1)" clip-path="none" aria-hidden="true"></g><g data-z-index="0.1" class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-0" transform="translate(74,53) scale(1 1)" clip-path="url(#highcharts-zrd6hkw-1420-)" aria-hidden="false" role="region" aria-label="Menn, bar series 2 of 2 with 10 bars." style="outline: 0px;" tabindex="-1"><rect x="29.5" y="273.5" width="14" height="11" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="1. 0-9, 16. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="86.5" y="240.5" width="14" height="44" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="2. 10-19, 62. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="142.5" y="168.5" width="14" height="116" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="3. 20-29, 164. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="199.5" y="87.5" width="14" height="197" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="4. 30-39, 278. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="255.5" y="29.5" width="14" height="255" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="5. 40-49, 359. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="312.5" y="14.5" width="14" height="270" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="6. 50-59, 380. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="369.5" y="143.5" width="14" height="141" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="7. 60-69, 198. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="425.5" y="196.5" width="14" height="88" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="8. 70-79, 124. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="482.5" y="247.5" width="14" height="37" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="9. 80-89, 52. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="538.5" y="275.5" width="14" height="9" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="10. 90-102, 12. Menn." style="outline: 0px;" tabindex="-1"></rect></g><g data-z-index="0.1" class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-0" transform="translate(74,53) scale(1 1)" clip-path="none" aria-hidden="true"></g></g><text x="10" text-anchor="start" class="highcharts-title" data-z-index="4" style="color: #333333; font-size: 18px; fill: #333333;" y="24" aria-hidden="true"><tspan>Number of confirmed COVID-19 cases by age and sex</tspan></text><text x="10" text-anchor="start" class="highcharts-subtitle" data-z-index="4" style="color: #666666; fill: #666666;" y="52" aria-hidden="true"></text><text x="10" text-anchor="start" class="highcharts-caption" data-z-index="4" style="color: #666666; fill: #666666;" y="397" aria-hidden="true"></text><g class="highcharts-legend" data-z-index="7" transform="translate(482,60)" aria-hidden="true"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="158" height="29" visibility="visible"></rect><g data-z-index="1"><g><g class="highcharts-legend-item highcharts-column-series highcharts-color-1 highcharts-series-0" data-z-index="1" transform="translate(8,3)"><text x="21" style="color: #333333; cursor: pointer; font-size: 12px; font-weight: bold; fill: #333333;" text-anchor="start" data-z-index="2" y="15"><tspan>Women</tspan></text><rect x="2" y="4" width="12" height="12" fill="#709900" rx="6" ry="6" class="highcharts-point" data-z-index="3"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-0 highcharts-series-1" data-z-index="1" transform="translate(95.90625,3)"><text x="21" y="15" style="color: #333333; cursor: pointer; font-size: 12px; font-weight: bold; fill: #333333;" text-anchor="start" data-z-index="2"><tspan>Men</tspan></text><rect x="2" y="4" width="12" height="12" fill="#393C61" rx="6" ry="6" class="highcharts-point" data-z-index="3"></rect></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7" aria-hidden="true"><text x="102.3" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">0-9</text><text x="158.89999999999998" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">10-19</text><text x="215.5" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">20-29</text><text x="272.09999999999997" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">30-39</text><text x="328.7" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">40-49</text><text x="385.3" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">50-59</text><text x="441.9" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">60-69</text><text x="498.49999999999994" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">70-79</text><text x="555.1" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">80-89</text><text x="611.7" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">90-102</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7" aria-hidden="true"><text x="59" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="340" opacity="1">0</text><text x="59" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="269" opacity="1">100</text><text x="59" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="198" opacity="1">200</text><text x="59" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="127" opacity="1">300</text><text x="59" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="56" opacity="1">400</text></g><text x="10" class="highcharts-credits" text-anchor="start" data-z-index="8" style="cursor: pointer; color: #999999; font-size: 9px; fill: #999999;" y="395" aria-label="Chart credits: Source: Norwegian Institute of Public Health" aria-hidden="false"><tspan> Source: Norwegian Institute of Public Health</tspan></text><g class="highcharts-control-points" data-z-index="99" clip-path="url(#highcharts-zrd6hkw-1443-)" aria-hidden="true"></g></svg></div>
+            <div class="mceNonEditable" data-hc="{&quot;template&quot;:{&quot;chart&quot;:{&quot;type&quot;:&quot;column&quot;,&quot;polar&quot;:false}},&quot;options&quot;:{&quot;styledMode&quot;:&quot;true&quot;,&quot;title&quot;:{&quot;text&quot;:&quot;Number of confirmed COVID-19 cases by age and sex&quot;,&quot;align&quot;:&quot;left&quot;},&quot;subtitle&quot;:{&quot;align&quot;:&quot;left&quot;},&quot;credits&quot;:{&quot;text&quot;:&quot;Source: Norwegian Institute of Public Health&quot;,&quot;href&quot;:&quot;https://fhi.no&quot;,&quot;position&quot;:{&quot;align&quot;:&quot;left&quot;,&quot;x&quot;:10}},&quot;lang&quot;:{&quot;decimalPoint&quot;:&quot;.&quot;,&quot;downloadPNG&quot;:&quot;Download PNG&quot;,&quot;downloadJPEG&quot;:&quot;Download JPEG&quot;,&quot;downloadPDF&quot;:&quot;Download PDF&quot;,&quot;downloadSVG&quot;:&quot;Download SVG&quot;,&quot;downloadXLS&quot;:&quot;Download Excel&quot;,&quot;downloadCSV&quot;:&quot;Download CSV&quot;,&quot;printChart&quot;:&quot;Print&quot;,&quot;contextButtonTitle&quot;:&quot;Menu&quot;},&quot;series&quot;:[{&quot;data&quot;:[[&quot;0-9&quot;,20],[&quot;10-19&quot;,54],[&quot;20-29&quot;,246],[&quot;30-39&quot;,243],[&quot;40-49&quot;,307],[&quot;50-59&quot;,308],[&quot;60-69&quot;,161],[&quot;70-79&quot;,91],[&quot;80-89&quot;,66],[&quot;90-102&quot;,14]],&quot;name&quot;:&quot;Kvinner&quot;,&quot;turboThreshold&quot;:0,&quot;type&quot;:&quot;column&quot;,&quot;colorIndex&quot;:1,&quot;marker&quot;:{}},{&quot;data&quot;:[[&quot;0-9&quot;,16],[&quot;10-19&quot;,62],[&quot;20-29&quot;,164],[&quot;30-39&quot;,278],[&quot;40-49&quot;,359],[&quot;50-59&quot;,380],[&quot;60-69&quot;,198],[&quot;70-79&quot;,124],[&quot;80-89&quot;,52],[&quot;90-102&quot;,12]],&quot;name&quot;:&quot;Menn&quot;,&quot;turboThreshold&quot;:0,&quot;type&quot;:&quot;column&quot;,&quot;colorIndex&quot;:0}],&quot;legend&quot;:{&quot;verticalAlign&quot;:&quot;top&quot;,&quot;align&quot;:&quot;right&quot;,&quot;y&quot;:50,&quot;floating&quot;:true,&quot;x&quot;:0},&quot;colors&quot;:[&quot;#393C61&quot;,&quot;#709900&quot;,&quot;#2EA1C0&quot;,&quot;#EC635C&quot;,&quot;#F7B500&quot;,&quot;#0F768F&quot;,&quot;#B11643&quot;,&quot;#A9B7BF&quot;],&quot;exporting&quot;:{&quot;showTable&quot;:true,&quot;csv&quot;:{&quot;dateFormat&quot;:&quot;%d.%m.%Y&quot;}},&quot;data&quot;:{&quot;csv&quot;:&quot;\&quot;Alder\&quot;;\&quot;Kvinner\&quot;;\&quot;Menn\&quot;\n\&quot;0-9\&quot;;20;16\n\&quot;10-19\&quot;;54;62\n\&quot;20-29\&quot;;246;164\n\&quot;30-39\&quot;;243;278\n\&quot;40-49\&quot;;307;359\n\&quot;50-59\&quot;;308;380\n\&quot;60-69\&quot;;161;198\n\&quot;70-79\&quot;;91;124\n\&quot;80-89\&quot;;66;52\n\&quot;90-102\&quot;;14;12&quot;},&quot;chart&quot;:{&quot;inverted&quot;:false,&quot;height&quot;:null},&quot;pane&quot;:{&quot;background&quot;:[]},&quot;responsive&quot;:{&quot;rules&quot;:[]},&quot;yAxis&quot;:[{&quot;title&quot;:{&quot;text&quot;:&quot;Number of reported cases&quot;},&quot;labels&quot;:{}}],&quot;xAxis&quot;:[{&quot;type&quot;:&quot;category&quot;,&quot;title&quot;:{&quot;text&quot;:&quot;Age group (years)&quot;},&quot;labels&quot;:{}}],&quot;plotOptions&quot;:{&quot;series&quot;:{&quot;animation&quot;:false}}},&quot;theme&quot;:false,&quot;settings&quot;:{&quot;constructor&quot;:&quot;Chart&quot;,&quot;dataProvider&quot;:{&quot;csv&quot;:&quot;\&quot;Alder\&quot;;\&quot;Kvinner\&quot;;\&quot;Menn\&quot;\n\&quot;0-9\&quot;;20;16\n\&quot;10-19\&quot;;54;62\n\&quot;20-29\&quot;;246;164\n\&quot;30-39\&quot;;243;278\n\&quot;40-49\&quot;;307;359\n\&quot;50-59\&quot;;308;380\n\&quot;60-69\&quot;;161;198\n\&quot;70-79\&quot;;91;124\n\&quot;80-89\&quot;;66;52\n\&quot;90-102\&quot;;14;12&quot;,&quot;googleSpreadsheet&quot;:false,&quot;liveData&quot;:false}}}">
+<div id="highcharts-fbdd4f68-b2a7-499f-ab8d-74395d9a4858"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 12px;" xmlns="http://www.w3.org/2000/svg" width="650" height="400" viewbox="0 0 650 400" aria-label="Interactive chart" aria-hidden="false"><desc aria-hidden="true">Created with Highcharts 8.1.0</desc><defs aria-hidden="true"><rect x="0" y="0" width="566" height="284" fill="none"></rect><rect x="74" y="53" width="566" height="284" fill="none"></rect></defs><rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="650" height="400" rx="0" ry="0" aria-hidden="true"></rect><rect fill="none" class="highcharts-plot-background" x="74" y="53" width="566" height="284" aria-hidden="true"></rect><g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1" aria-hidden="true"><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 130.5 53 L 130.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 186.5 53 L 186.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 243.5 53 L 243.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 299.5 53 L 299.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 356.5 53 L 356.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 413.5 53 L 413.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 469.5 53 L 469.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 526.5 53 L 526.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 582.5 53 L 582.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 639.5 53 L 639.5 337" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 73.5 53 L 73.5 337" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1" aria-hidden="true"><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 74 337.5 L 640 337.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 74 266.5 L 640 266.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 74 195.5 L 640 195.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 74 124.5 L 640 124.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 74 52.5 L 640 52.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" data-z-index="1" x="74" y="53" width="566" height="284" aria-hidden="true"></rect><g class="highcharts-axis highcharts-xaxis" data-z-index="2" aria-hidden="true"><text x="357" data-z-index="7" text-anchor="middle" transform="translate(0,0)" class="highcharts-axis-title" style="color: #666666; fill: #666666;" y="378.375"><tspan>Age group (years)</tspan></text><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" data-z-index="7" d="M 74 337.5 L 640 337.5"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2" aria-hidden="true"><text x="25.609375" data-z-index="7" text-anchor="middle" transform="translate(0,0) rotate(270 25.609375 195)" class="highcharts-axis-title" style="color: #666666; fill: #666666;" y="195"><tspan>Number of reported cases</tspan></text><path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 74 53 L 74 337"></path></g><g class="highcharts-series-group" data-z-index="3" aria-hidden="false"><g data-z-index="0.1" class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-1" transform="translate(74,53) scale(1 1)" clip-path="url(#highcharts-aeqqqpy-164-)" aria-hidden="false" role="region" aria-label="Kvinner, bar series 1 of 2 with 10 bars." style="outline: 0px;" tabindex="-1"><rect x="12.5" y="270.5" width="14" height="14" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="1. 0-9, 20. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="69.5" y="246.5" width="14" height="38" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="2. 10-19, 54. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="125.5" y="109.5" width="14" height="175" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="3. 20-29, 246. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="182.5" y="111.5" width="14" height="173" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="4. 30-39, 243. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="238.5" y="66.5" width="14" height="218" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="5. 40-49, 307. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="295.5" y="65.5" width="14" height="219" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="6. 50-59, 308. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="352.5" y="170.5" width="14" height="114" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="7. 60-69, 161. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="408.5" y="219.5" width="14" height="65" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="8. 70-79, 91. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="465.5" y="237.5" width="14" height="47" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="9. 80-89, 66. Kvinner." style="outline: 0px;" tabindex="-1"></rect><rect x="521.5" y="274.5" width="14" height="10" fill="#709900" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-1" role="img" aria-label="10. 90-102, 14. Kvinner." style="outline: 0px;" tabindex="-1"></rect></g><g data-z-index="0.1" class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-1" transform="translate(74,53) scale(1 1)" clip-path="none" aria-hidden="true"></g><g data-z-index="0.1" class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-0" transform="translate(74,53) scale(1 1)" clip-path="url(#highcharts-aeqqqpy-164-)" aria-hidden="false" role="region" aria-label="Menn, bar series 2 of 2 with 10 bars." style="outline: 0px;" tabindex="-1"><rect x="29.5" y="273.5" width="14" height="11" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="1. 0-9, 16. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="86.5" y="240.5" width="14" height="44" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="2. 10-19, 62. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="142.5" y="168.5" width="14" height="116" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="3. 20-29, 164. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="199.5" y="87.5" width="14" height="197" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="4. 30-39, 278. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="255.5" y="29.5" width="14" height="255" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="5. 40-49, 359. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="312.5" y="14.5" width="14" height="270" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="6. 50-59, 380. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="369.5" y="143.5" width="14" height="141" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="7. 60-69, 198. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="425.5" y="196.5" width="14" height="88" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="8. 70-79, 124. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="482.5" y="247.5" width="14" height="37" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="9. 80-89, 52. Menn." style="outline: 0px;" tabindex="-1"></rect><rect x="538.5" y="275.5" width="14" height="9" fill="#393C61" stroke="#ffffff" stroke-width="1" opacity="1" class="highcharts-point highcharts-color-0" role="img" aria-label="10. 90-102, 12. Menn." style="outline: 0px;" tabindex="-1"></rect></g><g data-z-index="0.1" class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-0" transform="translate(74,53) scale(1 1)" clip-path="none" aria-hidden="true"></g></g><text x="10" text-anchor="start" class="highcharts-title" data-z-index="4" style="color: #333333; font-size: 18px; fill: #333333;" y="24" aria-hidden="true"><tspan>Number of confirmed COVID-19 cases by age and sex</tspan></text><text x="10" text-anchor="start" class="highcharts-subtitle" data-z-index="4" style="color: #666666; fill: #666666;" y="52" aria-hidden="true"></text><text x="10" text-anchor="start" class="highcharts-caption" data-z-index="4" style="color: #666666; fill: #666666;" y="397" aria-hidden="true"></text><g class="highcharts-legend" data-z-index="7" transform="translate(482,60)" aria-hidden="true"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="158" height="29" visibility="visible"></rect><g data-z-index="1"><g><g class="highcharts-legend-item highcharts-column-series highcharts-color-1 highcharts-series-0" data-z-index="1" transform="translate(8,3)"><text x="21" style="color: #333333; cursor: pointer; font-size: 12px; font-weight: bold; fill: #333333;" text-anchor="start" data-z-index="2" y="15"><tspan>Women</tspan></text><rect x="2" y="4" width="12" height="12" fill="#709900" rx="6" ry="6" class="highcharts-point" data-z-index="3"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-0 highcharts-series-1" data-z-index="1" transform="translate(95.90625,3)"><text x="21" y="15" style="color: #333333; cursor: pointer; font-size: 12px; font-weight: bold; fill: #333333;" text-anchor="start" data-z-index="2"><tspan>Men</tspan></text><rect x="2" y="4" width="12" height="12" fill="#393C61" rx="6" ry="6" class="highcharts-point" data-z-index="3"></rect></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7" aria-hidden="true"><text x="102.3" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">0-9</text><text x="158.89999999999998" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">10-19</text><text x="215.5" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">20-29</text><text x="272.09999999999997" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">30-39</text><text x="328.7" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">40-49</text><text x="385.3" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">50-59</text><text x="441.9" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">60-69</text><text x="498.49999999999994" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">70-79</text><text x="555.1" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">80-89</text><text x="611.7" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="middle" transform="translate(0,0)" y="356" opacity="1">90-102</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7" aria-hidden="true"><text x="59" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="340" opacity="1">0</text><text x="59" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="269" opacity="1">100</text><text x="59" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="198" opacity="1">200</text><text x="59" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="127" opacity="1">300</text><text x="59" style="color: #666666; cursor: default; font-size: 11px; fill: #666666;" text-anchor="end" transform="translate(0,0)" y="56" opacity="1">400</text></g><text x="10" class="highcharts-credits" text-anchor="start" data-z-index="8" style="cursor: pointer; color: #999999; font-size: 9px; fill: #999999;" y="395" aria-label="Chart credits: Source: Norwegian Institute of Public Health" aria-hidden="false"><tspan>Source: Norwegian Institute of Public Health</tspan></text><g class="highcharts-control-points" data-z-index="99" clip-path="url(#highcharts-2ukgxlr-1803-)" aria-hidden="true"></g></svg></div>
 <script>
-(function(){ var files = ["/Static/templates/build/js/highcharts.js","/Static/templates/build/js/highchart-modules.js"],loaded = 0; if (typeof window["HighchartsEditor"] === "undefined") {window.HighchartsEditor = {ondone: [cl],hasWrapped: false,hasLoaded: false};include(files[0]);} else {if (window.HighchartsEditor.hasLoaded) {cl();} else {window.HighchartsEditor.ondone.push(cl);}}function isScriptAlreadyIncluded(src){var scripts = document.getElementsByTagName("script");for (var i = 0; i < scripts.length; i++) {if (scripts[i].hasAttribute("src")) {if ((scripts[i].getAttribute("src") || "").indexOf(src) >= 0 || (scripts[i].getAttribute("src").indexOf("highcharts") >= 0 && src === "/Static/templates/build/js/highcharts.js")) {return true;}}}return false;}function check() {if (loaded === files.length) {for (var i = 0; i < window.HighchartsEditor.ondone.length; i++) {try {window.HighchartsEditor.ondone[i]();} catch(e) {console.error(e);}}window.HighchartsEditor.hasLoaded = true;}}function include(script) {function next() {++loaded;if (loaded < files.length) {include(files[loaded]);}check();}if (isScriptAlreadyIncluded(script)) {return next();}var sc=document.createElement("script");sc.src = script;sc.type="text/javascript";sc.onload=function() { next(); };document.head.appendChild(sc);}function each(a, fn){if (typeof a.forEach !== "undefined"){a.forEach(fn);}else{for (var i = 0; i < a.length; i++){if (fn) {fn(a[i]);}}}}var inc = {},incl=[]; each(document.querySelectorAll("script"), function(t) {inc[t.src.substr(0, t.src.indexOf("?"))] = 1; }); function cl() {if(typeof window["Highcharts"] !== "undefined"){Highcharts.setOptions({lang:{"decimalPoint":".","downloadPNG":"Download PNG","downloadJPEG":"Download JPEG","downloadPDF":"Download PDF","downloadSVG":"Download SVG","downloadXLS":"Download Excel","downloadCSV":"Download CSV","printChart":"Print","contextButtonTitle":"Menu"}});var options={"chart":{"type":"column","polar":false,"inverted":false,"height":null},"styledMode":"true","title":{"text":"Number of confirmed COVID-19 cases by age and sex","align":"left"},"subtitle":{"align":"left"},"credits":{"text":"Source: Norwegian Institute of Public Health","href":"https://fhi.no","position":{"align":"left","x":10}},"lang":{"decimalPoint":".","downloadPNG":"Download PNG","downloadJPEG":"Download JPEG","downloadPDF":"Download PDF","downloadSVG":"Download SVG","downloadXLS":"Download Excel","downloadCSV":"Download CSV","printChart":"Print","contextButtonTitle":"Menu"},"series":[{"name":"Women","turboThreshold":0,"type":"column","colorIndex":1},{"name":"Men","turboThreshold":0,"type":"column","colorIndex":0}],"legend":{"verticalAlign":"top","align":"right","y":50,"floating":true,"x":0},"colors":["#393C61","#709900","#2EA1C0","#EC635C","#F7B500","#0F768F","#B11643","#A9B7BF"],"exporting":{"showTable":true,"csv":{"dateFormat":"%d.%m.%Y"}},"data":{"csv":"\"Age\";\"Women\";\"Men\"\n\"0-9\";20;16\n\"10-19\";54;62\n\"20-29\";246;164\n\"30-39\";243;278\n\"40-49\";307;359\n\"50-59\";308;380\n\"60-69\";161;198\n\"70-79\";91;124\n\"80-89\";66;52\n\"90-102\";14;12","googleSpreadsheetKey":false,"googleSpreadsheetWorksheet":false},"pane":{"background":[]},"responsive":{"rules":[]},"yAxis":[{"title":{"text":"Number of reported cases"},"labels":{}}],"xAxis":[{"type":"category","title":{"text":"Age group (years)"},"labels":{}}],"plotOptions":{"series":{"animation":false}}};new Highcharts.Chart("highcharts-4c4c802e-2628-41ec-b504-f1ed1165082c", options);}}})();
+(function(){ var files = ["/Static/templates/build/js/highcharts.js","/Static/templates/build/js/highchart-modules.js"],loaded = 0; if (typeof window["HighchartsEditor"] === "undefined") {window.HighchartsEditor = {ondone: [cl],hasWrapped: false,hasLoaded: false};include(files[0]);} else {if (window.HighchartsEditor.hasLoaded) {cl();} else {window.HighchartsEditor.ondone.push(cl);}}function isScriptAlreadyIncluded(src){var scripts = document.getElementsByTagName("script");for (var i = 0; i < scripts.length; i++) {if (scripts[i].hasAttribute("src")) {if ((scripts[i].getAttribute("src") || "").indexOf(src) >= 0 || (scripts[i].getAttribute("src").indexOf("highcharts") >= 0 && src === "/Static/templates/build/js/highcharts.js")) {return true;}}}return false;}function check() {if (loaded === files.length) {for (var i = 0; i < window.HighchartsEditor.ondone.length; i++) {try {window.HighchartsEditor.ondone[i]();} catch(e) {console.error(e);}}window.HighchartsEditor.hasLoaded = true;}}function include(script) {function next() {++loaded;if (loaded < files.length) {include(files[loaded]);}check();}if (isScriptAlreadyIncluded(script)) {return next();}var sc=document.createElement("script");sc.src = script;sc.type="text/javascript";sc.onload=function() { next(); };document.head.appendChild(sc);}function each(a, fn){if (typeof a.forEach !== "undefined"){a.forEach(fn);}else{for (var i = 0; i < a.length; i++){if (fn) {fn(a[i]);}}}}var inc = {},incl=[]; each(document.querySelectorAll("script"), function(t) {inc[t.src.substr(0, t.src.indexOf("?"))] = 1; }); function cl() {if(typeof window["Highcharts"] !== "undefined"){Highcharts.setOptions({lang:{"decimalPoint":".","downloadPNG":"Download PNG","downloadJPEG":"Download JPEG","downloadPDF":"Download PDF","downloadSVG":"Download SVG","downloadXLS":"Download Excel","downloadCSV":"Download CSV","printChart":"Print","contextButtonTitle":"Menu"}});var options={"chart":{"type":"column","polar":false,"inverted":false,"height":null},"styledMode":"true","title":{"text":"Number of confirmed COVID-19 cases by age and sex","align":"left"},"subtitle":{"align":"left"},"credits":{"text":"Source: Norwegian Institute of Public Health","href":"https://fhi.no","position":{"align":"left","x":10}},"lang":{"decimalPoint":".","downloadPNG":"Download PNG","downloadJPEG":"Download JPEG","downloadPDF":"Download PDF","downloadSVG":"Download SVG","downloadXLS":"Download Excel","downloadCSV":"Download CSV","printChart":"Print","contextButtonTitle":"Menu"},"series":[{"name":"Women","turboThreshold":0,"type":"column","colorIndex":1,"marker":{}},{"name":"Men","turboThreshold":0,"type":"column","colorIndex":0}],"legend":{"verticalAlign":"top","align":"right","y":50,"floating":true,"x":0},"colors":["#393C61","#709900","#2EA1C0","#EC635C","#F7B500","#0F768F","#B11643","#A9B7BF"],"exporting":{"showTable":true,"csv":{"dateFormat":"%d.%m.%Y"}},"data":{"csv":"\"Age\";\"Women\";\"Men\"\n\"0-9\";20;16\n\"10-19\";54;62\n\"20-29\";246;164\n\"30-39\";243;278\n\"40-49\";307;359\n\"50-59\";308;380\n\"60-69\";161;198\n\"70-79\";91;124\n\"80-89\";66;52\n\"90-102\";14;12","googleSpreadsheetKey":false,"googleSpreadsheetWorksheet":false},"pane":{"background":[]},"responsive":{"rules":[]},"yAxis":[{"title":{"text":"Number of reported cases"},"labels":{}}],"xAxis":[{"type":"category","title":{"text":"Age group (years)"},"labels":{}}],"plotOptions":{"series":{"animation":false}}};new Highcharts.Chart("highcharts-fbdd4f68-b2a7-499f-ab8d-74395d9a4858", options);}}})();
 </script>
 </div>
 <p>&nbsp;</p>     
@@ -1233,7 +1253,7 @@
         <script type="text/javascript">
                 (function () {
                     $(document).ready(function () {
-                        var chartId = "chart" + 15359795;
+                        var chartId = "chart" + 53059582;
                         var chart = new CustomHighchart(chartId, "/api/chartdata/api/91295");
 
                         utils.waitAndExecute(250, 10, function () {
@@ -1243,10 +1263,29 @@
                                 chart.setIndex(chartIndex);
 
                                 
-                            
+                                                            
+                                chart.updateCategoryX("category")
+                                $.getCachedJSON("/api/chartdata/api/91295?ranges=true").done(function (data, textStatus, jqXHR) {
+                                    if (data) {
+                                        var range = data.map(function (d) {
+                                            d = d.trim();
+                                            if (d === "total") {
+                                                return { id: d, name: "Total"}
+                                            }
+                                            return { id: d, name: d };
+                                        });
+                                        initDropdown("#range53059582", range, function (val) {
+                                            chart.reload(["yearweek", val]);
+                                        });  
+                                        $("#range" + 53059582).removeClass("fhi-hidden");
+                                    }
+                                })
+                               
+                                
+
                                 chart.load(null, function () {
-                                    $('#chart15359795 .highcharts-inner-wrapper').removeClass("fhi-hidden");
-                                    $("#chart15359795 .fhi-loading").addClass("fhi-hidden");
+                                    $('#chart53059582 .highcharts-inner-wrapper').removeClass("fhi-hidden");
+                                    $("#chart53059582 .fhi-loading").addClass("fhi-hidden");
                                     chart.getHeader("X-API-Last-Modified", null, function (date) {
                                         date = date.slice(0, date.indexOf(":") - 2);
                                         $("<p class='highcharts-updated'>" + "Updated" + " " + new Date(date).toLocaleDateString("en", { month: "long", day: "numeric" }) + "</p>").appendTo("#" + chartId + " [data-highcharts-chart]");
@@ -1264,7 +1303,7 @@
                 })();
         </script>
     <script type="text/javascript">
-        var surplusParagraph = $("#chart15359795 .highcharts-inner-wrapper > p:last-of-type");
+        var surplusParagraph = $("#chart53059582 .highcharts-inner-wrapper > p:last-of-type");
         if (surplusParagraph.text() === " ") {
             surplusParagraph.remove();
         }
@@ -1278,16 +1317,16 @@
 
 <div class="fhi-row fhi-row--fill"><div class="fhi-col">
 
-<figure id="map12137284" class="highmaps">
+<figure id="map272040" class="highmaps">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
 <div class="options fhi-print--hidden">
                 <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart12137284" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Map</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart12137284" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart272040" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Map</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart272040" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
 
             </div>
-        <div id="mapcontainer12137284" class="highchart-graph fhi-hidden"></div>
+        <div id="mapcontainer272040" class="highchart-graph fhi-hidden"></div>
         <div class="fhi-loading"></div>
         
     </div>
@@ -1349,7 +1388,7 @@
 
     function loadMap(data, lastModified) {
           $.getCachedScript('/Static/templates/js/highcharts/data/no-all.js').done(function () {
-            Highcharts.mapChart('mapcontainer12137284', {
+            Highcharts.mapChart('mapcontainer272040', {
                 chart: {
                     map: 'countries/no/no-all',
                 },
@@ -1429,27 +1468,27 @@
 
             if (typeof lastModified !== "undefined") {
                 lastModified = lastModified.slice(0, lastModified.indexOf(":") - 2);
-                $("#mapcontainer" + 12137284 +" .highcharts-container").append("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>");
+                $("#mapcontainer" + 272040 +" .highcharts-container").append("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>");
             }
 
-            $("#mapcontainer12137284.highchart-graph").removeClass("fhi-hidden");
-            $("#map12137284 .fhi-loading").addClass("fhi-hidden");
+            $("#mapcontainer272040.highchart-graph").removeClass("fhi-hidden");
+            $("#map272040 .fhi-loading").addClass("fhi-hidden");
         });
         }
 })();
 </script>
 </div><div class="fhi-col">
 
-<figure id="map63624933" class="highmaps">
+<figure id="map17682627" class="highmaps">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
 <div class="options fhi-print--hidden">
                 <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart63624933" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Map</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart63624933" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart17682627" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Map</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart17682627" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
 
             </div>
-        <div id="mapcontainer63624933" class="highchart-graph fhi-hidden"></div>
+        <div id="mapcontainer17682627" class="highchart-graph fhi-hidden"></div>
         <div class="fhi-loading"></div>
         
     </div>
@@ -1511,7 +1550,7 @@
 
     function loadMap(data, lastModified) {
           $.getCachedScript('/Static/templates/js/highcharts/data/no-all.js').done(function () {
-            Highcharts.mapChart('mapcontainer63624933', {
+            Highcharts.mapChart('mapcontainer17682627', {
                 chart: {
                     map: 'countries/no/no-all',
                 },
@@ -1591,11 +1630,11 @@
 
             if (typeof lastModified !== "undefined") {
                 lastModified = lastModified.slice(0, lastModified.indexOf(":") - 2);
-                $("#mapcontainer" + 63624933 +" .highcharts-container").append("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>");
+                $("#mapcontainer" + 17682627 +" .highcharts-container").append("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>");
             }
 
-            $("#mapcontainer63624933.highchart-graph").removeClass("fhi-hidden");
-            $("#map63624933 .fhi-loading").addClass("fhi-hidden");
+            $("#mapcontainer17682627.highchart-graph").removeClass("fhi-hidden");
+            $("#map17682627 .fhi-loading").addClass("fhi-hidden");
         });
         }
 })();
@@ -1605,16 +1644,16 @@
 <h2>By municipality</h2>
 <p>The map shows the number of reported COVID-19 cases by municipality.</p>
 
-<figure id="map11240720" class="highmaps">
+<figure id="map8520095" class="highmaps">
 	<div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
 <div class="options fhi-print--hidden">
 				<div class="fhi-tabs__container fhi-print--hidden">
-					<button role="tab" aria-selected="true" aria-controls="chart11240720" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Map</button>
-					<button role="tab" aria-selected="false" aria-controls="chart11240720" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+					<button role="tab" aria-selected="true" aria-controls="chart8520095" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Map</button>
+					<button role="tab" aria-selected="false" aria-controls="chart8520095" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
 				</div>
 
 			</div>
-		<div id="mapcontainer11240720" class="highchart-graph fhi-hidden"></div>
+		<div id="mapcontainer8520095" class="highchart-graph fhi-hidden"></div>
 		<div class="fhi-loading"></div>
 	</div>
 		<figcaption>Double click on the map where you want to zoom in or scroll with your mouse to zoom in and out.</figcaption>
@@ -1643,7 +1682,7 @@
 				$.getCachedScript('/Static/templates/js/highcharts/data/no-all-all-split.js').done(function () {
 
 
-                Highcharts.mapChart('mapcontainer11240720', {
+                Highcharts.mapChart('mapcontainer8520095', {
                     chart: {
                         map: 'countries/no/no-all-all-split',
 								 height: '84.4%'
@@ -1724,11 +1763,11 @@
 
                 if (lastModified !== undefined) {
                     lastModified = lastModified.slice(0, lastModified.indexOf(":") - 2);
-                    $("#mapcontainer" + 11240720 +" .highcharts-container").append("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>");
+                    $("#mapcontainer" + 8520095 +" .highcharts-container").append("<p class='highcharts-updated'>Updated " + new Date(lastModified).toLocaleDateString('en', { month: "long", day: "numeric" }) + "</p>");
                 }
 
-                $("#mapcontainer11240720.highchart-graph").removeClass("fhi-hidden");
-                $("#map11240720 .fhi-loading").addClass("fhi-hidden");
+                $("#mapcontainer8520095.highchart-graph").removeClass("fhi-hidden");
+                $("#map8520095 .fhi-loading").addClass("fhi-hidden");
 
             });
 	}
@@ -2820,12 +2859,12 @@
 
 
 <!-- basic Highcharts block template -->
-<figure id="chart64254681" class="highchart ">
+<figure id="chart16935292" class="highchart ">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
         <div class="options fhi-print--hidden" style="">
                                                                 <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart64254681" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart64254681" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart16935292" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart16935292" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
         </div>
 
@@ -2845,7 +2884,7 @@
         <script type="text/javascript">
                 (function () {
                     $(document).ready(function () {
-                        var chartId = "chart" + 64254681;
+                        var chartId = "chart" + 16935292;
                         var chart = new CustomHighchart(chartId, "/api/chartdata/api/91823");
 
                         utils.waitAndExecute(250, 10, function () {
@@ -2857,8 +2896,8 @@
                                 
                             
                                 chart.load(null, function () {
-                                    $('#chart64254681 .highcharts-inner-wrapper').removeClass("fhi-hidden");
-                                    $("#chart64254681 .fhi-loading").addClass("fhi-hidden");
+                                    $('#chart16935292 .highcharts-inner-wrapper').removeClass("fhi-hidden");
+                                    $("#chart16935292 .fhi-loading").addClass("fhi-hidden");
                                     chart.getHeader("X-API-Last-Modified", null, function (date) {
                                         date = date.slice(0, date.indexOf(":") - 2);
                                         $("<p class='highcharts-updated'>" + "Updated" + " " + new Date(date).toLocaleDateString("en", { month: "long", day: "numeric" }) + "</p>").appendTo("#" + chartId + " [data-highcharts-chart]");
@@ -2876,7 +2915,7 @@
                 })();
         </script>
     <script type="text/javascript">
-        var surplusParagraph = $("#chart64254681 .highcharts-inner-wrapper > p:last-of-type");
+        var surplusParagraph = $("#chart16935292 .highcharts-inner-wrapper > p:last-of-type");
         if (surplusParagraph.text() === " ") {
             surplusParagraph.remove();
         }
@@ -2890,12 +2929,12 @@
 
 
 <!-- basic Highcharts block template -->
-<figure id="chart55516323" class="highchart ">
+<figure id="chart9092505" class="highchart ">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
         <div class="options fhi-print--hidden" style="">
                                                                 <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart55516323" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart55516323" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart9092505" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart9092505" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
         </div>
 
@@ -2915,7 +2954,7 @@
         <script type="text/javascript">
                 (function () {
                     $(document).ready(function () {
-                        var chartId = "chart" + 55516323;
+                        var chartId = "chart" + 9092505;
                         var chart = new CustomHighchart(chartId, "/api/chartdata/api/91829");
 
                         utils.waitAndExecute(250, 10, function () {
@@ -2927,8 +2966,8 @@
                                 
                             
                                 chart.load(null, function () {
-                                    $('#chart55516323 .highcharts-inner-wrapper').removeClass("fhi-hidden");
-                                    $("#chart55516323 .fhi-loading").addClass("fhi-hidden");
+                                    $('#chart9092505 .highcharts-inner-wrapper').removeClass("fhi-hidden");
+                                    $("#chart9092505 .fhi-loading").addClass("fhi-hidden");
                                     chart.getHeader("X-API-Last-Modified", null, function (date) {
                                         date = date.slice(0, date.indexOf(":") - 2);
                                         $("<p class='highcharts-updated'>" + "Updated" + " " + new Date(date).toLocaleDateString("en", { month: "long", day: "numeric" }) + "</p>").appendTo("#" + chartId + " [data-highcharts-chart]");
@@ -2946,7 +2985,7 @@
                 })();
         </script>
     <script type="text/javascript">
-        var surplusParagraph = $("#chart55516323 .highcharts-inner-wrapper > p:last-of-type");
+        var surplusParagraph = $("#chart9092505 .highcharts-inner-wrapper > p:last-of-type");
         if (surplusParagraph.text() === " ") {
             surplusParagraph.remove();
         }
@@ -2960,12 +2999,12 @@
 
 
 <!-- basic Highcharts block template -->
-<figure id="chart14347219" class="highchart ">
+<figure id="chart42715583" class="highchart ">
     <div class="fhi-border fhi-border--thick fhi-border-light-grey highcharts-wrapper">
         <div class="options fhi-print--hidden" style="">
                                                                 <div class="fhi-tabs__container fhi-print--hidden">
-                    <button role="tab" aria-selected="true" aria-controls="chart14347219" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
-                    <button role="tab" aria-selected="false" aria-controls="chart14347219" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
+                    <button role="tab" aria-selected="true" aria-controls="chart42715583" id="viewGraph" class="fhi-tabs__item active" onClick="toggleChartView(this)">Graph</button>
+                    <button role="tab" aria-selected="false" aria-controls="chart42715583" id="viewTable" class="fhi-tabs__item" onClick="toggleChartView(this)">Table</button>
                 </div>
         </div>
 
@@ -2985,7 +3024,7 @@
         <script type="text/javascript">
                 (function () {
                     $(document).ready(function () {
-                        var chartId = "chart" + 14347219;
+                        var chartId = "chart" + 42715583;
                         var chart = new CustomHighchart(chartId, "/api/chartdata/api/91830");
 
                         utils.waitAndExecute(250, 10, function () {
@@ -2997,8 +3036,8 @@
                                 
                             
                                 chart.load(null, function () {
-                                    $('#chart14347219 .highcharts-inner-wrapper').removeClass("fhi-hidden");
-                                    $("#chart14347219 .fhi-loading").addClass("fhi-hidden");
+                                    $('#chart42715583 .highcharts-inner-wrapper').removeClass("fhi-hidden");
+                                    $("#chart42715583 .fhi-loading").addClass("fhi-hidden");
                                     chart.getHeader("X-API-Last-Modified", null, function (date) {
                                         date = date.slice(0, date.indexOf(":") - 2);
                                         $("<p class='highcharts-updated'>" + "Updated" + " " + new Date(date).toLocaleDateString("en", { month: "long", day: "numeric" }) + "</p>").appendTo("#" + chartId + " [data-highcharts-chart]");
@@ -3016,7 +3055,7 @@
                 })();
         </script>
     <script type="text/javascript">
-        var surplusParagraph = $("#chart14347219 .highcharts-inner-wrapper > p:last-of-type");
+        var surplusParagraph = $("#chart42715583 .highcharts-inner-wrapper > p:last-of-type");
         if (surplusParagraph.text() === " ") {
             surplusParagraph.remove();
         }
@@ -3112,7 +3151,7 @@ History                                    </h2>
 
 
                     <div id="feedback-container" style="display: block;">
-<form action="/en/id/infectious-diseases/coronavirus/daily-reports/daily-reports-COVID19/SendFeedback" data-parsley-validate="" id="feedbackForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="jSOhEPKG2Zy7oD_7EcL8VKLSOO08GmituGVBVw8gdbur_VYFD6it1sOZFInwXKxeqjClZmBmn97cn4wFaw9tdt619xyiAgDJ4cGLTkloiGM1" /><input id="ContactForm_PositiveFeedback" name="ContactForm.PositiveFeedback" type="hidden" value="" />                            <div class="always-visible">
+<form action="/en/id/infectious-diseases/coronavirus/daily-reports/daily-reports-COVID19/SendFeedback" data-parsley-validate="" id="feedbackForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="w_1p18oVHsZluJQw-lZzK9qOUPXjmSxsVdOq8U_7heXI1SpU_xXCfLVZ03F3LqSjfj8RSr1b08JEAHdUlSUxdHJxXcK4dfPY2QaMM_xb7XE1" /><input id="ContactForm_PositiveFeedback" name="ContactForm.PositiveFeedback" type="hidden" value="" />                            <div class="always-visible">
                                 <h3>Did you find what you were looking for?</h3>
                                 <div class="answer-group">
                                     <button class="callBtn" onclick="positive.call(this); return false;">
@@ -3435,7 +3474,7 @@ History                                    </h2>
 
             <div class="page-type">
 
-                1.0.0.0 - RD501AC55238AC - Article
+                1.0.0.0 - RD0003FF1B174D - Article
             </div>
         </div>
     </div>
