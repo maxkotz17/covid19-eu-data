@@ -261,30 +261,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/numero-de-doentes-internados-continua-a-diminuir/" class="news_link">
+    								<span class="news_date">06/06/2020</span>								
+    								<h2 class="news_title">Número de doentes internados continua a diminuir</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/diretora-geral-da-saude-reforca-o-apelo-aos-jovens-mascara-nao-da-imunidade/" class="news_link">
+    								<span class="news_date">06/06/2020</span>								
+    								<h2 class="news_title">Diretora-Geral da Saúde reforça o apelo aos jovens. Máscara não dá imunidade</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/portugal-ja-ultrapassou-a-barreira-dos-900-mil-testes-de-diagnostico-a-covid-19/" class="news_link">
+    								<span class="news_date">06/06/2020</span>								
+    								<h2 class="news_title">Portugal já ultrapassou a barreira dos 900 mil testes de diagnóstico à COVID-19</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/ferias-em-tempo-de-pandemia-exigem-novas-regras/" class="news_link">
     								<span class="news_date">05/06/2020</span>								
     								<h2 class="news_title">Férias em tempo de pandemia exigem novas regras</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/mais-de-5-500-profissionais-de-saude-contratados-para-o-sns/" class="news_link">
-    								<span class="news_date">05/06/2020</span>								
-    								<h2 class="news_title">Mais de 5.500 profissionais de saúde contratados para o SNS</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/diretora-geral-da-saude-apela-ao-cumprimento-do-isolamento/" class="news_link">
-    								<span class="news_date">05/06/2020</span>								
-    								<h2 class="news_title">Diretora-Geral da Saúde apela ao cumprimento do isolamento</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/direcao-geral-da-saude-publica-orientacao-sobre-gravidez-e-parto/" class="news_link">
-    								<span class="news_date">05/06/2020</span>								
-    								<h2 class="news_title">Direção-Geral da Saúde publica orientação sobre gravidez e parto</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">id, efficitur. facilisis ut libero leo porta. accumsan felis</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">elit. ipsum commodo amet, Donec diam at leo ut nec ante.</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-06 18:18:18 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-06 22:18:40 by W3 Total Cache
 -->
