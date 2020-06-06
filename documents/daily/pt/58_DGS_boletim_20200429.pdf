@@ -112,9 +112,6 @@ img.emoji {
 <link rel="icon" href="https://covid19.min-saude.pt/wp-content/uploads/2020/03/favicon_dgs.svg" sizes="192x192" />
 <link rel="apple-touch-icon" href="https://covid19.min-saude.pt/wp-content/uploads/2020/03/favicon_dgs.svg" />
 <meta name="msapplication-TileImage" content="https://covid19.min-saude.pt/wp-content/uploads/2020/03/favicon_dgs.svg" />
-		
-		
-		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88250727-9"></script>
         <script>
@@ -124,9 +121,6 @@ img.emoji {
         
           gtag('config', 'UA-88250727-9');
         </script>
-        		
-		
-		
 	<script type="text/javascript">(function(){var N=this;N.N2_=N.N2_||{r:[],d:[]},N.N2R=N.N2R||function(){N.N2_.r.push(arguments)},N.N2D=N.N2D||function(){N.N2_.d.push(arguments)}}).call(window);if(!window.n2jQuery){window.n2jQuery={ready:function(cb){console.error('n2jQuery will be deprecated!');N2R(['$'],cb)}}}window.nextend={localization:{},ready:function(cb){console.error('nextend.ready will be deprecated!');N2R('documentReady',function($){cb.call(window,$)})}};</script><script type="text/javascript" src="https://covid19.min-saude.pt/wp-content/plugins/smart-slider-3/nextend/media/dist/n2.min.js?1583772300"></script>
 <script type="text/javascript" src="https://covid19.min-saude.pt/wp-content/plugins/smart-slider-3/nextend/media/dist/nextend-frontend.min.js?1583772301"></script>
 <script type="text/javascript" src="https://covid19.min-saude.pt/wp-content/plugins/smart-slider-3/library/media/dist/smartslider-frontend.min.js?1583772260"></script>
@@ -176,7 +170,7 @@ img.emoji {
 										<div class="div_search">
 											<label for="caixa_pesquisa">
                 								<input id="caixa_pesquisa" type="search" aria-hidden="false" class="banner_inputer" placeholder="Pesquisar" value="" name="s">
-                								
+                								<span class="hidden_text">Pesquisar</span>
 											</label>
 										</div>
 										<img class="fake_lupa_icon" aria-hidden="true" src='https://covid19.min-saude.pt/wp-content/themes/COVID-19/images/header/lupa.svg' alt="click para abrir a pesquisa">
@@ -204,7 +198,7 @@ img.emoji {
 
 				<div class="header-bottom">
 										<div class="header-nav" role="navigation">
-						<ol><li id='submenu-item-117' class='menu-item menu-item-nivel1'><a href='https://covid19.min-saude.pt/dispositivos-de-saude-publica/'>Dispositivo de Saúde Pública</a></li><li id='submenu-item-118' class='menu-item menu-item-nivel1'><a href='https://covid19.min-saude.pt/perguntas-frequentes/'>Perguntas Frequentes</a></li><li id='submenu-item-31' class='menu-item menu-item-nivel1'><a aria-haspopup='true' aria-expanded='false' href='#' tabindex='0'>Documentos</a><ol class='submenu submenu-item-31'><li id='submenu-item-34' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/comunicados/'>Comunicados</a></li><li id='submenu-item-35' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/despachos/'>Despachos</a></li><li id='submenu-item-281636' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/normas/'>Normas</a></li><li id='submenu-item-36' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/orientacoes/'>Orientações</a></li><li id='submenu-item-37' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/plano-de-contingencia/'>Plano de Contingência</a></li><li id='submenu-item-38' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/relatorio-de-situacao/'>Relatório de Situação</a></li></ol></li><li id='submenu-item-2825689' class='menu-item menu-item-nivel1'><a aria-haspopup='true' aria-expanded='false' href='#' tabindex='0'>Informações</a><ol class='submenu submenu-item-2825689'><li id='submenu-item-2825727' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/areas-dedicadas-covid-19/'>Áreas Dedicadas</a></li><li id='submenu-item-2825758' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/dispositivos-medicos-e-equipamentos-de-protecao-individual/'>Catálogo de Equipamentos</a></li><li id='submenu-item-2825811' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/colaborar-com-o-sns/'>Colaborar com o SNS</a></li><li id='submenu-item-2825835' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/disponibilizacao-de-dados/'>Disponibilização de Dados</a></li><li id='submenu-item-2825854' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/laboratorios-referenciados/'>Laboratórios Referenciados</a></li><li id='submenu-item-3444998' class='menu-item menu-item-nivel2'><a href='https://servicos.min-saude.pt/covid19/'>Registar Sintomas</a></li></ol></li><li id='submenu-item-119' class='menu-item menu-item-nivel1'><a href='https://covid19.min-saude.pt/materiais-de-divulgacao/'>Materiais de Divulgação</a></li><li id='submenu-item-49' class='menu-item menu-item-nivel1'><a href='https://covid19.min-saude.pt/conferencias-de-imprensa/'>Conferências de Imprensa</a></li></ol>					</div>
+						<ol><li id='submenu-item-117' class='menu-item menu-item-nivel1'><a href='https://covid19.min-saude.pt/dispositivos-de-saude-publica/'  >Dispositivo de Saúde Pública</a></li><li id='submenu-item-3577943' class='menu-item menu-item-nivel1'><a href='https://covid19.min-saude.pt/category/perguntas-frequentes/'  >Perguntas Frequentes</a></li><li id='submenu-item-31' class='menu-item menu-item-nivel1'><a aria-haspopup='true' aria-expanded='false' href='#' tabindex='0'  >Documentos</a><ol class='submenu submenu-item-31'><li id='submenu-item-34' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/comunicados/'>Comunicados</a></li><li id='submenu-item-35' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/despachos/'>Despachos</a></li><li id='submenu-item-281636' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/normas/'>Normas</a></li><li id='submenu-item-36' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/orientacoes/'>Orientações</a></li><li id='submenu-item-37' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/plano-de-contingencia/'>Plano de Contingência</a></li><li id='submenu-item-38' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/relatorio-de-situacao/'>Relatório de Situação</a></li></ol></li><li id='submenu-item-2825689' class='menu-item menu-item-nivel1'><a aria-haspopup='true' aria-expanded='false' href='#' tabindex='0'  >Informações</a><ol class='submenu submenu-item-2825689'><li id='submenu-item-2825727' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/areas-dedicadas-covid-19/'>Áreas Dedicadas</a></li><li id='submenu-item-2825758' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/dispositivos-medicos-e-equipamentos-de-protecao-individual/'>Catálogo de Equipamentos</a></li><li id='submenu-item-2825811' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/colaborar-com-o-sns/'>Colaborar com o SNS</a></li><li id='submenu-item-2825835' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/disponibilizacao-de-dados/'>Disponibilização de Dados</a></li><li id='submenu-item-2825854' class='menu-item menu-item-nivel2'><a href='https://covid19.min-saude.pt/laboratorios-referenciados/'>Laboratórios Referenciados</a></li><li id='submenu-item-3444998' class='menu-item menu-item-nivel2'><a href='https://servicos.min-saude.pt/covid19/'>Registar Sintomas</a></li></ol></li><li id='submenu-item-3576911' class='menu-item menu-item-nivel1'><a href='https://covid19.min-saude.pt/materiais-de-divulgacao/'  >Materiais de Divulgação</a></li><li id='submenu-item-49' class='menu-item menu-item-nivel1'><a href='https://covid19.min-saude.pt/conferencias-de-imprensa/'  >Conferências de Imprensa</a></li></ol>					</div>
 				</div>
 			</div>
 		</div>
@@ -245,14 +239,18 @@ img.emoji {
 					
 					<div class="world_videos">
 						<div class="world_video_iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/nBucUH4udZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-						<!-- <a class="world_video_link" href="">Ver mais videos</a>  -->
+						<a class="world_video_link" href="/videos">Ver mais videos</a>
 					</div>
 					
 					<div class="world_spans">
-						<div class="world_dark"><p><a href="https://covid19.min-saude.pt/areas-dedicadas-covid-19/">Áreas Dedicadas COVID-19</a></p>
-</div>
-						<div class="world_light"><p><a href="https://covid19.min-saude.pt/laboratorios-referenciados/">Laboratórios Referenciados para testes de COVID-19</a></p>
-</div>
+						<div class="world_dark">
+							<p><a href="https://covid19.min-saude.pt/areas-dedicadas-covid-19/">Áreas Dedicadas COVID-19</a></p>
+							<span class="fa fa-chevron-right"></span>
+						</div>
+						<div class="world_light">
+							<p><a href="https://covid19.min-saude.pt/laboratorios-referenciados/">Laboratórios Referenciados para testes de COVID-19</a></p>
+							<span class="fa fa-chevron-right"></span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -293,89 +291,97 @@ img.emoji {
     				    			</div>
 			</div>
 			
-			<div class="index_questions">
-								
-					<div class="questions_box">
-						<a href="https://covid19.min-saude.pt/estou-em-isolamento/" class="questions_boxlink">
-							<h2 class="questions_title">Estou em isolamento. E agora?</h2>
-							
-							<div class="questions_content">
-								<!-- wp:paragraph -->
-<p>Se lhe foi indicado isolamento, fique a saber quais as medidas recomendadas e os cuidados que deve ter em casa.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:more -->
-							</div>
-							
-							<span class="questions_readmore">Leia mais</span>
-						</a>
-					</div>
-				
-								
-					<div class="questions_box">
-						<a href="https://covid19.min-saude.pt/devo-viajar-2/" class="questions_boxlink">
-							<h2 class="questions_title">Posso viajar?</h2>
-							
-							<div class="questions_content">
-								<!-- wp:paragraph -->
-<p>Existem muitas restrições nas viagens entres países pelo que recomenda-se a consulta do portal do Serviço de Estrangeiros e Fronteiras</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:more -->
-							</div>
-							
-							<span class="questions_readmore">Leia mais</span>
-						</a>
-					</div>
-				
-								
-					<div class="questions_box">
-						<a href="https://covid19.min-saude.pt/preciso-de-um-medico/" class="questions_boxlink">
-							<h2 class="questions_title">Preciso de um médico. E agora?</h2>
-							
-							<div class="questions_content">
-								<!-- wp:paragraph -->
-<p>Agora mais do que nunca o contacto telefónico com o centro de saúde é muito importante. Com as limitações de circulação decorrentes da pandemia que nos está a atingir, os médicos de família podem atender telefonemas e responder a dúvidas dos seus doentes. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:more -->
-							</div>
-							
-							<span class="questions_readmore">Leia mais</span>
-						</a>
-					</div>
-				
-							</div>
-			
-			<div class="infos_generic">
-				    				<div class="infos_box">
-    					<a href="https://covid19.min-saude.pt/espaco-crianca-2/" class="infos_boxlink">
-     	   					<h2 class="infos_title">Espaço Criança</h2>
-        					
-        					<span class="infos_seemore">Leia mais</span>
-        					
-        					<img width="324" height="200" src="https://covid19.min-saude.pt/wp-content/uploads/2020/03/espaço-criança-4-324x200.jpg" class="attachment-Homepage-Generic size-Homepage-Generic wp-post-image" alt="Espaca-crianca" />    					</a>
-    				</div>
-    				
-    			    				<div class="infos_box">
-    					<a href="https://covid19.min-saude.pt/guias-para-profissionais-de-saude/" class="infos_boxlink">
-     	   					<h2 class="infos_title">Profissionais de Saúde</h2>
-        					
-        					<span class="infos_seemore">Leia mais</span>
-        					
-        					<img width="324" height="200" src="https://covid19.min-saude.pt/wp-content/uploads/2020/03/profissionais-324x200.png" class="attachment-Homepage-Generic size-Homepage-Generic wp-post-image" alt="profissionais" />    					</a>
-    				</div>
-    				
-    			    				<div class="infos_box">
-    					<a href="https://covid19.min-saude.pt/guias-para-instituicoes/" class="infos_boxlink">
-     	   					<h2 class="infos_title">Guias para Instituições</h2>
-        					
-        					<span class="infos_seemore">Leia mais</span>
-        					
-        					<img width="324" height="200" src="https://covid19.min-saude.pt/wp-content/uploads/2020/03/instituicoes-324x200.png" class="attachment-Homepage-Generic size-Homepage-Generic wp-post-image" alt="instituições" />    					</a>
-    				</div>
-    				
+			<div class="index_cidadao">
+				    			
+    			<h2 class="cidadao_maintitle">Cidadão</h2>
+    			
+    			<div class="cidadao_item_zone">
+        			    						<div class="cidadao_item">
+    							<a href="https://covid19.min-saude.pt/desconfinamento/" class="cidadao_link">
+    								<h2 class="cidadao_title">Desconfinamento</h2>
+    								<img width="230" height="137" src="https://covid19.min-saude.pt/wp-content/uploads/2020/06/76_Desconfinamento_desktop-230x137.jpg" class="attachment-Homepage-Generic size-Homepage-Generic" alt="76_Desconfinamento_desktop" />    							</a>
     						</div>
+    				    						<div class="cidadao_item">
+    							<a href="https://covid19.min-saude.pt/cartazes/" class="cidadao_link">
+    								<h2 class="cidadao_title">Cartazes</h2>
+    								<img width="230" height="137" src="https://covid19.min-saude.pt/wp-content/uploads/2020/06/00_Cartazes_Desktop_V1-230x137.jpg" class="attachment-Homepage-Generic size-Homepage-Generic" alt="00_Cartazes_Desktop_V1" />    							</a>
+    						</div>
+    				    						<div class="cidadao_item">
+    							<a href="https://covid19.min-saude.pt/isolamento-2/" class="cidadao_link">
+    								<h2 class="cidadao_title">Isolamento</h2>
+    								<img width="230" height="137" src="https://covid19.min-saude.pt/wp-content/uploads/2020/06/77_Isolamento_desktop-230x137.jpg" class="attachment-Homepage-Generic size-Homepage-Generic" alt="77_Isolamento_desktop" />    							</a>
+    						</div>
+    				    						<div class="cidadao_item">
+    							<a href="https://covid19.min-saude.pt/webinars/" class="cidadao_link">
+    								<h2 class="cidadao_title">Webinars</h2>
+    								<img width="230" height="137" src="https://covid19.min-saude.pt/wp-content/uploads/2020/06/72_Webinars_desktop-230x137.jpg" class="attachment-Homepage-Generic size-Homepage-Generic" alt="72_Webinars_desktop" />    							</a>
+    						</div>
+    				    			</div>
+			</div>
+			
+			<div class="index_profissional">
+				    			
+    			<h2 class="profissional_maintitle">Profissional de Saúde</h2>
+    			
+    			<div class="profissional_item_zone">
+        			    						<div class="profissional_item">
+    							<a href="https://covid19.min-saude.pt/guias-para-profissionais-de-saude/" class="profissional_link">
+    								<h2 class="profissional_title">Materiais</h2>
+    								<img width="230" height="137" src="https://covid19.min-saude.pt/wp-content/uploads/2020/03/img_generica_001-230x137.jpg" class="attachment-Homepage-Generic size-Homepage-Generic" alt="medicos" />    							</a>
+    						</div>
+    				    						<div class="profissional_item">
+    							<a href="https://covid19.min-saude.pt/orientacoes/" class="profissional_link">
+    								<h2 class="profissional_title">Orientações</h2>
+    								<img width="230" height="137" src="https://covid19.min-saude.pt/wp-content/uploads/2020/03/orientacoes-230x137.jpg" class="attachment-Homepage-Generic size-Homepage-Generic" alt="orientações" />    							</a>
+    						</div>
+    				    						<div class="profissional_item">
+    							<a href="https://covid19.min-saude.pt/normas/" class="profissional_link">
+    								<h2 class="profissional_title">Normas</h2>
+    								<img width="230" height="137" src="https://covid19.min-saude.pt/wp-content/uploads/2020/03/normas-230x137.jpg" class="attachment-Homepage-Generic size-Homepage-Generic" alt="normas" />    							</a>
+    						</div>
+    				    						<div class="profissional_item">
+    							<a href="https://covid19.min-saude.pt/webinars/" class="profissional_link">
+    								<h2 class="profissional_title">Formação e Treino</h2>
+    								<img width="230" height="137" src="https://covid19.min-saude.pt/wp-content/uploads/2020/03/img_generica_012-230x137.jpg" class="attachment-Homepage-Generic size-Homepage-Generic" alt="imagem medicos" />    							</a>
+    						</div>
+    				    			</div>
+			</div>
+			
+			<div class="index_questions">
+    							<a href="https://covid19.min-saude.pt/category/perguntas-frequentes/"><h2 class="perguntas_maintitle">Perguntas Frequentes</h2></a>
+				
+				<div class="perguntas_item_zone">
+				                    
+    					<div class="questions_item">
+    						<a class="questions_link" href="https://covid19.min-saude.pt/category/perguntas-frequentes/?t=como-se-transmite-2#como-se-transmite-2">
+        						<span class="questions_text">Como se transmite?</span>
+        						<span class="fa fa-chevron-right"></span>
+    						</a>
+    					</div>
+    			                    
+    					<div class="questions_item">
+    						<a class="questions_link" href="https://covid19.min-saude.pt/category/perguntas-frequentes/?t=quem-esta-em-risco#quem-esta-em-risco">
+        						<span class="questions_text">Quem está em risco?</span>
+        						<span class="fa fa-chevron-right"></span>
+    						</a>
+    					</div>
+    			                    
+    					<div class="questions_item">
+    						<a class="questions_link" href="https://covid19.min-saude.pt/category/perguntas-frequentes/?t=quais-as-medidas-de-prevencao#quais-as-medidas-de-prevencao/">
+        						<span class="questions_text">Quais as medidas de prevenção?</span>
+        						<span class="fa fa-chevron-right"></span>
+    						</a>
+    					</div>
+    			                    
+    					<div class="questions_item">
+    						<a class="questions_link" href="https://covid19.min-saude.pt/category/perguntas-frequentes/?t=retoma-das-atividades-e-agora#retoma-das-atividades-e-agora">
+        						<span class="questions_text">Retoma das atividades. E agora?</span>
+        						<span class="fa fa-chevron-right"></span>
+    						</a>
+    					</div>
+    			    			</div>
+    			
+			</div>
 		</div>
 	</div>
 		<footer id="footer" class="footerphp">
@@ -413,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">commodo suscipit Praesent Aenean odio ut nunc Donec et, ipsum</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">Aenean leo. Praesent elementum risus. commodo ut venenatis tristique tempus massa</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -503,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-05 22:17:23 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-06 06:18:00 by W3 Total Cache
 -->
