@@ -25,8 +25,9 @@ if __name__ == "__main__":
         raise Exception(f"Could not get web page content: {e}")
 
     # <a href="/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/documents/bulletin-national/covid-19-point-epidemiologique-du-24-mars-2020"></a>
+    # /maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/documents/bulletin-national/covid-19-point-epidemiologique-du-4-juin-2020
     re_pdf = re.compile(
-        r'<a href="(/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/documents/bulletin-national/.*?)"></a>'
+        r'<a href="(/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/documents/bulletin-national/.*?)" class'
     )
 
     re_pdf_page_res = re_pdf.findall(req_page.text)
