@@ -11,7 +11,8 @@ from utils import _COLUMNS_ORDER, COVIDScrapper
 logging.basicConfig()
 logger = logging.getLogger("covid-eu-data.download.es")
 
-REPORT_URL = "https://eody.gov.gr/neos-koronaios-covid-19/"
+# REPORT_URL = "https://eody.gov.gr/neos-koronaios-covid-19/"
+REPORT_URL = "https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/“
 PDF_BASE_URL = "https://www.hpsc.ie"
 DAILY_FOLDER = os.path.join("documents", "daily", "gr")
 
