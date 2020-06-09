@@ -261,6 +261,20 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/insa-disponibiliza-relatorio-semanal-com-dados-sobre-curva-epidemica/" class="news_link">
+    								<span class="news_date">08/06/2020</span>								
+    								<h2 class="news_title">INSA disponibiliza relatório semanal com dados sobre curva epidémica</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/governo-impoe-medidas-de-prevencao-e-controlo-da-infecao-nas-piscinas-ao-ar-livre/" class="news_link">
+    								<span class="news_date">08/06/2020</span>								
+    								<h2 class="news_title">Governo impõe medidas de prevenção e controlo da infeção nas piscinas ao ar livre</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/secretario-de-estado-da-saude-pede-cautela-na-apreciacao-dos-numeros/" class="news_link">
     								<span class="news_date">08/06/2020</span>								
     								<h2 class="news_title">Secretário de Estado da Saúde pede cautela na apreciação dos números</h2>
@@ -271,20 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/reabertura-das-escolas-e-das-creches-tem-corrido-com-normalidade/" class="news_link">
     								<span class="news_date">08/06/2020</span>								
     								<h2 class="news_title">Reabertura das escolas e das creches tem corrido com normalidade</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/testes-serologicos-devem-ser-usados-com-parcimonia/" class="news_link">
-    								<span class="news_date">08/06/2020</span>								
-    								<h2 class="news_title">Testes serológicos devem ser usados com parcimónia</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/centenas-de-pessoas-realojadas-em-habitacoes-alternativas/" class="news_link">
-    								<span class="news_date">08/06/2020</span>								
-    								<h2 class="news_title">Centenas de pessoas realojadas em habitações alternativas</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">ipsum risus. odio amet, diam sit massa dolor dictum Praesent Aliquam</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">commodo ut at Sed dolor. risus felis neque. mi,</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-09 06:17:45 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-09 10:17:49 by W3 Total Cache
 -->
