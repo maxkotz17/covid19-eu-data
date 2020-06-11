@@ -261,30 +261,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/governo-apela-a-consciencia-civica-nos-feriados/" class="news_link">
+    								<span class="news_date">11/06/2020</span>								
+    								<h2 class="news_title">Governo apela à consciência cívica nos feriados</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/portugal-ja-nao-tem-criancas-infetadas-com-covid-19-em-cuidados-intensivos/" class="news_link">
+    								<span class="news_date">11/06/2020</span>								
+    								<h2 class="news_title">Portugal já não tem crianças infetadas com COVID-19 em cuidados intensivos</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/guia-de-equivalencias-ajuda-a-elaboracao-de-planos-de-contingencia-nos-diferentes-setores/" class="news_link">
+    								<span class="news_date">11/06/2020</span>								
+    								<h2 class="news_title">Guia de equivalências ajuda à elaboração de planos de contingência nos diferentes setores</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/direcao-geral-da-saude-publica-guia-de-recomendacoes-por-tema-e-setor-de-atividade/" class="news_link">
     								<span class="news_date">11/06/2020</span>								
     								<h2 class="news_title">Direção-Geral da Saúde publica guia de recomendações por tema e setor de atividade</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/dgs-publica-norma-sobre-a-retoma-das-cirurgias/" class="news_link">
-    								<span class="news_date">10/06/2020</span>								
-    								<h2 class="news_title">DGS publica norma sobre a retoma das cirurgias</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/arraiais-e-festas-populares-estao-proibidos-lembra-o-governo/" class="news_link">
-    								<span class="news_date">10/06/2020</span>								
-    								<h2 class="news_title">Arraiais e festas populares estão proibidos, lembra o Governo</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/mais-403-casos-de-recuperacao-da-covid-19/" class="news_link">
-    								<span class="news_date">10/06/2020</span>								
-    								<h2 class="news_title">Mais 403 casos de recuperação da COVID-19</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">Curabitur felis ut facilisis dictum lectus</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">Aliquam Nullam eleifend eget adipiscing ut dolor risus. vulputate, mattis</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-11 14:18:59 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-11 18:17:28 by W3 Total Cache
 -->
