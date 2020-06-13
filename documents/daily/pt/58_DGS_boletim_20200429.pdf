@@ -261,30 +261,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/virus-circula-a-nivel-planetario-situacao-na-china-nao-e-inesperada/" class="news_link">
+    								<span class="news_date">13/06/2020</span>								
+    								<h2 class="news_title">Vírus circula a nível planetário. Situação na China não é inesperada</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/mais-de-83-dos-profissionais-de-saude-infetados-ja-recuperaram/" class="news_link">
+    								<span class="news_date">13/06/2020</span>								
+    								<h2 class="news_title">Mais de 83% dos profissionais de saúde infetados já recuperaram</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/capacidade-de-medicina-intensiva-aumentou-23/" class="news_link">
+    								<span class="news_date">13/06/2020</span>								
+    								<h2 class="news_title">Capacidade de Medicina Intensiva aumentou 23%</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/portugal-registou-uma-unica-morte-por-covid-19-nas-ultimas-24-horas/" class="news_link">
     								<span class="news_date">12/06/2020</span>								
     								<h2 class="news_title">Portugal registou uma única morte por COVID-19 nas últimas 24 horas</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/dgs-lembra-que-nao-sao-permitidos-ajuntamentos-de-mais-de-10-pessoas-nos-santos/" class="news_link">
-    								<span class="news_date">12/06/2020</span>								
-    								<h2 class="news_title">DGS lembra que não são permitidos ajuntamentos de mais de 10 pessoas nos santos</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/diretora-geral-da-saude-lembra-que-existem-regras-para-casamentos-e-batizados/" class="news_link">
-    								<span class="news_date">12/06/2020</span>								
-    								<h2 class="news_title">Diretora-Geral da Saúde lembra que existem regras para casamentos e batizados</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/ainda-e-cedo-para-tirar-conclusoes-sobre-as-sequelas-deixadas-pela-covid-19/" class="news_link">
-    								<span class="news_date">12/06/2020</span>								
-    								<h2 class="news_title">Ainda é cedo para tirar conclusões sobre as sequelas deixadas pela COVID-19</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">Praesent Nullam libero commodo fringilla odio sem,</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">libero Curabitur amet, ultricies non eleifend adipiscing dictum Sed massa ut</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-13 14:18:48 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-13 18:18:02 by W3 Total Cache
 -->
