@@ -23,7 +23,7 @@ _COLUMNS_ORDER = [
     "nuts_1_code", "nuts_2_code", "nuts_3_code", "lau_code",
     "cases", "cases_lower", "cases_upper", "cases_raw",
     "population", "cases/100k pop.", "percent",
-    "recovered", "deaths",
+    "recovered", "deaths", "deaths/100k pop.",
     "tests", "tests_positive", "quarantine", "hospitalized", "hospitalized/100k pop.",
     "intensive_care",
     "datetime"

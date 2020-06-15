@@ -71,22 +71,38 @@ class SARSCOV2NL(COVIDScrapper):
         ]
         self.df = pd.concat([self.df, df_other])
 
-        original_cols = ["Gemeente", "Meldingen", "Zkh opname", "BevAant", "Meldingen per 100.000", "Zkh opname per 100.000"]
+        # original_cols = ["Gemeente", "Meldingen", "Zkh opname", "BevAant", "Meldingen per 100.000", "Zkh opname per 100.000"]
+        original_cols = ["Gemeente", "Totaal_Absoluut", "Zkh_Absoluut", "Overleden_Absoluut", "BevAant", "Totaal_inc100000", "Zkh_inc100000", "Overleden_inc100000", "tot_datum"]
         self.df = self.df[original_cols]
         self.df.fillna(0, inplace=True)
-        self.df["Meldingen"] = self.df.Meldingen.astype(int)
-        self.df["Zkh opname"] = self.df["Zkh opname"].astype(int)
+        # self.df["Meldingen"] = self.df.Meldingen.astype(int)
+        # self.df["Zkh opname"] = self.df["Zkh opname"].astype(int)
+        self.df["Totaal_Absoluut"] = self.df.Totaal_Absoluut.astype(int)
+        self.df["Zkh_Absoluut"] = self.df.Zkh_Absoluut.astype(int)
+        self.df["Overleden_Absoluut"] = self.df.Overleden_Absoluut.astype(int)
 
         self.df.rename(
-            columns={
+            # columns={
+            #     "Gemeente": "lau",
+            #     "BevAant": "population",
+            #     "Meldingen": "cases",
+            #     "Zkh opname": "hospitalized",
+            #     "Meldingen per 100.000": "cases/100k pop.",
+            #     "Zkh opname per 100.000": "hospitalized/100k pop."
+            # },
+            columns = {
                 "Gemeente": "lau",
+                "Totaal_Absoluut": "cases",
+                "Zkh_Absoluut": "hospitalized",
+                "Overleden_Absoluut": "deaths",
                 "BevAant": "population",
-                "Meldingen": "cases",
-                "Zkh opname": "hospitalized",
-                "Meldingen per 100.000": "cases/100k pop.",
-                "Zkh opname per 100.000": "hospitalized/100k pop."
+                "Totaal_inc100000": "cases/100k pop.",
+                "Zkh_inc100000": "hospitalized/100k pop.",
+                "Overleden_inc100000": "deaths/100k pop.",
+                "tot_datum": "datetime"
             },
             inplace=True
+
         )
 
         self.df = pd.concat(
@@ -161,28 +177,31 @@ class SARSCOV2NL(COVIDScrapper):
         """Get datetime of dataset
         """
 
-        doc = lxml.html.document_fromstring(self.req.text)
-        el = doc.xpath('.//div[@id="csvData"]')
-        if el:
-            text = "".join(
-                el[0].xpath('.//text()')
-            )
-        # <p>aantal per 17 maart 2020 14.00 uur</p>
-        # Wijzigingsdatum 31-03-2020 | 15:36
-        # re_dt = re.compile(r"<p>aantal per (.*)uur</p>")
-        re_dt = re.compile(r"Wijzigingsdatum (\d+-\d+-\d+ \| \d+:\d+)")
-        dt_from_re = re_dt.findall(self.req.content.decode("utf-8"))
+        # doc = lxml.html.document_fromstring(self.req.text)
+        # el = doc.xpath('.//div[@id="csvData"]')
+        # if el:
+        #     text = "".join(
+        #         el[0].xpath('.//text()')
+        #     )
+        # # <p>aantal per 17 maart 2020 14.00 uur</p>
+        # # Wijzigingsdatum 31-03-2020 | 15:36
+        # # re_dt = re.compile(r"<p>aantal per (.*)uur</p>")
+        # re_dt = re.compile(r"Wijzigingsdatum (\d+-\d+-\d+ \| \d+:\d+)")
+        # dt_from_re = re_dt.findall(self.req.content.decode("utf-8"))
 
-        if not dt_from_re:
-            raise Exception("Did not find datetime from webpage")
+        # if not dt_from_re:
+        #     raise Exception("Did not find datetime from webpage")
 
-        dt_from_re = dt_from_re[0].replace("\xa0", " ").replace('|', '')
-        for key in DUTCH_MONTHS_TO_EN:
-            if key in dt_from_re:
-                dt_from_re = dt_from_re.replace(key, DUTCH_MONTHS_TO_EN[key])
-                break
-        dt_from_re = dateutil.parser.parse(dt_from_re.replace(".", ":"), dayfirst=True)
-        self.dt = dt_from_re
+        # dt_from_re = dt_from_re[0].replace("\xa0", " ").replace('|', '')
+        # for key in DUTCH_MONTHS_TO_EN:
+        #     if key in dt_from_re:
+        #         dt_from_re = dt_from_re.replace(key, DUTCH_MONTHS_TO_EN[key])
+        #         break
+
+        # dt_from_re = dateutil.parser.parse(dt_from_re.replace(".", ":"), dayfirst=True)
+
+        # self.dt = dt_from_re
+        self.dt = dateutil.parser.parse(self.df.datetime.unique()[0], dayfirst=True)
 
     def post_processing(self):
 
