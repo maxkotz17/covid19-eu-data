@@ -1,5 +1,9 @@
 # Changelog
 
+## 2020-06-15
+
+1. NL: NL has new columns names and date is being included in the original dataset.
+
 ## 2020-06-01
 
 1. AT: "Vienna did not report any numbers on June 1, 2020 and will submit these with the report of June 2, 2020."
