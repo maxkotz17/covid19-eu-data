@@ -261,6 +261,13 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/mais-duas-mortes-e-300-novos-casos-de-covid-19/" class="news_link">
+    								<span class="news_date">16/06/2020</span>								
+    								<h2 class="news_title">Mais duas mortes e 300 novos casos de COVID-19</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/medidas-de-contencao-serao-necessarias-ate-existir-vacina-ou-tratamento/" class="news_link">
     								<span class="news_date">15/06/2020</span>								
     								<h2 class="news_title">Medidas de contenção serão necessárias até existir vacina ou tratamento</h2>
@@ -278,13 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/nao-e-um-momento-para-esmorecer-diz-a-ministra-da-saude/" class="news_link">
     								<span class="news_date">15/06/2020</span>								
     								<h2 class="news_title">“Não é um momento para esmorecer”, diz a Ministra da Saúde</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/portugal-ja-fez-mais-de-um-milhao-de-testes-de-diagnostico/" class="news_link">
-    								<span class="news_date">15/06/2020</span>								
-    								<h2 class="news_title">Portugal já fez mais de um milhão de testes de diagnóstico</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">odio fringilla leo neque. nunc risus quis nec diam leo.</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">vulputate, elit. dolor. Lorem elementum dictum</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-16 10:19:02 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-16 14:18:53 by W3 Total Cache
 -->
