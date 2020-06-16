@@ -72,7 +72,8 @@ class SARSCOV2NL(COVIDScrapper):
         self.df = pd.concat([self.df, df_other])
 
         # original_cols = ["Gemeente", "Meldingen", "Zkh opname", "BevAant", "Meldingen per 100.000", "Zkh opname per 100.000"]
-        original_cols = ["Gemeente", "Totaal_Absoluut", "Zkh_Absoluut", "Overleden_Absoluut", "BevAant", "Totaal_inc100000", "Zkh_inc100000", "Overleden_inc100000", "tot_datum"]
+        # original_cols = ["Gemeente", "Totaal_Absoluut", "Zkh_Absoluut", "Overleden_Absoluut", "BevAant", "Totaal_inc100000", "Zkh_inc100000", "Overleden_inc100000", "tot_datum"]
+        original_cols = ["Gemeente", "Totaal_Absoluut", "Zkh_Absoluut", "Overleden_Absoluut", "Bev_2020", "Totaal_inc100000", "Zkh_inc100000", "Overleden_inc100000", "tot_datum"]
         self.df = self.df[original_cols]
         self.df.fillna(0, inplace=True)
         # self.df["Meldingen"] = self.df.Meldingen.astype(int)
@@ -96,6 +97,7 @@ class SARSCOV2NL(COVIDScrapper):
                 "Zkh_Absoluut": "hospitalized",
                 "Overleden_Absoluut": "deaths",
                 "BevAant": "population",
+                "Bev_2020": "population",
                 "Totaal_inc100000": "cases/100k pop.",
                 "Zkh_inc100000": "hospitalized/100k pop.",
                 "Overleden_inc100000": "deaths/100k pop.",
