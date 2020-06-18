@@ -261,6 +261,13 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/portugal-registou-mais-430-casos-de-recuperacao-em-24-horas/" class="news_link">
+    								<span class="news_date">18/06/2020</span>								
+    								<h2 class="news_title">Portugal registou mais 430 casos de recuperação em 24 horas</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/testes-nao-sao-vacina-profissionais-dos-lares-tem-responsabilidade-acrescida/" class="news_link">
     								<span class="news_date">17/06/2020</span>								
     								<h2 class="news_title">Testes não são vacina. Profissionais dos lares têm responsabilidade acrescida</h2>
@@ -278,13 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/mais-de-5-300-doentes-transferidos-dos-hospitais-do-sns-desde-o-inicio-da-pandemia/" class="news_link">
     								<span class="news_date">17/06/2020</span>								
     								<h2 class="news_title">Mais de 5.300 doentes transferidos dos hospitais do SNS desde o início da pandemia</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/infarmed-pede-prudencia-na-interpretacao-do-estudo-com-dexametasona/" class="news_link">
-    								<span class="news_date">17/06/2020</span>								
-    								<h2 class="news_title">INFARMED pede prudência na interpretação do estudo com dexametasona</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">commodo risus mattis accumsan velit, libero. quis,</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">ut libero. ut mattis nunc neque. elit. libero ut sed</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-18 10:18:29 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-18 14:17:25 by W3 Total Cache
 -->
