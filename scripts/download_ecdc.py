@@ -71,6 +71,12 @@ class SARSCOV2ECDC(COVIDScrapper):
             raise Exception("Could not find data table in webpage")
 
         self.df = req_dfs[0]
+
+        if "Cases" not in self.df.columns:
+            new_header = self.df.iloc[0] #grab the first row for the header
+            self.df = self.df[1:] #take the data less the header row
+            self.df.columns = new_header
+
         self.df.rename(
             columns = {
                 "EU/EEA and the UK": "country",
