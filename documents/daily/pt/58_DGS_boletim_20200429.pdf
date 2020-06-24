@@ -238,7 +238,7 @@ img.emoji {
 					</a>
 					
 					<div class="world_videos">
-						<div class="world_video_iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/hBsL2ixKRbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+						<div class="world_video_iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/EdM5uwdpn-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 						<a class="world_video_link" href="/videos">Ver mais videos</a>
 					</div>
 					
@@ -261,30 +261,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/mais-172-recuperados-e-345-casos-confirmados-de-covid-19/" class="news_link">
-    								<span class="news_date">23/06/2020</span>								
-    								<h2 class="news_title">Mais 172 recuperados e 345 casos confirmados de COVID-19</h2>
+    							<a href="https://covid19.min-saude.pt/diretora-geral-da-saude-destaca-papel-das-empresas-no-controlo-da-epidemia/" class="news_link">
+    								<span class="news_date">24/06/2020</span>								
+    								<h2 class="news_title">Diretora-Geral da Saúde destaca papel das empresas no controlo da epidemia</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/area-metropolitana-de-lisboa-com-medidas-mais-restritivas-a-partir-de-hoje/" class="news_link">
-    								<span class="news_date">23/06/2020</span>								
-    								<h2 class="news_title">Área Metropolitana de Lisboa com medidas mais restritivas a partir de hoje</h2>
+    							<a href="https://covid19.min-saude.pt/grupo-etario-dos-20-aos-49-anos-e-o-mais-atingido-pela-epidemia/" class="news_link">
+    								<span class="news_date">24/06/2020</span>								
+    								<h2 class="news_title">Grupo etário dos 20 aos 49 anos é o mais atingido pela epidemia</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/trabalhadores-dos-lares-sao-os-grandes-vetores-da-covid-19/" class="news_link">
-    								<span class="news_date">22/06/2020</span>								
-    								<h2 class="news_title">Trabalhadores dos lares são “os grandes vetores” da COVID-19</h2>
+    							<a href="https://covid19.min-saude.pt/portugal-adquire-dois-milhoes-de-vacinas-para-a-gripe/" class="news_link">
+    								<span class="news_date">24/06/2020</span>								
+    								<h2 class="news_title">Portugal adquire dois milhões de vacinas para a gripe</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/graca-freitas-recorda-as-medidas-de-protecao-da-covid-19/" class="news_link">
-    								<span class="news_date">22/06/2020</span>								
-    								<h2 class="news_title">Graça Freitas recorda as medidas de proteção da COVID-19</h2>
+    							<a href="https://covid19.min-saude.pt/governo-apela-ao-foco-e-disciplina-no-cumprimento-das-recomendacoes/" class="news_link">
+    								<span class="news_date">24/06/2020</span>								
+    								<h2 class="news_title">Governo apela ao foco e disciplina no cumprimento das recomendações</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">ut ipsum justo Donec felis tristique risus. vulputate, efficitur. velit,</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">nec tempus mi, venenatis mattis ut ut Lorem</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-24 14:19:00 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-24 18:17:54 by W3 Total Cache
 -->
