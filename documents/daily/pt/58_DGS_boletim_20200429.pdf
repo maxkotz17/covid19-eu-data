@@ -261,6 +261,13 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/mais-311-casos-e-299-recuperados-da-covid-19/" class="news_link">
+    								<span class="news_date">25/06/2020</span>								
+    								<h2 class="news_title">Mais 311 casos e 299 recuperados da COVID-19</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/diretora-geral-da-saude-destaca-papel-das-empresas-no-controlo-da-epidemia/" class="news_link">
     								<span class="news_date">24/06/2020</span>								
     								<h2 class="news_title">Diretora-Geral da Saúde destaca papel das empresas no controlo da epidemia</h2>
@@ -278,13 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/portugal-adquire-dois-milhoes-de-vacinas-para-a-gripe/" class="news_link">
     								<span class="news_date">24/06/2020</span>								
     								<h2 class="news_title">Portugal adquire dois milhões de vacinas para a gripe</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/governo-apela-ao-foco-e-disciplina-no-cumprimento-das-recomendacoes/" class="news_link">
-    								<span class="news_date">24/06/2020</span>								
-    								<h2 class="news_title">Governo apela ao foco e disciplina no cumprimento das recomendações</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">libero. ut Nullam vel, leo ultricies eleifend</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">in massa commodo accumsan elit. neque.</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-25 14:18:41 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-25 18:19:07 by W3 Total Cache
 -->
