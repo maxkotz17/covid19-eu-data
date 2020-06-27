@@ -261,6 +261,13 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/dgs-e-dgav-publicam-orientacao-para-o-setor-das-frutas-e-legumes/" class="news_link">
+    								<span class="news_date">26/06/2020</span>								
+    								<h2 class="news_title">DGS e DGAV publicam orientação para o setor das frutas e legumes</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/portugal-avanca-para-estado-de-alerta/" class="news_link">
     								<span class="news_date">26/06/2020</span>								
     								<h2 class="news_title">Portugal avança para estado de Alerta</h2>
@@ -278,13 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/portugal-recebeu-952-ventiladores-desde-o-inicio-da-pandemia/" class="news_link">
     								<span class="news_date">26/06/2020</span>								
     								<h2 class="news_title">Portugal recebeu 952 ventiladores desde o início da pandemia</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/sns-tem-capacidade-de-responder-as-necessidades/" class="news_link">
-    								<span class="news_date">26/06/2020</span>								
-    								<h2 class="news_title">SNS tem capacidade de responder às necessidades</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">fringilla dapibus Sed ut elit. Aenean adipiscing mi, ante. venenatis non odio</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">fringilla ut quis, Lorem porta. sed risus.</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-26 22:17:51 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-27 06:18:29 by W3 Total Cache
 -->
