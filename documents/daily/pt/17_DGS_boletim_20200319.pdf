@@ -261,30 +261,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/dgs-e-dgav-publicam-orientacao-para-o-setor-das-frutas-e-legumes/" class="news_link">
-    								<span class="news_date">26/06/2020</span>								
-    								<h2 class="news_title">DGS e DGAV publicam orientação para o setor das frutas e legumes</h2>
+    							<a href="https://covid19.min-saude.pt/dgs-publica-orientacao-sobre-sistemas-avac-nas-unidades-de-saude/" class="news_link">
+    								<span class="news_date">30/06/2020</span>								
+    								<h2 class="news_title">DGS publica orientação sobre sistemas AVAC nas unidades de saúde</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/portugal-avanca-para-estado-de-alerta/" class="news_link">
-    								<span class="news_date">26/06/2020</span>								
-    								<h2 class="news_title">Portugal avança para estado de Alerta</h2>
+    							<a href="https://covid19.min-saude.pt/mais-de-80-dos-profissionais-de-saude-infetados-ja-recuperaram/" class="news_link">
+    								<span class="news_date">29/06/2020</span>								
+    								<h2 class="news_title">Mais de 80% dos profissionais de saúde infetados já recuperaram</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/utilizacao-de-remdesivir-em-portugal-tem-resultado/" class="news_link">
-    								<span class="news_date">26/06/2020</span>								
-    								<h2 class="news_title">Utilização de Remdesivir em Portugal tem resultado</h2>
+    							<a href="https://covid19.min-saude.pt/lisboa-tem-boa-capacidade-de-resposta-em-cuidados-intensivos/" class="news_link">
+    								<span class="news_date">29/06/2020</span>								
+    								<h2 class="news_title">Lisboa tem “boa capacidade de resposta” em cuidados intensivos</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/portugal-recebeu-952-ventiladores-desde-o-inicio-da-pandemia/" class="news_link">
-    								<span class="news_date">26/06/2020</span>								
-    								<h2 class="news_title">Portugal recebeu 952 ventiladores desde o início da pandemia</h2>
+    							<a href="https://covid19.min-saude.pt/lares-continuam-a-ser-motivo-de-grande-preocupacao/" class="news_link">
+    								<span class="news_date">29/06/2020</span>								
+    								<h2 class="news_title">Lares continuam a ser motivo de “grande preocupação”</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">risus ipsum Aenean felis Praesent sem,</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">porta. ante. ut nec nunc quis elementum accumsan odio consequat. felis</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-06-30 06:18:58 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-06-30 10:17:19 by W3 Total Cache
 -->
