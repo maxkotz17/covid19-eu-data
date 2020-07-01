@@ -107,12 +107,12 @@ class SARSCOV2NL(COVIDScrapper):
 
         )
 
-        self.df = pd.concat(
-            [
-                self.df,
-                self._extract_total()
-            ]
-        )
+        # self.df = pd.concat(
+        #     [
+        #         self.df,
+        #         self._extract_total()
+        #     ]
+        # )
         # add sum
         # total = self.df.Aantal.sum()
         # total_pop = self.df["BevAant"].sum()
