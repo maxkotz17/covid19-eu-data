@@ -261,6 +261,20 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/mais-299-pessoas-dadas-como-recuperadas-em-24-horas/" class="news_link">
+    								<span class="news_date">02/07/2020</span>								
+    								<h2 class="news_title">Mais 299 pessoas dadas como recuperadas em 24 horas</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/infarmed-assegura-que-portugal-tem-stock-de-remdesivir/" class="news_link">
+    								<span class="news_date">02/07/2020</span>								
+    								<h2 class="news_title">Infarmed assegura que Portugal tem stock de remdesivir</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/maioria-dos-contagios-ocorrem-em-casa-e-no-emprego/" class="news_link">
     								<span class="news_date">01/07/2020</span>								
     								<h2 class="news_title">Maioria dos contágios ocorrem em casa e no emprego</h2>
@@ -271,20 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/resposta-em-rede-do-sns-permite-dar-resposta-as-necessidades/" class="news_link">
     								<span class="news_date">01/07/2020</span>								
     								<h2 class="news_title">Resposta em rede do SNS permite dar resposta às necessidades</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/linha-sns-24-ja-atendeu-mais-de-um-milhao-de-chamadas/" class="news_link">
-    								<span class="news_date">01/07/2020</span>								
-    								<h2 class="news_title">Linha SNS 24 já atendeu mais de um milhão de chamadas</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/mais-medicos-e-equipas-para-conter-cadeias-de-transmissao-em-lisboa/" class="news_link">
-    								<span class="news_date">30/06/2020</span>								
-    								<h2 class="news_title">Mais médicos e equipas para conter cadeias de transmissão em Lisboa</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">Praesent Sed fringilla venenatis tristique amet,</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">at commodo Phasellus Donec dolor. Lorem elementum neque. id</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-07-02 14:17:36 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-07-02 18:19:06 by W3 Total Cache
 -->
