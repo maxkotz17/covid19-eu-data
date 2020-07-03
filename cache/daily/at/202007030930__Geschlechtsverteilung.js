@@ -1,2 +1,2 @@
-var dpGeschlechtsverteilung = [{"label":"weiblich","y":51,"CSV":"weiblich;51"},{"label":"männlich","y":49,"CSV":"männlich;49"}];
-var GeschlechtsverteilungVersion = "03.07.2020 14:00:00 V 1.2.3.0"
+var dpGeschlechtsverteilung = [{"label":"weiblich","y":50,"CSV":"weiblich;50"},{"label":"männlich","y":50,"CSV":"männlich;50"}];
+var GeschlechtsverteilungVersion = "03.07.2020 15:00:00 V 1.2.3.0"
