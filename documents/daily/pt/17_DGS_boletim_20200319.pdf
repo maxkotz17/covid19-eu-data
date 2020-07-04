@@ -261,30 +261,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/sns-continua-a-dar-resposta-as-necessidades-assegura-a-ministra-da-saude/" class="news_link">
+    								<span class="news_date">04/07/2020</span>								
+    								<h2 class="news_title">SNS continua a dar resposta às necessidades, assegura a Ministra da Saúde</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/realizados-200-testes-a-covid-19-num-so-dia-no-aeroporto/" class="news_link">
+    								<span class="news_date">04/07/2020</span>								
+    								<h2 class="news_title">Realizados 200 testes à COVID-19 num só dia no aeroporto</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/idosos-e-profissionais-de-saude-sao-prioritarios-para-receber-a-vacina-da-gripe/" class="news_link">
+    								<span class="news_date">04/07/2020</span>								
+    								<h2 class="news_title">Idosos e profissionais de saúde são prioritários para receber a vacina da gripe</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/mais-299-pessoas-dadas-como-recuperadas-em-24-horas/" class="news_link">
     								<span class="news_date">02/07/2020</span>								
     								<h2 class="news_title">Mais 299 pessoas dadas como recuperadas em 24 horas</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/infarmed-assegura-que-portugal-tem-stock-de-remdesivir/" class="news_link">
-    								<span class="news_date">02/07/2020</span>								
-    								<h2 class="news_title">Infarmed assegura que Portugal tem stock de remdesivir</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/maioria-dos-contagios-ocorrem-em-casa-e-no-emprego/" class="news_link">
-    								<span class="news_date">01/07/2020</span>								
-    								<h2 class="news_title">Maioria dos contágios ocorrem em casa e no emprego</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/resposta-em-rede-do-sns-permite-dar-resposta-as-necessidades/" class="news_link">
-    								<span class="news_date">01/07/2020</span>								
-    								<h2 class="news_title">Resposta em rede do SNS permite dar resposta às necessidades</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">vel, fringilla libero id Praesent tristique eleifend Nullam</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">commodo mattis dictum elit. id facilisis dolor. id, libero Donec suscipit</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-07-04 10:18:58 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-07-04 14:19:02 by W3 Total Cache
 -->
