@@ -261,30 +261,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/numeros-do-boletim-sao-fiaveis-garante-a-diretora-geral-da-saude/" class="news_link">
+    								<span class="news_date">06/07/2020</span>								
+    								<h2 class="news_title">Números do boletim são fiáveis, garante a Diretora-Geral da Saúde</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/insa-vai-realizar-mais-tres-estudos-serologicos/" class="news_link">
+    								<span class="news_date">06/07/2020</span>								
+    								<h2 class="news_title">INSA vai realizar mais três estudos serológicos</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/prioridade-do-pais-no-combate-a-pandemia-foi-proteger-vidas/" class="news_link">
+    								<span class="news_date">06/07/2020</span>								
+    								<h2 class="news_title">Prioridade do país no combate à pandemia foi “proteger vidas”</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/dgs-atualiza-norma-sobre-os-procedimentos-post-mortem/" class="news_link">
     								<span class="news_date">04/07/2020</span>								
     								<h2 class="news_title">DGS atualiza norma sobre os procedimentos post mortem</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/sns-continua-a-dar-resposta-as-necessidades-assegura-a-ministra-da-saude/" class="news_link">
-    								<span class="news_date">04/07/2020</span>								
-    								<h2 class="news_title">SNS continua a dar resposta às necessidades, assegura a Ministra da Saúde</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/realizados-200-testes-a-covid-19-num-so-dia-no-aeroporto/" class="news_link">
-    								<span class="news_date">04/07/2020</span>								
-    								<h2 class="news_title">Realizados 200 testes à COVID-19 num só dia no aeroporto</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/idosos-e-profissionais-de-saude-sao-prioritarios-para-receber-a-vacina-da-gripe/" class="news_link">
-    								<span class="news_date">04/07/2020</span>								
-    								<h2 class="news_title">Idosos e profissionais de saúde são prioritários para receber a vacina da gripe</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">felis Curabitur nunc Phasellus dictum sem, felis libero nec vel,</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">sed dictum dolor ut quis, at et, leo. ut Lorem</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-07-06 14:18:49 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-07-06 18:19:34 by W3 Total Cache
 -->
