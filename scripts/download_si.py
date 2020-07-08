@@ -120,6 +120,7 @@ def download_and_xlsx(xlsx_url):
     df["cases"] = df.tests_positive
     df["country"] = "SI"
     df = df[[i for i in _COLUMNS_ORDER if i in df.columns]]
+    df = df.loc[~df.cases.isna()]
     df["datetime"] = df.datetime.apply(
         lambda x: x.isoformat()
     )
