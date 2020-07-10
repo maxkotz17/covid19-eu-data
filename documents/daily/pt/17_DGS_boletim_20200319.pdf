@@ -261,30 +261,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/portugal-regista-mais-335-recuperados-e-418-casos-confirmados-de-covid-19/" class="news_link">
+    								<span class="news_date">09/07/2020</span>								
+    								<h2 class="news_title">Portugal regista mais 335 recuperados e 418 casos confirmados de COVID-19</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/portugal-e-dos-paises-que-mais-deteta-assintomaticos/" class="news_link">
+    								<span class="news_date">08/07/2020</span>								
+    								<h2 class="news_title">Portugal é dos países que mais deteta assintomáticos</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/dgs-e-liga-unem-se-em-campanha-de-sensibilizacao/" class="news_link">
+    								<span class="news_date">08/07/2020</span>								
+    								<h2 class="news_title">DGS e LIGA unem-se em campanha de sensibilização</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/portugal-registou-mais-287-infetados-e-279-recuperados-em-24-horas/" class="news_link">
     								<span class="news_date">07/07/2020</span>								
     								<h2 class="news_title">Portugal registou mais 287 infetados e 279 recuperados em 24 horas</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/numeros-do-boletim-sao-fiaveis-garante-a-diretora-geral-da-saude/" class="news_link">
-    								<span class="news_date">06/07/2020</span>								
-    								<h2 class="news_title">Números do boletim são fiáveis, garante a Diretora-Geral da Saúde</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/insa-vai-realizar-mais-tres-estudos-serologicos/" class="news_link">
-    								<span class="news_date">06/07/2020</span>								
-    								<h2 class="news_title">INSA vai realizar mais três estudos serológicos</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/prioridade-do-pais-no-combate-a-pandemia-foi-proteger-vidas/" class="news_link">
-    								<span class="news_date">06/07/2020</span>								
-    								<h2 class="news_title">Prioridade do país no combate à pandemia foi “proteger vidas”</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">ante. diam massa porta. ut amet, elit. Aenean</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">amet, ipsum Praesent facilisis in Praesent id venenatis, sed</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-07-10 06:20:02 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-07-10 10:18:42 by W3 Total Cache
 -->
