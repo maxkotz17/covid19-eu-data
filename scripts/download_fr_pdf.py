@@ -11,7 +11,7 @@ from utils import _COLUMNS_ORDER, COVIDScrapper, get_response
 logging.basicConfig()
 logger = logging.getLogger("covid-eu-data.download.fr")
 
-FR_REPORT_URL = "https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde"
+FR_REPORT_URL = "https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde"
 PDF_BASE_URL = "https://www.santepubliquefrance.fr"
 DAILY_FOLDER = os.path.join("documents", "daily", "fr")
 
@@ -26,8 +26,9 @@ if __name__ == "__main__":
 
     # <a href="/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/documents/bulletin-national/covid-19-point-epidemiologique-du-24-mars-2020"></a>
     # /maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/documents/bulletin-national/covid-19-point-epidemiologique-du-4-juin-2020
+    # /maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/documents/bulletin-national/covid-19-point-epidemiologique-du-9-juillet-2020
     re_pdf = re.compile(
-        r'<a href="(/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/documents/bulletin-national/.*?)" class'
+        r'<a href="(/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/documents/bulletin-national/.*?)"'
     )
 
     re_pdf_page_res = re_pdf.findall(req_page.text)
