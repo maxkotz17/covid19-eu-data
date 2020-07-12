@@ -1,5 +1,5 @@
 {
-    "modified": "2020-07-12T17:31:27+02:00",
+    "modified": "2020-07-12T17:49:46+02:00",
     "source": "https:\/\/onemocneni-aktualne.mzcr.cz\/",
     "data": [
         {
@@ -1141,35 +1141,35 @@
             "kumulovany_pocet_nakazenych": 12685,
             "kumulovany_pocet_vylecenych": 8072,
             "kumulovany_pocet_umrti": 351,
-            "kumulovany_pocet_provedenych_testu": 579507
+            "kumulovany_pocet_provedenych_testu": 579540
         },
         {
             "datum": "2020-07-08",
             "kumulovany_pocet_nakazenych": 12814,
             "kumulovany_pocet_vylecenych": 8137,
             "kumulovany_pocet_umrti": 351,
-            "kumulovany_pocet_provedenych_testu": 584498
+            "kumulovany_pocet_provedenych_testu": 584946
         },
         {
             "datum": "2020-07-09",
             "kumulovany_pocet_nakazenych": 12919,
             "kumulovany_pocet_vylecenych": 8194,
             "kumulovany_pocet_umrti": 352,
-            "kumulovany_pocet_provedenych_testu": 589173
+            "kumulovany_pocet_provedenych_testu": 589628
         },
         {
             "datum": "2020-07-10",
             "kumulovany_pocet_nakazenych": 13062,
             "kumulovany_pocet_vylecenych": 8224,
             "kumulovany_pocet_umrti": 352,
-            "kumulovany_pocet_provedenych_testu": 594454
+            "kumulovany_pocet_provedenych_testu": 594956
         },
         {
             "datum": "2020-07-11",
             "kumulovany_pocet_nakazenych": 13115,
             "kumulovany_pocet_vylecenych": 8227,
             "kumulovany_pocet_umrti": 352,
-            "kumulovany_pocet_provedenych_testu": 596439
+            "kumulovany_pocet_provedenych_testu": 597096
         }
     ]
 }
