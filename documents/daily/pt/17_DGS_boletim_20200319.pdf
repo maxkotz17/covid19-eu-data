@@ -261,6 +261,20 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/direcao-geral-da-saude-publica-norma-para-blocos-operatorios-e-procedimentos-cirurgicos/" class="news_link">
+    								<span class="news_date">14/07/2020</span>								
+    								<h2 class="news_title">Direção-Geral da Saúde publica norma para blocos operatórios e procedimentos cirúrgicos</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/direcao-geral-da-saude-integra-comissao-de-expansao-da-capacidade-laboratorial/" class="news_link">
+    								<span class="news_date">14/07/2020</span>								
+    								<h2 class="news_title">Direção-Geral da Saúde integra comissão de expansão da capacidade laboratorial</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/diretora-geral-da-saude-alerta-para-os-cuidados-a-ter-com-as-temperaturas-altas/" class="news_link">
     								<span class="news_date">13/07/2020</span>								
     								<h2 class="news_title">Diretora-Geral da Saúde alerta para os cuidados a ter com as temperaturas altas</h2>
@@ -271,20 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/ferramentas-de-recolha-e-tratamento-de-dados-estao-a-ser-melhoradas/" class="news_link">
     								<span class="news_date">13/07/2020</span>								
     								<h2 class="news_title">Ferramentas de recolha e tratamento de dados estão a ser melhoradas</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/portugal-contratou-3-900-profissionais-de-saude-desde-o-inicio-da-pandemia/" class="news_link">
-    								<span class="news_date">13/07/2020</span>								
-    								<h2 class="news_title">Portugal contratou 3.900 profissionais de saúde desde o início da pandemia</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/direcao-geral-da-saude-publica-orientacao-para-pessoas-em-situacao-de-vulnerabilidade/" class="news_link">
-    								<span class="news_date">13/07/2020</span>								
-    								<h2 class="news_title">Direção-Geral da Saúde publica orientação para pessoas em situação de vulnerabilidade</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">massa Phasellus tempus Nullam accumsan nec consectetur ut efficitur. ante. neque. quis,</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">Donec dolor facilisis pulvinar nec amet, ut suscipit</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-07-14 10:18:18 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-07-14 14:18:58 by W3 Total Cache
 -->
