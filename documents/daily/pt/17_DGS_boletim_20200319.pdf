@@ -261,6 +261,20 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/portugal-regista-mais-recuperados-do-que-infetados/" class="news_link">
+    								<span class="news_date">17/07/2020</span>								
+    								<h2 class="news_title">Portugal regista mais recuperados do que infetados</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/ajuntamentos-a-ceu-aberto-tambem-tem-riscos/" class="news_link">
+    								<span class="news_date">17/07/2020</span>								
+    								<h2 class="news_title">Ajuntamentos a céu aberto também têm riscos</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/dgs-e-protecao-civil-lancam-guidelines-para-zonas-de-concentracao-e-apoio-a-populacao/" class="news_link">
     								<span class="news_date">17/07/2020</span>								
     								<h2 class="news_title">DGS e Proteção Civil lançam guidelines para Zonas de Concentração e Apoio à População</h2>
@@ -271,20 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/dgs-e-movijovem-lancam-selo-pousada-da-juventude-segura/" class="news_link">
     								<span class="news_date">15/07/2020</span>								
     								<h2 class="news_title">DGS e Movijovem lançam selo “Pousada da Juventude Segura”</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/diretora-geral-da-saude-lembra-que-nao-existem-provas-de-reinfecao/" class="news_link">
-    								<span class="news_date">15/07/2020</span>								
-    								<h2 class="news_title">Diretora-Geral da Saúde lembra que não existem provas de reinfeção</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/mais-de-oito-milhoes-de-consultas-nao-presenciais-realizadas-desde-janeiro/" class="news_link">
-    								<span class="news_date">15/07/2020</span>								
-    								<h2 class="news_title">Mais de oito milhões de consultas não presenciais realizadas desde janeiro</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">eleifend venenatis commodo pulvinar commodo sed</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">ut fringilla tempus commodo Lorem Praesent risus. ut in</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-07-17 14:18:39 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-07-17 18:18:43 by W3 Total Cache
 -->
