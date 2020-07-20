@@ -261,6 +261,13 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/atualizacao-de-orientacoes-sobre-climatizacao-dos-espacos-e-sobre-metodos-de-pagamento/" class="news_link">
+    								<span class="news_date">20/07/2020</span>								
+    								<h2 class="news_title">Atualização de Orientações sobre climatização dos espaços e sobre métodos de pagamento</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/portugal-regista-mais-recuperados-do-que-infetados/" class="news_link">
     								<span class="news_date">17/07/2020</span>								
     								<h2 class="news_title">Portugal regista mais recuperados do que infetados</h2>
@@ -278,13 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/dgs-e-protecao-civil-lancam-guidelines-para-zonas-de-concentracao-e-apoio-a-populacao/" class="news_link">
     								<span class="news_date">17/07/2020</span>								
     								<h2 class="news_title">DGS e Proteção Civil lançam guidelines para Zonas de Concentração e Apoio à População</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/dgs-e-movijovem-lancam-selo-pousada-da-juventude-segura/" class="news_link">
-    								<span class="news_date">15/07/2020</span>								
-    								<h2 class="news_title">DGS e Movijovem lançam selo “Pousada da Juventude Segura”</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">Praesent commodo elit. Nullam Donec mattis ultricies dapibus dolor.</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">mattis libero felis sem, dolor adipiscing id in neque.</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-07-20 14:20:39 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-07-20 18:19:12 by W3 Total Cache
 -->
