@@ -116,7 +116,7 @@ class SARSCOV2AT(COVIDScrapper):
         )
         for col in self.df.columns:
             self.df[col] = self.df[col].apply(
-                lambda x: x.replace("*", "").replace("+","").replace(".","").replace(",","")
+                lambda x: x.replace("*", "").replace("+","").replace(".","").replace(",","").replace("^","")
                 if isinstance(x, str) else x
             )
 
