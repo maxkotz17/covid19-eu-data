@@ -261,30 +261,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/indice-de-transmissibilidade-situa-se-nos-0-97/" class="news_link">
+    								<span class="news_date">20/07/2020</span>								
+    								<h2 class="news_title">Índice de transmissibilidade situa-se nos 0.97</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/mais-135-casos-e-duas-mortes-por-covid-19/" class="news_link">
+    								<span class="news_date">20/07/2020</span>								
+    								<h2 class="news_title">Mais 135 casos e duas mortes por COVID-19</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/linha-de-apoio-psicologico-ja-atendeu-mais-de-23-500-chamadas/" class="news_link">
+    								<span class="news_date">20/07/2020</span>								
+    								<h2 class="news_title">Linha de apoio psicológico já atendeu mais de 23.500 chamadas</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/atualizacao-de-orientacoes-sobre-climatizacao-dos-espacos-e-sobre-metodos-de-pagamento/" class="news_link">
     								<span class="news_date">20/07/2020</span>								
     								<h2 class="news_title">Atualização de Orientações sobre climatização dos espaços e sobre métodos de pagamento</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/portugal-regista-mais-recuperados-do-que-infetados/" class="news_link">
-    								<span class="news_date">17/07/2020</span>								
-    								<h2 class="news_title">Portugal regista mais recuperados do que infetados</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/ajuntamentos-a-ceu-aberto-tambem-tem-riscos/" class="news_link">
-    								<span class="news_date">17/07/2020</span>								
-    								<h2 class="news_title">Ajuntamentos a céu aberto também têm riscos</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/dgs-e-protecao-civil-lancam-guidelines-para-zonas-de-concentracao-e-apoio-a-populacao/" class="news_link">
-    								<span class="news_date">17/07/2020</span>								
-    								<h2 class="news_title">DGS e Proteção Civil lançam guidelines para Zonas de Concentração e Apoio à População</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">Phasellus tristique eleifend massa fringilla quis,</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">Praesent vulputate, mattis ante. libero nunc felis risus. leo Aliquam commodo</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-07-21 10:17:59 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-07-21 14:18:39 by W3 Total Cache
 -->
