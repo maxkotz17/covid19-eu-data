@@ -261,6 +261,20 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/subdiretor-geral-da-saude-apela-ao-dever-civico-de-todos-os-cidadaos/" class="news_link">
+    								<span class="news_date">22/07/2020</span>								
+    								<h2 class="news_title">Subdiretor-Geral da Saúde apela ao dever cívico de todos os cidadãos</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/portugal-ja-fez-quase-1-5-milhoes-de-testes-de-diagnostico-a-covid-19/" class="news_link">
+    								<span class="news_date">22/07/2020</span>								
+    								<h2 class="news_title">Portugal já fez quase 1.5 milhões de testes de diagnóstico à COVID-19</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/mais-222-recuperados-e-127-novos-casos-de-covid-19/" class="news_link">
     								<span class="news_date">21/07/2020</span>								
     								<h2 class="news_title">Mais 222 recuperados e 127 novos casos de COVID-19</h2>
@@ -271,20 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/indice-de-transmissibilidade-situa-se-nos-0-97/" class="news_link">
     								<span class="news_date">20/07/2020</span>								
     								<h2 class="news_title">Índice de transmissibilidade situa-se nos 0.97</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/mais-135-casos-e-duas-mortes-por-covid-19/" class="news_link">
-    								<span class="news_date">20/07/2020</span>								
-    								<h2 class="news_title">Mais 135 casos e duas mortes por COVID-19</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/linha-de-apoio-psicologico-ja-atendeu-mais-de-23-500-chamadas/" class="news_link">
-    								<span class="news_date">20/07/2020</span>								
-    								<h2 class="news_title">Linha de apoio psicológico já atendeu mais de 23.500 chamadas</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">Donec facilisis leo. sed elit. risus. quis tempus</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">ultricies dapibus non Aenean Lorem leo accumsan quis</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-07-22 18:20:21 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-07-22 22:18:35 by W3 Total Cache
 -->
