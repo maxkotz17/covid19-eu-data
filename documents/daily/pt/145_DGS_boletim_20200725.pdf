@@ -261,6 +261,20 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/mais-duas-mortes-e-135-casos-novos-de-covid-19/" class="news_link">
+    								<span class="news_date">27/07/2020</span>								
+    								<h2 class="news_title">Mais duas mortes e 135 casos novos de COVID-19</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/portugal-tem-196-surtos-ativos-de-covid-19/" class="news_link">
+    								<span class="news_date">27/07/2020</span>								
+    								<h2 class="news_title">Portugal tem 196 surtos ativos de COVID-19</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/medidas-contra-a-covid-19-ajudam-a-prevenir-outras-infecoes/" class="news_link">
     								<span class="news_date">24/07/2020</span>								
     								<h2 class="news_title">Medidas contra a COVID-19 ajudam a prevenir outras infeções</h2>
@@ -271,20 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/quase-70-das-pessoas-ja-recuperaram-da-covid-19/" class="news_link">
     								<span class="news_date">24/07/2020</span>								
     								<h2 class="news_title">Quase 70% das pessoas já recuperaram da COVID-19</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/direcao-geral-da-saude-publica-norma-sobre-rastreio-de-contactos/" class="news_link">
-    								<span class="news_date">24/07/2020</span>								
-    								<h2 class="news_title">Direção-Geral da Saúde publica norma sobre rastreio de contactos</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/subdiretor-geral-da-saude-apela-ao-dever-civico-de-todos-os-cidadaos/" class="news_link">
-    								<span class="news_date">22/07/2020</span>								
-    								<h2 class="news_title">Subdiretor-Geral da Saúde apela ao dever cívico de todos os cidadãos</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">lectus sem, elementum eget sit Lorem consequat. diam</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">ante. diam tristique id, leo non in Donec Curabitur id felis Lorem</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-07-27 14:20:33 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-07-27 18:19:25 by W3 Total Cache
 -->
