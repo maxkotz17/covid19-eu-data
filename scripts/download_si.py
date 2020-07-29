@@ -106,7 +106,7 @@ def download_and_xlsx(xlsx_url):
 
     df = pd.read_excel(xlsx_url)
 
-    cols = {
+    cols_en = {
         "Date": "datetime",
         "Tested (all)": "tests",
         "Positive (all)": "tests_positive",
@@ -115,7 +115,25 @@ def download_and_xlsx(xlsx_url):
         "Deaths (all)": "deaths"
     }
 
-    df = df[list(cols.keys())]
+    cols_si = {
+        "Dátum": "datetime",
+        "Mintavételek száma (összesen)": "tests",
+        "pozitív esetek száma (összesen)": "tests_positive",
+        "hospitalizált": "hospitalized",
+        "intenzív ellátásra szoruló": "intensive_care",
+        "elhunytak száma összesen": "deaths"
+    }
+    try:
+        df = df[list(cols_en.keys())]
+        logger.info("Using english headers in excel data")
+        cols = cols_en
+    except KeyError:
+        df = df[list(cols_si.keys())]
+        logger.info("Using SI headers in excel data")
+        cols = cols_si
+    except Exception as ee:
+        raise Exception(ee)
+
     df.rename(columns=cols, inplace=True)
     df["cases"] = df.tests_positive
     df["country"] = "SI"
