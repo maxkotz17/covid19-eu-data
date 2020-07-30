@@ -261,6 +261,13 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/portugal-registou-mais-recuperados-do-que-infetados-nas-ultimas-24-horas/" class="news_link">
+    								<span class="news_date">30/07/2020</span>								
+    								<h2 class="news_title">Portugal registou mais recuperados do que infetados nas últimas 24 horas</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/mais-249-pessoas-recuperadas-da-covid-19/" class="news_link">
     								<span class="news_date">29/07/2020</span>								
     								<h2 class="news_title">Mais 249 pessoas recuperadas da COVID-19</h2>
@@ -278,13 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/ja-foram-tratados-133-doentes-com-remdesivir/" class="news_link">
     								<span class="news_date">29/07/2020</span>								
     								<h2 class="news_title">Já foram tratados 133 doentes com Remdesivir</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/mais-duas-mortes-e-135-casos-novos-de-covid-19/" class="news_link">
-    								<span class="news_date">27/07/2020</span>								
-    								<h2 class="news_title">Mais duas mortes e 135 casos novos de COVID-19</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">Sed sed Donec in consectetur elit. ante. nunc</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">venenatis id libero. consectetur id leo dictum</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-07-30 18:21:36 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-07-30 22:18:57 by W3 Total Cache
 -->
