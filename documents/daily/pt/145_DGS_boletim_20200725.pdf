@@ -268,6 +268,13 @@ img.emoji {
     							</a>
     						</div>
     				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/menos-seis-casos-de-doentes-internados-por-covid-19/" class="news_link">
+    								<span class="news_date">01/08/2020</span>								
+    								<h2 class="news_title">Menos seis casos de doentes internados por COVID-19</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/2-9-da-populacao-em-portugal-tem-anticorpos-contra-o-novo-coronavirus/" class="news_link">
     								<span class="news_date">31/07/2020</span>								
     								<h2 class="news_title">2.9% da população em Portugal tem anticorpos contra o novo coronavírus</h2>
@@ -278,13 +285,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/taxa-de-transmissibilidade-continua-a-descer/" class="news_link">
     								<span class="news_date">31/07/2020</span>								
     								<h2 class="news_title">Taxa de transmissibilidade continua a descer</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/mais-de-71-dos-infetados-ja-recuperaram/" class="news_link">
-    								<span class="news_date">31/07/2020</span>								
-    								<h2 class="news_title">Mais de 71% dos infetados já recuperaram</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">felis elit. sem, consequat. ut dolor Praesent mattis justo</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">vulputate, Aenean mattis at Praesent ut et, Aliquam</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-08-02 10:19:47 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-08-02 14:21:13 by W3 Total Cache
 -->
