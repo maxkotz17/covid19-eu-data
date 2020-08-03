@@ -261,30 +261,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/primeiro-dia-sem-obitos-por-covid-19-desde-16-de-marco/" class="news_link">
+    								<span class="news_date">03/08/2020</span>								
+    								<h2 class="news_title">Primeiro dia sem óbitos por COVID-19 desde 16 de março</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/numero-de-recuperados-supera-novas-infecoes/" class="news_link">
+    								<span class="news_date">03/08/2020</span>								
+    								<h2 class="news_title">Número de recuperados supera novas infeções</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/secretario-de-estado-da-saude-diz-que-nao-ha-indicacao-para-testar-menos/" class="news_link">
+    								<span class="news_date">03/08/2020</span>								
+    								<h2 class="news_title">Secretário de Estado da Saúde diz que não há indicação para testar menos</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/desmentido-norma-sobre-o-rastreio-de-contactos/" class="news_link">
     								<span class="news_date">01/08/2020</span>								
     								<h2 class="news_title">DESMENTIDO - Norma sobre o rastreio de contactos</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/menos-seis-casos-de-doentes-internados-por-covid-19/" class="news_link">
-    								<span class="news_date">01/08/2020</span>								
-    								<h2 class="news_title">Menos seis casos de doentes internados por COVID-19</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/2-9-da-populacao-em-portugal-tem-anticorpos-contra-o-novo-coronavirus/" class="news_link">
-    								<span class="news_date">31/07/2020</span>								
-    								<h2 class="news_title">2.9% da população em Portugal tem anticorpos contra o novo coronavírus</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/taxa-de-transmissibilidade-continua-a-descer/" class="news_link">
-    								<span class="news_date">31/07/2020</span>								
-    								<h2 class="news_title">Taxa de transmissibilidade continua a descer</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">leo. eget elit. luctus sit accumsan libero Praesent ut amet,</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">felis accumsan vel, ipsum risus suscipit</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-08-03 18:22:32 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-08-03 22:20:41 by W3 Total Cache
 -->
