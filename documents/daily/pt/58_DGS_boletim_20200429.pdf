@@ -261,30 +261,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/primeiro-dia-sem-obitos-por-covid-19-desde-16-de-marco/" class="news_link">
-    								<span class="news_date">03/08/2020</span>								
-    								<h2 class="news_title">Primeiro dia sem óbitos por COVID-19 desde 16 de março</h2>
+    							<a href="https://covid19.min-saude.pt/mais-247-doentes-recuperados-e-menos-internamentos-nas-ultimas-24-horas/" class="news_link">
+    								<span class="news_date">05/08/2020</span>								
+    								<h2 class="news_title">Mais 247 doentes recuperados e menos internamentos nas últimas 24 horas</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/numero-de-recuperados-supera-novas-infecoes/" class="news_link">
-    								<span class="news_date">03/08/2020</span>								
-    								<h2 class="news_title">Número de recuperados supera novas infeções</h2>
+    							<a href="https://covid19.min-saude.pt/julho-foi-o-mes-com-maior-numero-de-testes-realizado/" class="news_link">
+    								<span class="news_date">05/08/2020</span>								
+    								<h2 class="news_title">Julho foi o mês com maior número de testes realizado</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/secretario-de-estado-da-saude-diz-que-nao-ha-indicacao-para-testar-menos/" class="news_link">
-    								<span class="news_date">03/08/2020</span>								
-    								<h2 class="news_title">Secretário de Estado da Saúde diz que não há indicação para testar menos</h2>
+    							<a href="https://covid19.min-saude.pt/aplicacao-stayaway-covid-disponivel-em-breve/" class="news_link">
+    								<span class="news_date">05/08/2020</span>								
+    								<h2 class="news_title">Aplicação STAYAWAY COVID disponível em breve</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
     				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/desmentido-norma-sobre-o-rastreio-de-contactos/" class="news_link">
-    								<span class="news_date">01/08/2020</span>								
-    								<h2 class="news_title">DESMENTIDO - Norma sobre o rastreio de contactos</h2>
+    							<a href="https://covid19.min-saude.pt/portugal-com-aumento-de-02-no-numero-de-casos-confirmados/" class="news_link">
+    								<span class="news_date">04/08/2020</span>								
+    								<h2 class="news_title">Portugal com aumento de 0,2% no número de casos confirmados</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">pulvinar Aliquam neque. ut nec lectus id consectetur</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">ut Donec felis mattis adipiscing leo facilisis dolor in nunc</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-08-05 14:21:18 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-08-05 18:22:33 by W3 Total Cache
 -->
