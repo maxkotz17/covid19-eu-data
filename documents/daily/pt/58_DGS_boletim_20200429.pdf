@@ -261,30 +261,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/mais-240-pessoas-recuperadas-nas-ultimas-24-horas/" class="news_link">
+    								<span class="news_date">07/08/2020</span>								
+    								<h2 class="news_title">Mais 240 pessoas recuperadas nas últimas 24 horas</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/rede-nacional-de-cuidados-continuados-integrados-regista-apenas-um-caso-de-covid-19/" class="news_link">
+    								<span class="news_date">07/08/2020</span>								
+    								<h2 class="news_title">Rede Nacional de Cuidados Continuados Integrados regista apenas um caso de COVID-19</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/mais-4300-profissionais-de-saude-reforcaram-sns-em-tempo-de-pandemia/" class="news_link">
+    								<span class="news_date">07/08/2020</span>								
+    								<h2 class="news_title">Mais 4300 profissionais de saúde reforçaram SNS em tempo de pandemia</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/mais-247-doentes-recuperados-e-menos-internamentos-nas-ultimas-24-horas/" class="news_link">
     								<span class="news_date">05/08/2020</span>								
     								<h2 class="news_title">Mais 247 doentes recuperados e menos internamentos nas últimas 24 horas</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/julho-foi-o-mes-com-maior-numero-de-testes-realizado/" class="news_link">
-    								<span class="news_date">05/08/2020</span>								
-    								<h2 class="news_title">Julho foi o mês com maior número de testes realizado</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/aplicacao-stayaway-covid-disponivel-em-breve/" class="news_link">
-    								<span class="news_date">05/08/2020</span>								
-    								<h2 class="news_title">Aplicação STAYAWAY COVID disponível em breve</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/portugal-com-aumento-de-02-no-numero-de-casos-confirmados/" class="news_link">
-    								<span class="news_date">04/08/2020</span>								
-    								<h2 class="news_title">Portugal com aumento de 0,2% no número de casos confirmados</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -419,7 +419,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">accumsan velit, dapibus mi, amet, non dolor ut ultricies</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
+        <span style="display:none !important">ut Donec ut ut facilisis dolor adipiscing elementum</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -509,5 +509,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-08-07 18:21:07 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-08-07 22:19:55 by W3 Total Cache
 -->
