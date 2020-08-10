@@ -61,6 +61,7 @@ class SARSCOV2SE(COVIDScrapper):
         req = get_response(DAILY_DIFF_REGION_TIMESERIES_API)
         data = req.json()['features']
         dates = [i['attributes']['Statistikdatum'] for i in data]
+        dates = [i for i in dates if i]
         dates.sort()
         timestamp = dates[-1]
         self.dt = datetime.datetime.fromtimestamp(timestamp/1000)
