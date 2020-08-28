@@ -97,6 +97,11 @@ class SARSCOV2ECDC(COVIDScrapper):
         )
 
         # self.df.replace("Total", "sum", inplace=True)
+        for col in self.df.columns:
+            try:
+                self.df[col] = self.df[col].str.replace(" ", "")
+            except:
+                pass
 
         logger.info("records of cases:\n", self.df)
 
