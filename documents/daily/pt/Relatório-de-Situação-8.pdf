@@ -258,6 +258,13 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/mais-418-casos-e-dois-obitos-por-covid-19/" class="news_link">
+    								<span class="news_date">03/09/2020</span>								
+    								<h2 class="news_title">Mais 418 casos e dois óbitos por COVID-19</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/ha-23-lares-de-idosos-com-surtos-ativos-em-portugal/" class="news_link">
     								<span class="news_date">02/09/2020</span>								
     								<h2 class="news_title">Há 23 lares de idosos com surtos ativos em Portugal</h2>
@@ -275,13 +282,6 @@ img.emoji {
     							<a href="https://covid19.min-saude.pt/ministra-da-saude-anuncia-a-contratacao-de-950-medicos/" class="news_link">
     								<span class="news_date">02/09/2020</span>								
     								<h2 class="news_title">Ministra da Saúde anuncia a contratação de 950 médicos</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/equipas-multidisciplinares-ultrapassam-os-10-600-contactos/" class="news_link">
-    								<span class="news_date">01/09/2020</span>								
-    								<h2 class="news_title">Equipas multidisciplinares ultrapassam os 10.600 contactos</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -416,7 +416,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">elit. venenatis, odio ut neque. ut commodo felis ut sem, ultricies</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0' id='spms-accordion-blocks-frontend-script-js'></script>
+        <span style="display:none !important">pulvinar amet, Aliquam fringilla Curabitur ut adipiscing risus tristique diam tempus leo.</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0' id='spms-accordion-blocks-frontend-script-js'></script>
 <script type='text/javascript' id='contact-form-7-js-extra'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -506,5 +506,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-09-03 14:26:32 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-09-03 18:27:53 by W3 Total Cache
 -->
