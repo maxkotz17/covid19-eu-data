@@ -258,30 +258,30 @@ img.emoji {
     			
     			<div class="news_item_zone">
         			    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/meio-milhao-de-pessoas-ja-descarregaram-a-app-stayaway-covid/" class="news_link">
+    								<span class="news_date">04/09/2020</span>								
+    								<h2 class="news_title">Meio milhão de pessoas já descarregaram a app Stayaway Covid</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/vacinacao-contra-a-gripe-comeca-mais-cedo-com-entrega-antecipada-de-vacinas/" class="news_link">
+    								<span class="news_date">04/09/2020</span>								
+    								<h2 class="news_title">Vacinação contra a gripe começa mais cedo com entrega antecipada de vacinas</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
+    							<a href="https://covid19.min-saude.pt/taxa-de-positividade-em-agosto-foi-a-mais-baixa-desde-o-inicio-da-pandemia/" class="news_link">
+    								<span class="news_date">04/09/2020</span>								
+    								<h2 class="news_title">Taxa de positividade em agosto foi a mais baixa desde o início da pandemia</h2>
+    								<span class="news_readmore">Leia mais</span>
+    							</a>
+    						</div>
+    				    						<div class="news_item">
     							<a href="https://covid19.min-saude.pt/mais-418-casos-e-dois-obitos-por-covid-19/" class="news_link">
     								<span class="news_date">03/09/2020</span>								
     								<h2 class="news_title">Mais 418 casos e dois óbitos por COVID-19</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/ha-23-lares-de-idosos-com-surtos-ativos-em-portugal/" class="news_link">
-    								<span class="news_date">02/09/2020</span>								
-    								<h2 class="news_title">Há 23 lares de idosos com surtos ativos em Portugal</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/manual-para-a-reabertura-das-escolas-esta-a-ser-ultimado/" class="news_link">
-    								<span class="news_date">02/09/2020</span>								
-    								<h2 class="news_title">Manual para a reabertura das escolas está a ser ultimado</h2>
-    								<span class="news_readmore">Leia mais</span>
-    							</a>
-    						</div>
-    				    						<div class="news_item">
-    							<a href="https://covid19.min-saude.pt/ministra-da-saude-anuncia-a-contratacao-de-950-medicos/" class="news_link">
-    								<span class="news_date">02/09/2020</span>								
-    								<h2 class="news_title">Ministra da Saúde anuncia a contratação de 950 médicos</h2>
     								<span class="news_readmore">Leia mais</span>
     							</a>
     						</div>
@@ -416,7 +416,7 @@ img.emoji {
 				</div>
 			</div>
 		</footer>
-        <span style="display:none !important">fringilla sit libero. Aenean vel, in mattis id, venenatis, risus suscipit sed</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0' id='spms-accordion-blocks-frontend-script-js'></script>
+        <span style="display:none !important">ultricies accumsan nec quis, Donec risus nunc et, justo mattis</span><script type='text/javascript' src='https://covid19.min-saude.pt/wp-content/plugins/spms-accordion-block/js/accordion-blocks.min.js?ver=1.0' id='spms-accordion-blocks-frontend-script-js'></script>
 <script type='text/javascript' id='contact-form-7-js-extra'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/covid19.min-saude.pt\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -506,5 +506,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Page Caching using disk: enhanced (Page is 404) 
 
-Served from: covid19.min-saude.pt @ 2020-09-04 14:24:51 by W3 Total Cache
+Served from: covid19.min-saude.pt @ 2020-09-04 18:27:26 by W3 Total Cache
 -->
