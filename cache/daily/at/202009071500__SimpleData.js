@@ -1,3 +1,3 @@
-var Erkrankungen = "29808";
-var LetzteAktualisierung = "07.09.2020 20:00:00";
-var SimpleDataVersion = "07.09.2020 20:00:00 V 1.2.3.0"
+var Erkrankungen = "29815";
+var LetzteAktualisierung = "07.09.2020 21:00:00";
+var SimpleDataVersion = "07.09.2020 21:00:00 V 1.2.3.0"
